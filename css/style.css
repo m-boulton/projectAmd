@@ -1,21 +1,41 @@
+@font-face {
+  font-family: ryzen;
+  src: url(/css/ryzen.ttf);
+}
+
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -ms-grid;
+  display: grid;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   line-height: 4rem;
-  background-color: rgba(0, 0, 0, 0.9);
+  padding: 1rem 0;
+  background-color: black;
+  -ms-grid-columns: (1fr)[9];
+      grid-template-columns: repeat(9, 1fr);
 }
 
-.header img {
-  padding: 0.5rem;
-  max-height: 3rem;
-  max-width: auto;
+.header a {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 3;
+  grid-column: 4/7;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.header .header-menu {
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 1;
+  grid-column: 9 /10;
+  color: #b2bec3;
+  background-color: black;
+  font-size: 1.4rem;
 }
 
 .nav-bar {
@@ -28,8 +48,36 @@
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
-  line-height: 3rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  background-color: black;
+  font-family: ryzen;
+  color: #fa7d32;
+}
+
+.nav-bar ul {
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.nav-bar ul li {
+  padding: 2rem 0;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: #fa7d32;
+  font-size: 1rem;
+}
+
+.nav-bar ul li a img {
+  width: 25vw;
+}
+
+.nav-bar ul li a p {
+  display: none;
 }
 
 .content {
@@ -50,7 +98,7 @@
 
 html {
   font-size: 62.5%;
-  background-color: #2d3436;
+  background-color: #1b1f20;
   color: #b2bec3;
   font-family: Arial, Helvetica, sans-serif;
 }

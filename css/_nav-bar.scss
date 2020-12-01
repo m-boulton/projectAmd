@@ -3,7 +3,27 @@
     justify-content: center;
     position: sticky;
         bottom: 0;
-    line-height: 3rem;
-    font-size: 2.5rem;
-
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: ryzen;
+    color: $ryzen-color;
+    ul {
+        width: 100vw;
+        display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        li {
+            padding: 2rem 0;
+            a {
+                text-decoration: none;
+                color: $ryzen-color;
+                font-size: 1rem;
+                img {
+                    width: 25vw;
+                }
+                p {
+                    display: none;
+                }
+            }
+        }
+    }
 }
