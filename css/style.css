@@ -6,42 +6,49 @@
 .header {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: auto 10vh;
+      grid-template-columns: auto 10vh;
+  -ms-grid-rows: 10vh;
+      grid-template-rows: 10vh;
+      grid-template-areas: "logo menu";
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  line-height: 4rem;
-  padding: 1rem 0;
-  background-color: black;
-  -ms-grid-columns: (1fr)[9];
-      grid-template-columns: repeat(9, 1fr);
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header a {
-  -ms-grid-column: 4;
-  -ms-grid-column-span: 3;
-  grid-column: 4/7;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: logo;
+  margin-left: 4vw;
 }
 
-.header .header-menu {
-  -ms-grid-column: 9;
-  -ms-grid-column-span: 1;
-  grid-column: 9 /10;
+.header a img {
+  display: block;
+  height: 5vh;
+}
+
+.header .header-menu-btn {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: menu;
+  font-size: 2rem;
+  height: 8vh;
+  margin-right: 4vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 4px solid black;
+}
+
+.header .header-menu-btn i {
   color: #b2bec3;
-  background-color: black;
-  font-size: 1.4rem;
 }
 
 .nav-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -55,15 +62,11 @@
 }
 
 .nav-bar ul {
-  width: 100vw;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.nav-bar ul li {
-  padding: 2rem 0;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: none;
 }
 
 .nav-bar ul li a {
@@ -101,5 +104,16 @@ html {
   background-color: #1b1f20;
   color: #b2bec3;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header" "content" "nav-bar";
 }
 /*# sourceMappingURL=style.css.map */
