@@ -1,29 +1,41 @@
 .nav-bar {
-  display: block;
-  justify-content: center;
+  grid-area: nav-bar;
+  display: none;
+  font-family: Helvetica;
+  float: right;
   position: sticky;
-  bottom: 0;
-  font-size: 2rem;
-  background-color: rgba(0, 0, 0, 1);
-  font-family: ryzen;
-  color: $ryzen-color;
+  top: 15vh;
+  right: 0;
+  z-index: 100;
+  width: 40vw;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  line-height: 5vh;
+  font-size: 3vh;
+  text-align: right;
   ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: none;
     li {
-      margin: 3vh auto;
-      a {
-        text-decoration: none;
-        color: $ryzen-color;
-        font-size: 1rem;
-        img {
-          width: 15vw;
-        }
-        p {
-          display: none;
+      .nav-list {
+        display: none;
+      }
+      ul {
+        li {
+          a {
+            color: $primary-font-color;
+          }
         }
       }
     }
+  }
+}
+.nav-items,
+.toggle-nav-processors,
+.toggle-nav-graphics {
+  margin-right: 5vw;
+  color: orangered;
+}
+
+@media only screen and (min-width: 770px) {
+  .nav-bar {
   }
 }

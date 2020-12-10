@@ -1,11 +1,12 @@
 .header {
+  grid-area: header;
   display: grid;
   grid-template-columns: auto 10vh;
-  grid-template-rows: 10vh;
   grid-template-areas: "logo menu";
   position: sticky;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 95;
+  background-color: rgba(0, 0, 0, 0.9);
   align-items: center;
 
   a {
@@ -13,15 +14,16 @@
     margin-left: 4vw;
     img {
       display: block;
-      height: 5vh;
+      height: 6vh;
     }
   }
-  .header-menu-btn {
+  .toggle-header-nav {
     grid-area: menu;
     font-size: 2rem;
-    height: 8vh;
+    height: 48px;
+    width: 48px;
     margin-right: 4vw;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.9);
     border: 4px solid orangered;
     border-radius: 8px;
     i {
