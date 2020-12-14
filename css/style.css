@@ -26,7 +26,7 @@
 
 .header a img {
   display: block;
-  height: 6vh;
+  height: 5vh;
 }
 
 .header .toggle-header-nav {
@@ -53,30 +53,80 @@
   float: right;
   position: -webkit-sticky;
   position: sticky;
-  top: 15vh;
+  top: 10vh;
   right: 0;
   z-index: 100;
-  width: 40vw;
+  width: 60vw;
   height: 90vh;
   background-color: rgba(0, 0, 0, 0.8);
   line-height: 5vh;
   font-size: 3vh;
-  text-align: right;
+  text-align: left;
 }
 
-.nav-bar ul li .nav-list {
+.nav-bar ul {
+  margin-left: 5vw;
+}
+
+.nav-bar ul li {
+  margin-top: 2rem;
+}
+
+.nav-bar ul li .nav-list-processors,
+.nav-bar ul li .nav-list-graphics {
   display: none;
+}
+
+.nav-bar ul li .nav-list-processors #processors-arrow,
+.nav-bar ul li .nav-list-processors #graphics-arrow,
+.nav-bar ul li .nav-list-graphics #processors-arrow,
+.nav-bar ul li .nav-list-graphics #graphics-arrow {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.nav-bar ul li i {
+  font-size: 1.5rem;
+}
+
+.nav-bar ul li ul {
+  margin: auto;
+}
+
+.nav-bar ul li ul li {
+  margin: auto;
+  line-height: 3rem;
+  font-size: 1.5rem;
 }
 
 .nav-bar ul li ul li a {
   color: #b2bec3;
 }
 
+.nav-bar .social-media-links {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.nav-bar .social-media-links li {
+  display: inline-block;
+}
+
+.nav-bar .social-media-links li a {
+  padding: 0.6rem;
+}
+
+.nav-bar .social-media-links li a i {
+  color: orangered;
+  font-size: 5vw;
+}
+
 .nav-items,
 .toggle-nav-processors,
 .toggle-nav-graphics {
-  margin-right: 5vw;
   color: orangered;
+  line-height: 4rem;
+  font-size: 3rem;
 }
 
 .content {
@@ -116,8 +166,8 @@ body {
       grid-template-areas: "header header header" "main main main";
   -ms-grid-columns: 2fr 1fr;
       grid-template-columns: 2fr 1fr;
-  -ms-grid-rows: 15vh auto;
-      grid-template-rows: 15vh auto;
+  -ms-grid-rows: 10vh auto;
+      grid-template-rows: 10vh auto;
 }
 
 .container .main {
