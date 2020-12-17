@@ -1,8 +1,4 @@
 .footer {
+  grid-area: footer;
   display: none;
-}
-@media only screen and (min-width: 420px) {
-  .footer {
-    display: none;
-  }
 }

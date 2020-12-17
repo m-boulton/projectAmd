@@ -1,6 +1,41 @@
-<a href="/index.html">
+
+
+<!-- this is the main logo in the header bar -->
+
+<a class="logo" href="/index.html">
     <img src="/img/logo/logo_white.svg" alt="AMD Logo">
 </a>
+
+
+<!-- this is the header navigation -->
+<nav class="header-nav-bar">
+    <ul class="header-nav-bar-items">
+        <li class="toggle-header-nav-processors" onclick="toggleNavHeaderProcessors()">Processors <i id="header-processors-arrow" class="fa fa-chevron-down"></i>
+            <ul class="header-nav-list-processors">
+                <li><a href="/pages/product-pages/ryzen.html">Ryzen</a></li>
+                <li><a href="/pages/product-pages/threadripper.html">Threadripper</a></li>
+                <li><a href="/pages/product-pages/ryzen-graphics.html">Ryzen with Graphics</a></li>
+                <li><a href="/pages/product-pages/athlon-graphics.html">Athlon with Graphics</a></li>
+                <li><a href="/pages/product-pages/ryzen-pro.html">Ryzen PRO</a></li>
+                <li><a href="/pages/product-pages/athlon-pro.html">Athlon PRO</a></li>
+            </ul>
+        </li>
+        <li class="toggle-header-nav-graphics" onclick="toggleNavHeaderGraphics()">Graphics <i id="header-graphics-arrow" class="fa fa-chevron-down"></i>
+            <ul class="header-nav-list-graphics">
+                <li><a href="/pages/product-pages/rx-6k.html">Radeon RX 6000 Series</a></li>
+                <li><a href="/pages/product-pages/rx-5k.html">Radeon RX 5000 Series</a></li>
+                <li><a href="/pages/product-pages/rx-vega.html">Radeon RX Vega Series</a></li>
+                <li><a href="/pages/product-pages/rx-500.html">Radeon RX 500 Series</a></li>
+            </ul>
+        </li>
+        <li class="header-nav-links"><a class="header-nav-items" href="/pages/our-company.html">Our Company</a></li>
+        <li class="header-nav-links"><a class="header-nav-items" href="/pages/contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+
+<!-- this is the navigation sidebar button -->
+
 <button class="toggle-header-nav" onclick="toggleNavSideBar()">
     <i class="fa fa-bars" aria-hidden="false"></i>
 </button>

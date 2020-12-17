@@ -19,7 +19,8 @@ body {
   width: auto;
   grid-template-areas:
     "header header header"
-    "main main main";
+    "main main main"
+    "footer footer footer";
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 10vh auto;
   .main {
@@ -28,5 +29,8 @@ body {
     height: 4000px;
   }
 }
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1920px) {
 }
