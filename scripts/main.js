@@ -37,11 +37,13 @@ const toggleNavSideBar = () => {
   if (toggleNavSideBarsStatus === false) {
     navBar.style.display = "block";
     toggleNavSideBarsStatus = true;
+    console.log("Sidebar expanded");
   } else {
     navBar.style.display = "none";
     toggleNavSideBarsStatus = false;
     graphicsHide();
     processorsHide();
+    console.log("Sidebar minimizing");
   }
 };
 //

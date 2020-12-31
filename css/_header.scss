@@ -2,7 +2,6 @@
   grid-area: header;
   display: grid;
   height: 7.5rem;
-  padding: 0 2rem;
   grid-template-columns: auto 6rem;
   grid-template-rows: 10vh;
   grid-template-areas: "logo menu";
@@ -11,10 +10,14 @@
   z-index: 95;
   background-color: rgba(0, 0, 0, 0.9);
   align-items: center;
+  border-bottom: 0.5rem solid;
+  border-image-source: linear-gradient(90deg, red, orangered);
+  border-image-slice: 1;
 
   .logo {
     grid-area: logo;
     display: block;
+    padding: 1.5rem;
     img {
       max-height: 4vh;
       display: block;
@@ -23,78 +26,98 @@
   .header-nav-bar {
     grid-area: nav;
     display: none;
-    justify-content: left;
+    margin-left: 5rem;
+    align-items: center;
+    height: 100%;
+    .header-nav-bar-items {
+      height: 10vh;
+    }
     ul {
       width: 100%;
       justify-content: space-evenly;
-      .header-nav-items {
-        color: orangered;
-      }
-      .toggle-header-nav-processors,
-      .toggle-header-nav-graphics,
-      .header-nav-links {
-        padding: 2rem;
-        cursor: pointer;
-      }
       li {
         position: relative;
-        margin: auto;
         text-decoration: none;
         color: orangered;
         font-size: 1.5rem;
-        .header-nav-list-processors,
-        .header-nav-list-graphics {
-          display: none;
-          padding: 2rem;
-          #header-processors-arrow,
-          #header-graphics-arrow {
-            transform: rotate(0deg);
-          }
-        }
         i {
           font-size: 1.5rem;
+        }
+        a {
+          display: inline-block;
+          height: 100%;
+          width: 100%;
         }
         ul {
           margin: auto;
           position: absolute;
           left: 0;
           background-color: rgba(0, 0, 0, 0.9);
-          width: 12rem;
+          width: 100%;
+          :hover {
+            background-color: orangered;
+          }
           li {
             margin: auto;
             line-height: 3rem;
             font-size: 1.5rem;
+            font-weight: 600;
             position: relative;
             a {
               color: $primary-font-color;
+              padding: 1rem;
               font-size: 1rem;
+              display: inline-block;
+              height: 100%;
+              width: calc(100% - 2rem);
             }
           }
         }
       }
     }
   }
-  .toggle-header-nav {
-    grid-area: menu;
-    font-size: 2rem;
-    height: 5rem;
-    width: 5rem;
-    margin-right: 1rem;
-    background-color: rgba(0, 0, 0, 0.9);
-    border: 4px solid orangered;
-    border-radius: 0.8rem;
-    cursor: pointer;
-    i {
-      color: $ryzen-color;
-    }
+}
+.toggle-header-nav {
+  grid-area: menu;
+  font-size: 2rem;
+  height: 5rem;
+  width: 5rem;
+  margin-right: 1rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 0.5rem solid orangered;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  i {
+    color: $ryzen-color;
   }
+}
+.header-nav-list-processors,
+.header-nav-list-graphics {
+  display: none;
+}
+#header-processors-arrow,
+#header-graphics-arrow {
+  transform: rotate(0deg);
+}
+.header-nav-items {
+  color: orangered;
+}
+.toggle-header-nav-processors,
+.toggle-header-nav-graphics,
+.header-nav-links {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 10vh;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 // Media queries
 
 @media only screen and (min-width: 768px) {
   .header {
-    grid-template-columns: 200px auto;
+    grid-template-columns: 120px auto;
     grid-template-areas: "logo nav";
     .header-nav-bar {
       display: flex;

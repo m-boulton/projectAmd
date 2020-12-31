@@ -1,11 +1,69 @@
 .content {
   display: block;
-  float: left;
-  z-index: 90;
-  position: absolute;
-  h1 {
-    font-size: 5rem;
-    color: white;
-    height: 8rem;
+  width: 100%;
+  top: 10vh;
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+.overview {
+  margin: 4rem auto;
+  display: grid;
+  grid-template-areas: "image description";
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+  position: relative;
+  z-index: 80;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+  div {
+    h2 {
+    }
+    p {
+    }
+  }
+}
+.overview-image {
+  grid-area: image;
+  display: block;
+}
+.overview-description {
+  grid-area: description;
+  display: block;
+}
+.overview-header {
+  margin: 3rem;
+}
+.overview-paragraph {
+  margin: 3rem;
+}
+
+.features {
+  width: 100%;
+  margin: 4rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
+  align-items: center;
+  gap: 3rem;
+  position: relative;
+  z-index: 80;
+  article {
+    width: 100%;
+    h2 {
+      margin: 3rem;
+    }
+    p {
+      margin: 3rem;
+    }
+  }
+  img {
+    display: block;
+    width: 100%;
   }
 }

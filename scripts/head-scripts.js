@@ -1,12 +1,11 @@
-$(function () {
-  $("body").load("/pages/body-scripts.html");
-  fillContent();
-});
-setTimeout(fillContent, 1000);
 const currentPage = window.location.search;
 const currentPagePath = window.location.pathname.split(";")[0].split("/").pop();
 const page = new URLSearchParams(currentPage);
 var pageContent = null;
+$(function () {
+  $("body").load("/pages/body-template.html");
+  fillContent();
+});
 if (page.get("prod") == null) {
   if (currentPagePath == "index.html") {
     document.getElementsByClassName("title-name")[0].innerHTML =
@@ -30,16 +29,10 @@ if (page.get("prod") == null) {
     "AMD Technology | " + pageContentCapitalized;
 }
 
+setTimeout(fillContent, 500);
 function fillContent() {
+  $(".header").load("/pages/dynamic-page-content/header.html");
+  $(".nav-bar").load("/pages/dynamic-page-content/nav-bar.html");
+  $(".footer").load("/pages/dynamic-page-content/footer.html");
   $(".content").load("/pages/product-content/" + pageContent + ".html");
-
-  $(function () {
-    $(".header").load("/pages/dynamic-page-content/header.html");
-  });
-  $(function () {
-    $(".nav-bar").load("/pages/dynamic-page-content/nav-bar.html");
-  });
-  $(function () {
-    $(".footer").load("/pages/dynamic-page-content/footer.html");
-  });
 }

@@ -2,34 +2,25 @@
   grid-area: nav-bar;
   display: none;
   font-family: Helvetica;
-  float: right;
   position: sticky;
   top: 10vh;
   right: 0;
+  bottom: 0;
   z-index: 100;
-  width: 60vw;
-  height: 90vh;
+  float: right;
+  width: 100%;
+  height: calc(90vh - 0.7rem);
   background-color: rgba(0, 0, 0, 0.8);
-  line-height: 5vh;
-  font-size: 3vh;
   text-align: left;
   ul {
-    margin-left: 5vw;
     li {
-      margin-top: 2rem;
-      .nav-list-processors,
-      .nav-list-graphics {
-        display: none;
-        #processors-arrow,
-        #graphics-arrow {
-          transform: rotate(0deg);
-        }
-      }
+      font-size: 3rem;
+      padding: 0.4em;
       i {
         font-size: 1.5rem;
       }
       ul {
-        margin: auto;
+        margin-top: 2rem;
         li {
           margin: auto;
           line-height: 3rem;
@@ -42,31 +33,46 @@
     }
   }
   .social-media-links {
+    display: flex;
     position: absolute;
     bottom: 1rem;
+    width: 100%;
+    justify-content: space-evenly;
     li {
       display: inline-block;
+      margin: auto;
       a {
-        padding: 0.6rem;
         i {
           color: orangered;
-          font-size: 5vw;
+          font-size: 2rem;
         }
       }
     }
+  }
+}
+.side-nav-list {
+  margin: 3rem;
+}
+.nav-list-processors,
+.nav-list-graphics {
+  display: none;
+  #processors-arrow,
+  #graphics-arrow {
+    transform: rotate(0deg);
   }
 }
 .nav-items,
 .toggle-nav-processors,
 .toggle-nav-graphics {
   color: orangered;
-  line-height: 4rem;
-  font-size: 3rem;
   cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
   .nav-bar {
+    display: none;
+  }
+  aside {
     display: none;
   }
 }
