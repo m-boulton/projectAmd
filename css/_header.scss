@@ -1,7 +1,7 @@
 .header {
   grid-area: header;
   display: grid;
-  height: 7.5rem;
+  height: 10vh;
   grid-template-columns: auto 6rem;
   grid-template-rows: 10vh;
   grid-template-areas: "logo menu";
@@ -120,7 +120,7 @@
     grid-template-columns: 120px auto;
     grid-template-areas: "logo nav";
     .header-nav-bar {
-      display: flex;
+      display: inline-block;
       .header-nav-bar-items {
         display: flex;
         li {

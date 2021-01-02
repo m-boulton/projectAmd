@@ -5,7 +5,7 @@
   grid-area: header;
   display: -ms-grid;
   display: grid;
-  height: 7.5rem;
+  height: 10vh;
       grid-template-columns: auto 6rem;
       grid-template-rows: 10vh;
       grid-template-areas: "logo menu";
@@ -153,9 +153,7 @@
         grid-template-areas: "logo nav";
   }
   .header .header-nav-bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: inline-block;
   }
   .header .header-nav-bar .header-nav-bar-items {
     display: -webkit-box;
@@ -171,8 +169,13 @@
   }
 }
 
+.side-nav {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .nav-bar {
-  grid-area: nav-bar;
   display: none;
   font-family: Helvetica;
   position: -webkit-sticky;
@@ -181,9 +184,8 @@
   right: 0;
   bottom: 0;
   z-index: 100;
-  float: right;
   width: 100%;
-  height: calc(90vh - 0.7rem);
+  height: calc(90vh - 0.5rem);
   background-color: rgba(0, 0, 0, 0.8);
   text-align: left;
 }
@@ -235,6 +237,7 @@
 
 .side-nav-list {
   margin: 3rem;
+  padding-top: 3rem;
 }
 
 .nav-list-processors,
@@ -269,7 +272,8 @@
 .content {
   display: block;
   width: 100%;
-  top: 10vh;
+  height: calc(100% - 10vh);
+  position: relative;
 }
 
 .content h2 {
@@ -285,19 +289,15 @@
   margin: 4rem auto;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "image description";
-  -ms-grid-columns: (minmax(240px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-template-areas: "image" "description";
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  z-index: 80;
-  overflow: hidden;
-}
-
-.overview img {
-  width: 100%;
 }
 
 .overview-image {
@@ -305,13 +305,15 @@
   -ms-grid-column: 1;
   grid-area: image;
   display: block;
+  width: 100%;
 }
 
 .overview-description {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
   grid-area: description;
   display: block;
+  width: 100%;
 }
 
 .overview-header {
@@ -323,18 +325,18 @@
 }
 
 .features {
-  width: 100%;
   margin: 4rem auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(240px, 1fr))[2];
-      grid-template-columns: repeat(2, minmax(240px, 1fr));
+      grid-template-areas: "feature-01-image" "feature-01-description" "feature-02-image" "feature-02-description" "feature-03-image" "feature-03-description";
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 3rem;
   position: relative;
-  z-index: 80;
 }
 
 .features article {
@@ -354,6 +356,103 @@
   width: 100%;
 }
 
+.feature-01-image {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: feature-01-image;
+}
+
+.feature-01-article {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: feature-01-description;
+}
+
+.feature-02-image {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: feature-02-image;
+}
+
+.feature-02-article {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: feature-02-description;
+}
+
+.feature-03-image {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: feature-03-image;
+}
+
+.feature-03-article {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: feature-03-description;
+}
+
+table {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  width: 100%;
+}
+
+table tbody tr th {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  padding: 1rem;
+}
+
+table tbody tr td {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.specifications {
+  font-size: 2rem;
+  width: 100%;
+}
+
+.specifications h3 {
+  width: calc(100% - 2rem);
+  padding: 0.7em 1rem;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: orangered;
+}
+
+.model-select {
+  padding-bottom: 0.7em;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.model-select-button {
+  font-size: 1.5rem;
+  padding: 0.8em;
+  color: orangered;
+  border: #000000;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #15191a, #222729);
+  -webkit-box-shadow: 30px 30px 59px #15191a, -30px -30px 59px, #222729;
+          box-shadow: 30px 30px 59px #15191a, -30px -30px 59px, #222729;
+}
+
+@media only screen and (min-width: 768px) {
+  .overview {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "image description";
+  }
+  .features {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "feature-01-description feature-01-image" "feature-02-image feature-02-description" "feature-03-description feature-03-image";
+  }
+}
+
 .footer {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
@@ -367,7 +466,6 @@ html {
   background-color: #1b1f20;
   color: #b2bec3;
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
 }
 
 .title-name {
@@ -375,18 +473,21 @@ html {
 }
 
 body {
-  width: 100vw;
+  width: 100%;
 }
 
 .container {
   display: -ms-grid;
   display: grid;
   width: auto;
+  height: auto;
       grid-template-areas: "header header header" "main main main" "footer footer footer";
   -ms-grid-columns: 2fr 1fr;
       grid-template-columns: 2fr 1fr;
   -ms-grid-rows: 10vh auto;
       grid-template-rows: 10vh auto;
+  position: relative;
+  z-index: auto;
 }
 
 .main {
@@ -394,11 +495,11 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: main;
-  display: block;
   width: 100%;
   max-width: 1000px;
+  min-height: calc(100vh - 10vh);
   margin: auto;
-  height: 4000px;
+  position: relative;
   background-image: url(/img/background-blow-out.jpg);
   background-position: center top;
   background-attachment: fixed;

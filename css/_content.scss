@@ -1,7 +1,8 @@
 .content {
   display: block;
   width: 100%;
-  top: 10vh;
+  height: calc(100% - 10vh);
+  position: relative;
   h2 {
     font-size: 2rem;
     font-weight: 700;
@@ -13,14 +14,14 @@
 .overview {
   margin: 4rem auto;
   display: grid;
-  grid-template-areas: "image description";
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-areas:
+    "image"
+    "description";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
   align-items: center;
   position: relative;
-  z-index: 80;
-  overflow: hidden;
   img {
-    width: 100%;
   }
   div {
     h2 {
@@ -32,10 +33,12 @@
 .overview-image {
   grid-area: image;
   display: block;
+  width: 100%;
 }
 .overview-description {
   grid-area: description;
   display: block;
+  width: 100%;
 }
 .overview-header {
   margin: 3rem;
@@ -43,16 +46,21 @@
 .overview-paragraph {
   margin: 3rem;
 }
-
+// Features styling
 .features {
-  width: 100%;
   margin: 4rem auto;
   display: grid;
-  grid-template-columns: repeat(2, minmax(240px, 1fr));
+  grid-template-areas:
+    "feature-01-image"
+    "feature-01-description"
+    "feature-02-image"
+    "feature-02-description"
+    "feature-03-image"
+    "feature-03-description";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
   align-items: center;
-  gap: 3rem;
   position: relative;
-  z-index: 80;
   article {
     width: 100%;
     h2 {
@@ -65,5 +73,83 @@
   img {
     display: block;
     width: 100%;
+  }
+}
+.feature-01-image {
+  grid-area: feature-01-image;
+}
+.feature-01-article {
+  grid-area: feature-01-description;
+}
+.feature-02-image {
+  grid-area: feature-02-image;
+}
+.feature-02-article {
+  grid-area: feature-02-description;
+}
+.feature-03-image {
+  grid-area: feature-03-image;
+}
+.feature-03-article {
+  grid-area: feature-03-description;
+}
+// Specifications chart styling
+table {
+  justify-content: left;
+  width: 100%;
+  tbody {
+    tr {
+      th {
+        background-color: rgba(0, 0, 0, 0.6);
+        text-align: left;
+        padding: 1rem;
+      }
+      td {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 1rem;
+      }
+    }
+  }
+}
+.specifications {
+  font-size: 2rem;
+  width: 100%;
+  h3 {
+    width: calc(100% - 2rem);
+    padding: 0.7em 1rem;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: orangered;
+  }
+}
+.model-select {
+  padding-bottom: 0.7em;
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.model-select-button {
+  font-size: 1.5rem;
+  padding: 0.8em;
+  color: orangered;
+  border: #000000;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #15191a, #222729);
+  box-shadow: 30px 30px 59px #15191a, -30px -30px 59px, #222729;
+}
+.specifications-table {
+}
+.specifications-table-body {
+}
+@media only screen and (min-width: 768px) {
+  .overview {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "image description";
+  }
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "feature-01-description feature-01-image"
+      "feature-02-image feature-02-description"
+      "feature-03-description feature-03-image";
   }
 }

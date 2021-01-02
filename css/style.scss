@@ -8,31 +8,34 @@ html {
   background-color: $primary-background-color;
   color: $primary-font-color;
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 }
 .title-name {
   text-transform: uppercase;
 }
 body {
-  width: 100vw;
+  width: 100%;
 }
 .container {
   display: grid;
   width: auto;
+  height: auto;
   grid-template-areas:
     "header header header"
     "main main main"
     "footer footer footer";
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 10vh auto;
+  position: relative;
+  z-index: auto;
 }
 .main {
   grid-area: main;
-  display: block;
   width: 100%;
   max-width: 1000px;
+  min-height: calc(100vh - 10vh);
   margin: auto;
-  height: 4000px;
+  position: relative;
   background-image: url(/img/background-blow-out.jpg);
   background-position: center top;
   background-attachment: fixed;
