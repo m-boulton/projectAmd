@@ -21,14 +21,6 @@
   grid-template-rows: auto;
   align-items: center;
   position: relative;
-  img {
-  }
-  div {
-    h2 {
-    }
-    p {
-    }
-  }
 }
 .overview-image {
   grid-area: image;
@@ -134,12 +126,13 @@ table {
   border: #000000;
   border-radius: 8px;
   background: linear-gradient(145deg, #15191a, #222729);
-  box-shadow: 30px 30px 59px #15191a, -30px -30px 59px, #222729;
+  box-shadow: 30px 30px 59px #15191a, -30px -30px 59px #222729;
 }
-.specifications-table {
-}
-.specifications-table-body {
-}
+// #FIXME
+// .specifications-table {
+// }
+// .specifications-table-body {
+// }
 @media only screen and (min-width: 768px) {
   .overview {
     grid-template-columns: repeat(2, 1fr);

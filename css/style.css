@@ -60,11 +60,11 @@
   position: relative;
   text-decoration: none;
   color: orangered;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .header .header-nav-bar ul li i {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .header .header-nav-bar ul li a {
@@ -88,15 +88,14 @@
 .header .header-nav-bar ul li ul li {
   margin: auto;
   line-height: 3rem;
-  font-size: 1.5rem;
-  font-weight: 600;
   position: relative;
 }
 
 .header .header-nav-bar ul li ul li a {
   color: #b2bec3;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   display: inline-block;
   height: 100%;
   width: calc(100% - 2rem);
@@ -436,8 +435,8 @@ table tbody tr td {
   border: #000000;
   border-radius: 8px;
   background: linear-gradient(145deg, #15191a, #222729);
-  -webkit-box-shadow: 30px 30px 59px #15191a, -30px -30px 59px, #222729;
-          box-shadow: 30px 30px 59px #15191a, -30px -30px 59px, #222729;
+  -webkit-box-shadow: 30px 30px 59px #15191a, -30px -30px 59px #222729;
+          box-shadow: 30px 30px 59px #15191a, -30px -30px 59px #222729;
 }
 
 @media only screen and (min-width: 768px) {
