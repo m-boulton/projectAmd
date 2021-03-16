@@ -76,7 +76,7 @@
     }
   }
 }
-.toggle-header-nav {
+.toggle-header-nav-button {
   grid-area: menu;
   font-size: 2rem;
   height: 5rem;
@@ -94,8 +94,8 @@
 .header-nav-list-graphics {
   display: none;
 }
-#header-processors-arrow,
-#header-graphics-arrow {
+#headerProcessorsArrow,
+#headerGraphicsArrow {
   transform: rotate(0deg);
 }
 .header-nav-items {
@@ -114,12 +114,13 @@
 
 // Media queries
 
+// Styling for mobile display widths
 @media only screen and (min-width: 768px) {
   .header {
     grid-template-columns: 120px auto;
     grid-template-areas: "logo nav";
     .header-nav-bar {
-      display: inline-block;
+      display: block;
       .header-nav-bar-items {
         display: flex;
         li {
@@ -131,7 +132,7 @@
       }
     }
   }
-  .toggle-header-nav {
+  .toggle-header-nav-button {
     display: none;
   }
 }

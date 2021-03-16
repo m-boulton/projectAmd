@@ -23,7 +23,7 @@ let navContent = null;
 
 // localhost fetch nav data
 async function getApiNav() {
-  const options = 
+  const options = {};
   const res = await fetch(apiUrlNav);
   const data = await res.json()
 }
