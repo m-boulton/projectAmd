@@ -3,6 +3,12 @@ import {
   toggleNavItem,
   navCloser,
 } from "./navigation-scripts.js";
+import {
+  documentLoader,
+  navLoader,
+  contentLoader,
+  specLoader,
+} from "./content-loader.js";
 
 // Event handlers for click events
 document.getElementById("toggleNavButton").addEventListener("click", () => {
@@ -23,4 +29,12 @@ document.getElementById("navSideProcessors").addEventListener("click", () => {
 document.getElementById("navSideGraphics").addEventListener("click", () => {
   navCloser("navSideGraphics");
   toggleNavItem("Side", "Graphics", false);
+});
+
+// Event handlers for document loading
+document.addEventListener("DOMContentLoaded", () => {
+  documentLoader();
+  navLoader();
+  contentLoader();
+  specLoader();
 });

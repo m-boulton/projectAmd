@@ -37,8 +37,6 @@
       justify-content: space-evenly;
       li {
         position: relative;
-        text-decoration: none;
-        color: orangered;
         font-size: 2rem;
         i {
           font-size: 2.5rem;
@@ -98,19 +96,32 @@
 #headerGraphicsArrow {
   transform: rotate(0deg);
 }
-.header-nav-items {
-  color: orangered;
-}
-.toggle-header-nav-processors,
-.toggle-header-nav-graphics,
 .header-nav-links {
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
   width: 100%;
   height: 100%;
   line-height: 10vh;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.9);
+  color: orangered;
+  :hover {
+    background-color: orangered;
+  }
 }
+.header-nav-bar-items{
+  text-decoration: none;
+  color: orangered;
+  :hover {    
+  background-color: rgba(255, 69, 0, 0.3);
+    color: orangered;
+  }
+}
+.header-nav-items {
+  color: orangered;
+}
+
 
 // Media queries
 

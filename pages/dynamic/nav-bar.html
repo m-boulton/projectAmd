@@ -1,9 +1,12 @@
 <ul class="side-nav-list">
-  <li class="toggle-nav-processors" onclick="toggleNav('Processors', 'Side')">
-    Processors <i id="processors-arrow" class="fa fa-chevron-down"></i>
-    <ul class="nav-list-processors">
+  <li id="navSideProcessors" class="toggle-nav-processors">
+    Processors
+    <i id="navSideProcessorsArrow" class="fa fa-chevron-down"></i>
+    <ul class="nav-list-processors" id="navSideProcessorsList">
       <li><a href="/product.html?prod=ryzen">Ryzen</a></li>
-      <li><a href="/product.html?prod=threadripper">Threadripper</a></li>
+      <li>
+        <a href="/product.html?prod=threadripper">Threadripper</a>
+      </li>
       <li>
         <a href="/product.html?prod=ryzen-graphics">Ryzen with Graphics</a>
       </li>
@@ -11,12 +14,15 @@
         <a href="/product.html?prod=athlon-graphics">Athlon with Graphics</a>
       </li>
       <li><a href="/product.html?prod=ryzen-pro">Ryzen PRO</a></li>
-      <li><a href="/product.html?prod=athlon-pro">Athlon PRO</a></li>
+      <li>
+        <a href="/product.html?prod=athlon-pro">Athlon PRO</a>
+      </li>
     </ul>
   </li>
-  <li class="toggle-nav-graphics" onclick="toggleNav('Graphics', 'Side')">
-    Graphics <i id="graphics-arrow" class="fa fa-chevron-down"></i>
-    <ul class="nav-list-graphics">
+  <li id="navSideGraphics" class="toggle-nav-graphics">
+    Graphics
+    <i id="navSideGraphicsArrow" class="fa fa-chevron-down"></i>
+    <ul class="nav-list-graphics" id="navSideGraphicsList">
       <li>
         <a href="/product.html?prod=radeon-rx-6000">Radeon RX 6000 Series</a>
       </li>
@@ -31,7 +37,9 @@
       </li>
     </ul>
   </li>
-  <li><a class="nav-items" href="/our-company.html">Our Company</a></li>
+  <li>
+    <a class="nav-items" href="/our-company.html">Our Company</a>
+  </li>
   <li><a class="nav-items" href="/contact.html">Contact Us</a></li>
 </ul>
 <ul class="social-media-links">

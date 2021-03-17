@@ -1,18 +1,12 @@
-<!-- this is the main logo in the header bar -->
-
 <a class="logo" href="/index.html">
   <img src="/img/logo/logo_white.svg" alt="AMD Logo" />
 </a>
-
-<!-- this is the header navigation -->
 <nav class="header-nav-bar">
   <ul class="header-nav-bar-items">
-    <li
-      class="toggle-header-nav-processors"
-      onclick="toggleNav(Processors, Header)"
-    >
-      Processors <i id="header-processors-arrow" class="fa fa-chevron-down"></i>
-      <ul class="header-nav-list-processors">
+    <li id="navHeaderProcessors" class="toggle-header-nav-processors">
+      Processors
+      <i id="navHeaderProcessorsArrow" class="fa fa-chevron-down"></i>
+      <ul class="header-nav-list-processors" id="navHeaderProcessorsList">
         <li><a href="/product.html?prod=ryzen">Ryzen</a></li>
         <li>
           <a href="/product.html?prod=threadripper">Threadripper</a>
@@ -31,12 +25,10 @@
         </li>
       </ul>
     </li>
-    <li
-      class="toggle-header-nav-graphics"
-      onclick="toggleNav(Graphics, Header)"
-    >
-      Graphics <i id="header-graphics-arrow" class="fa fa-chevron-down"></i>
-      <ul class="header-nav-list-graphics">
+    <li id="navHeaderGraphics" class="toggle-header-nav-graphics">
+      Graphics
+      <i id="navHeaderGraphicsArrow" class="fa fa-chevron-down"></i>
+      <ul class="header-nav-list-graphics" id="navHeaderGraphicsList">
         <li>
           <a href="/product.html?prod=radeon-rx-6000">Radeon RX 6000 Series</a>
         </li>
@@ -62,6 +54,6 @@
 
 <!-- this is the navigation sidebar button -->
 
-<button class="toggle-header-nav" onclick="toggleNavSideBar()">
+<button class="toggle-header-nav-button" id="toggleNavButton">
   <i class="fa fa-bars" aria-hidden="false"></i>
 </button>

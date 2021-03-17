@@ -58,8 +58,6 @@
 
 .header .header-nav-bar ul li {
   position: relative;
-  text-decoration: none;
-  color: orangered;
   font-size: 2rem;
 }
 
@@ -130,19 +128,34 @@
           transform: rotate(0deg);
 }
 
-.header-nav-items {
-  color: orangered;
-}
-
-.toggle-header-nav-processors,
-.toggle-header-nav-graphics,
 .header-nav-links {
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
   width: 100%;
   height: 100%;
   line-height: 10vh;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.9);
+  color: orangered;
+}
+
+.header-nav-links :hover {
+  background-color: orangered;
+}
+
+.header-nav-bar-items {
+  text-decoration: none;
+  color: orangered;
+}
+
+.header-nav-bar-items :hover {
+  background-color: rgba(255, 69, 0, 0.3);
+  color: orangered;
+}
+
+.header-nav-items {
+  color: orangered;
 }
 
 @media only screen and (min-width: 768px) {
@@ -260,7 +273,10 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .nav-bar {
+  .side-nav {
+    display: none;
+  }
+  .side-nav .nav-bar {
     display: none;
   }
 }
@@ -500,11 +516,5 @@ body {
   background-position: center top;
   background-attachment: fixed;
   background-repeat: no-repeat;
-}
-
-@media only screen and (min-width: 768px) {
-  .side-nav {
-    display: none;
-  }
 }
 /*# sourceMappingURL=style.css.map */
