@@ -27,12 +27,9 @@ document.getElementById("toggleNavButton").addEventListener("click", () => {
   toggleNavSideBar();
 });
 
-import {
-  documentLoader,
-  navLoader,
-  contentLoader,
-  specLoader,
-} from "./content-loader.js";
+import navLoader from "./loaders/nav-loader.js";
+import contentLoader from "./loaders/content-loader.js";
+import specLoader from "./loaders/spec-loader.js";
 
 // // Event handlers for document loading
 // document.addEventListener("DOMContentLoaded", () => {
@@ -41,3 +38,7 @@ import {
 //   contentLoader();
 //   specLoader();
 // });
+
+async function documentLoader() {
+  console.log("the document has loaded");
+}
