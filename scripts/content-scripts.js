@@ -1,7 +1,6 @@
 const currentPage = window.location.search;
 const currentPagePath = window.location.pathname.split(";")[0].split("/").pop();
 const page = new URLSearchParams(currentPage);
-const apiUrl = "http://api.mboulton.com:3500";
 var pageContent = null;
 
 // loads the body with a template to be filled with content later

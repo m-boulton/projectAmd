@@ -1,0 +1,3 @@
+update get requests with url query parameters
+
+build jwt token authentication for api calls

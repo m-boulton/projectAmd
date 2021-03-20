@@ -1,32 +1,43 @@
-const apiUrl = "http://api.mboulton.com:3500/amd";
+import { apiUrl } from "./global-variables.js";
 // #TODO build Jwt authentication
-const apiPass = "boogeyboo";
-const getOptions = {
-  method: "GET",
-  mode: "cors",
-  cache: "no-cache",
-  credentials: "same-origin",
-  headers: {
-    "Content-Type": "application/json",
-  },
-  redirect: "follow",
-  referrerPolicy: "no-referrer",
-  body: JSON.stringify(reqBody),
-};
 
 // localhost fetch nav data
-async function getApiNav( version = null) {
-  const reqBody = {
-    password: apiPass,
-    auth: "",
-    versionCheck: version,
-  };
+async function getApiNav(version = null) {
+  if (version == null) {
+    version = "";
+  } else if (typeof version == "number") {
+    version = `?v=${version}`;
+  }
   try {
-    const res = await fetch(`${apiUrl}/nav`, getOptions);
+    const res = await fetch(`${apiUrl}/nav/${version}`);
     const apiRes = await res.json();
-    if (apiRes.body.updated) {
-      return "updated";
-    } else if (apiRes.body.error) {
+    if (apiRes.message == "Updated") {
+      // Checks if the version is up to date
+      console.log(apiRes.message);
+      return apiRes.message;
+    } else if (typeof apiRes.error == "string") {
+      // Checks if the database returned an error
+      console.log(
+        `The mboulton.com server returned an error ${apiRes.errorData}`
+      );
+      return apiRes.message;
+    } else {
+      // Returns the data from the database if it is not up to date or if version wasn't declared
+      return apiRes.data;
+    }
+  } catch (error) {
+    console.log(
+      `There was an error requesting navigation data from mboulton.com${error}`
+    );
+  }
+}
+async function getApiContent(productId) {
+  // const getBody = { ...optionsBody, id: productId };
+  // const getOptions = { ...options, body: JSON.stringify(getBody) };
+  try {
+    const res = await fetch(`${apiUrl}/content`, getOptions);
+    const apiRes = await res.json();
+    if (apiRes.body.error) {
       console.log(
         `The mboulton.com server returned an error ${apiRes.body.errorData}`
       );
@@ -35,49 +46,29 @@ async function getApiNav( version = null) {
       return apiRes.body;
     }
   } catch (error) {
-    console.log(`There was an error requesting  navigation data from mboulton.com${error}`);
-  }
-}
-async function getApiContent(productId) {
-  const reqBody = {
-    password: apiPass,
-    auth: '',
-    id = productId
-  }
-  try {
-    const res = await fetch(`${apiUrl}/content`, getOptions);
-    const apiRes = await res.json()
-    if (apiRes.body.error) {
-      console.log(
-        `The mboulton.com server returned an error ${apiRes.body.errorData}`
-        );
-        return apiRes.body.message;
-    } else{
-      return apiRes.body;
-    }
-  } catch (error) {
-    console.log(`There was an error requesting ${productId} data from mboulton.com${error}`)
+    console.log(
+      `There was an error requesting ${productId} data from mboulton.com${error}`
+    );
   }
 }
 async function getApiSpec(specId) {
-  const reqBody = {
-    password: apiPass,
-    auth: '',
-    id = specId
-  }
+  // const getBody = { ...optionsBody, id: specId };
+  // const getOptions = { ...options, body: JSON.stringify(getBody) };
   try {
     const res = await fetch(`${apiUrl}/spec`, getOptions);
-    const apiRes = await res.json()
+    const apiRes = await res.json();
     if (apiRes.body.error) {
       console.log(
         `The mboulton.com server returned an error ${apiRes.body.errorData}`
-        );
-        return apiRes.body.message;
-    } else{
+      );
+      return apiRes.body.message;
+    } else {
       return apiRes.body;
     }
   } catch (error) {
-    console.log(`There was an error requesting ${specId} data from mboulton.com${error}`)
+    console.log(
+      `There was an error requesting ${specId} data from mboulton.com${error}`
+    );
   }
 }
-export { getApiNav, getApiContent, getApiSpec};
+export { getApiNav, getApiContent, getApiSpec };
