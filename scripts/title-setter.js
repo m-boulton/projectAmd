@@ -1,10 +1,8 @@
-const currentPage = window.location.search;
-const currentPagePath = window.location.pathname.split(";")[0].split("/").pop();
-const page = new URLSearchParams(currentPage);
-var pageContent = null;
+import { currentPage, currentPagePath, page } from "./global-variables.js";
+let pageContent = null;
 
 // loads the body with a template to be filled with content later
-function pageGet() {
+function titleSetter() {
   if (page.get("prod") == null) {
     // sets the title tag in the head to the current page parameters
     switch (currentPagePath) {
@@ -38,4 +36,4 @@ function pageGet() {
   }
 }
 
-// export { pageContent, pageGet };
+export default titleSetter;

@@ -1,3 +1,5 @@
-update get requests with url query parameters
+create dom content loading functions for nav, content and spec
+build contact form with email output
+build 404 page
 
-build jwt token authentication for api calls
+build jwt token authentication for api calls ?
