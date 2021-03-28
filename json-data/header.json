@@ -1,0 +1,33 @@
+{
+    "header": [
+        {
+            "element": "a",
+            "href": "/index.html",
+            "child": {
+                "element": "img",
+                "src": "/img/logo/logo_white.svg",
+                "alt": "AMD Logo"
+            }
+        },
+        {
+            "element": "nav",
+            "class": "header-nav-bar",
+            "childArray": [
+                {
+                    "element": "ul",
+                    "class": "header-nav-bar-items",
+                }
+            ]
+        },
+        {
+            "element": "button",
+            "class": "toggle-header-nav-button",
+            "id": "toggleNavButton",
+            "child": {
+                "element": "i",
+                "class": "fa fa-bars",
+                "aria-hidden": "false"
+            }
+        }
+    ]
+}
