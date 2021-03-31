@@ -1,9 +1,9 @@
-.side-nav {
+#side-nav {
   position: absolute;
   width: 100%;
   height: 100%;
 }
-.nav-bar {
+#nav-bar {
   display: none;
   font-family: Helvetica;
   position: sticky;
@@ -73,12 +73,11 @@
 }
 
 @media only screen and (min-width: 768px) {
-  
-  .side-nav {
+  #side-nav {
     display: none;
-    .nav-bar {
-    display: none;
-  }
+    #nav-bar {
+      display: none;
+    }
   }
 }
 

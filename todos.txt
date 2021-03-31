@@ -1,5 +1,24 @@
+#FIXME
+passing target to localstorage
+
+#TODO
+build jwt token authentication for api calls ?
+
+
+#PREV
+added target query to nav api lookup, 
+
+
+//CURR 
+
+building navBuilder functions
+
+currently working on event listeners with promises for multiple api calls
+
+
+//NEXT
 create dom content loading functions for nav, content and spec
 build contact form with email output
 build 404 page
 
-build jwt token authentication for api calls ?
+

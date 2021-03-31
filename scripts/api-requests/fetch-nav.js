@@ -1,13 +1,14 @@
 import { apiUrl } from "../global-variables.js";
 
-async function getApiNav(version = null) {
+async function getApiNav(target, version = null) {
+  target = `?target=${target}`;
   if (version == null) {
     version = "";
   } else if (typeof version == "number") {
-    version = `?v=${version}`;
+    version = `&version=${version}`;
   }
   try {
-    const res = await fetch(`${apiUrl}/nav/${version}`);
+    const res = await fetch(`${apiUrl}/nav/${target}${version}`);
     const apiRes = await res.json();
     return apiRes;
   } catch (error) {
