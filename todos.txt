@@ -7,13 +7,13 @@ build jwt token authentication for api calls ?
 
 #PREV
 added target query to nav api lookup, 
-
+event listeners with promises for multiple api calls
 
 //CURR 
 
 building navBuilder functions
 
-currently working on event listeners with promises for multiple api calls
+
 
 
 //NEXT

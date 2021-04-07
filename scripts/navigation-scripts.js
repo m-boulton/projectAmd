@@ -6,12 +6,12 @@ function navCloser(id) {
   if (id != "navHeaderGraphics") {
     toggleNavItem("Header", "Graphics", true);
   }
-  if (id != "navSideProcessors") {
-    toggleNavItem("Side", "Processors", true);
-  }
-  if (id != "navSideGraphics") {
-    toggleNavItem("Side", "Graphics", true);
-  }
+  // if (id != "navSideProcessors") {
+  //   toggleNavItem("Side", "Processors", true);
+  // }
+  // if (id != "navSideGraphics") {
+  //   toggleNavItem("Side", "Graphics", true);
+  // }
 }
 
 // This function toggles the sidbar for mobile versions
