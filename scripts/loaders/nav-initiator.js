@@ -11,5 +11,4 @@ async function navInitiator(target) {
   }
   return console.log(`localstorage-${target} is up to date`);
 }
-
 export default navInitiator;
