@@ -2,8 +2,10 @@ import navLoader from "./nav-loader.js";
 import domBuilder from "./dom-builder.js";
 
 async function navInitiator(target) {
+  // checking local storage for navigation data
   const navObj = await navLoader(target);
   if (navObj.message == "Data") {
+    // re-rendering the dom if the local storage is out of date
     domBuilder(target, navObj.data);
     return console.log(`${target} is updating to localstorage`);
   }
