@@ -1,189 +1,330 @@
 {
-    "target": "side",
-    "insertId": "nav-bar",
-    "content": [
-        {
-            "ul": {
-                "class": "side-nav-list",
-                "li": [
-                    {
-                        "href": "null",
-                        "id": "navSideProcessors",
-                        "class": "side-nav-links",
-                        "name": "Processors",
-                        "i": {
-                            "id": "navSideProcessorsArrow",
-                            "class": "fa fa-chevron-down"
-                        },
-                        "ul": {
-                            "id": "navSideProcessorsList",
-                            "class": "side-nav-list-processors",
-                            "li": [
-                                {
-                                    "a": {
-                                        "href": "/index.html?p=ryzen",
-                                        "name": "Ryzen"
-                                    }
-                                },
-                                {
-                                    "a": {
-                                        "href": "/index.html?p=threadripper",
-                                        "name": "Threadripper"
-                                    }
-                                },
-                                {
-                                    "a": {
-                                        "href": "/index.html?p=ryzen-graphics",
-                                        "name": "Ryzen with Graphics"
-                                    }
-                                },
-                                {
-                                    "a": {
-                                        "href": "/index.html?p=ryzen-pro",
-                                        "name": "Ryzen Pro"
-                                    }
-                                },
-                                {
-                                    "a": {
-                                        "href": "/index.html?p=athlon",
-                                        "name": "Athlon with Graphics"
-                                    }
-                                },
-                                {
-                                    "a": {
-                                        "href": "/index.html?p=athlon-pro",
-                                        "name": "Athlon Pro"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "href": "null",
-                        "id": "navSideGraphics",
-                        "class": "side-nav-links",
-                        "name": "Graphics",
-                        "i": {
-                            "id": "navSideGraphicsArrow",
-                            "class": "fa fa-chevron-down"
-                        },
-                        "ul": {
-                            "id": "navSideGraphicsList",
-                            "class": "side-nav-list-graphics",
-                            "li": [
-                                {
-                                    "a": {
-                                        "href": "/index.html?p=rx-6000",
-                                        "name": "Radeon RX 6000"
-                                    }
-                                },
-                                {
-                                    "a": {
-                                        "href": "/index.html?p=rx-5000",
-                                        "name": "Radeon RX 5000"
-                                    }
-                                },
-                                {
-                                    "a": {
-                                        "href": "/index.html?p=rx-vega",
-                                        "name": "Radeon Vega"
-                                    }
-                                },
-                                {
-                                    "a": {
-                                        "href": "/index.html?p=rx-500",
-                                        "name": "Radeon Rx 500"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "class": "side-nav-links",
-                        "a": {
-                            "href": "/index.html?p=about",
-                            "class": "side-nav-items",
-                            "name": "About Us"
-                        }
-                    },
-                    {
-                        "class": "side-nav-links",
-                        "a": {
-                            "href": "/index.html?p=contact",
-                            "class": "side-nav-items",
-                            "name": "Contact Us"
-                        }
-                    }
-                ]
-            }
+    "target": "sideNav",
+    "insertId": "sideNav",
+    "version": 0,
+    "content": {
+        "tag": "aside",
+        "attributes": {
+            "id": "sideNavInsert"
         },
-        {
-            "ul": {
-                "class": "social-media-links",
-                "li": [
+        "children": [
+            {
+                "tag": "ul",
+                "attributes": {
+                    "class": "side-nav-list"
+                },
+                "children": [
                     {
-                        "a": {
-                            "href": "https://www.facebook.com/amd",
-                            "title": "Facebook",
-                            "i": {
-                                "class": "fa fa-facebook",
-                                "aria-hidden": true
+                        "tag": "li",
+                        "name": "Processors",
+                        "attributes": {
+                            "href": "null",
+                            "id": "navSideProcessors",
+                            "class": "side-nav-links"
+                        },
+                        "children": [
+                            {
+                                "tag": "i",
+                                "attributes": {
+                                    "id": "navSideProcessorsArrow",
+                                    "class": "fa fa-chevron-down"
+                                },
+                                "children": []
+                            },
+                            {
+                                "tag": "ul",
+                                "attributes": {
+                                    "id": "navSideProcessorsList",
+                                    "class": "side-nav-list-processors"
+                                },
+                                "children": [
+                                    {
+                                        "tag": "li",
+                                        "children": [
+                                            {
+                                                "tag": "a",
+                                                "attributes": {
+                                                    "href": "/index.html?p=ryzen"
+                                                },
+                                                "value": "Ryzen"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tag": "li",
+                                        "children": [
+                                            {
+                                                "tag": "a",
+                                                "attributes": {
+                                                    "href": "/index.html?p=threadripper"
+                                                },
+                                                "value": "Threadripper"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tag": "li",
+                                        "children": [
+                                            {
+                                                "tag": "a",
+                                                "attributes": {
+                                                    "href": "/index.html?p=ryzen-graphics"
+                                                },
+                                                "value": "Ryzen with Graphics"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tag": "li",
+                                        "children": [
+                                            {
+                                                "tag": "a",
+                                                "attributes": {
+                                                    "href": "/index.html?p=ryzen-pro"
+                                                },
+                                                "value": "Ryzen Pro"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tag": "li",
+                                        "children": [
+                                            {
+                                                "tag": "a",
+                                                "attributes": {
+                                                    "href": "/index.html?p=athlon"
+                                                },
+                                                "value": "Athlon"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tag": "li",
+                                        "children": [
+                                            {
+                                                "tag": "a",
+                                                "attributes": {
+                                                    "href": "/index.html?p=athlon-pro"
+                                                },
+                                                "value": "Athlon Pro"
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
-                        }
+                        ]
                     },
                     {
-                        "a": {
-                            "href": "https://www.twitter.com/amd",
-                            "title": "Twitter",
-                            "i": {
-                                "class": "fa fa-twitter",
-                                "aria-hidden": true
+                        "tag": "li",
+                        "name": "Graphics",
+                        "attributes": {
+                            "href": "null",
+                            "id": "navSideGraphics",
+                            "class": "side-nav-links"
+                        },
+                        "children": [
+                            {
+                                "tag": "i",
+                                "attributes": {
+                                    "id": "navSideGraphicsArrow",
+                                    "class": "fa fa-chevron-down"
+                                }
+                            },
+                            {
+                                "tag": "ul",
+                                "attributes": {
+                                    "id": "navSideGraphicsList",
+                                    "class": "side-nav-list-graphics"
+                                },
+                                "children": [
+                                    {
+                                        "tag": "li",
+                                        "children": [
+                                            {
+                                                "tag": "a",
+                                                "attributes": {
+                                                    "href": "/index.html?p=rx6000"
+                                                },
+                                                "value": "Radeon RX 6000 Series"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tag": "li",
+                                        "children": [
+                                            {
+                                                "tag": "a",
+                                                "attributes": {
+                                                    "href": "/index.html?p=rx5000"
+                                                },
+                                                "value": "Radeon RX 5000 Series"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tag": "li",
+                                        "children": [
+                                            {
+                                                "tag": "a",
+                                                "attributes": {
+                                                    "href": "/index.html?p=rxvega"
+                                                },
+                                                "value": "Radeon Vega Series"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tag": "li",
+                                        "children": [
+                                            {
+                                                "tag": "a",
+                                                "attributes": {
+                                                    "href": "/index.html?p=rx500"
+                                                },
+                                                "value": "Radeon RX 500 Series"
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
-                        }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "ul",
+                "attributes": {
+                    "class": "social-media-links"
+                },
+                "children": [
+                    {
+                        "tag": "li",
+                        "children": [
+                            {
+                                "tag": "a",
+                                "attributes": {
+                                    "href": "https://www.facebook.com/amd",
+                                    "title": "Facebook"
+                                },
+                                "children": [
+                                    {
+                                        "tag": "i",
+                                        "attributes": {
+                                            "class": "fa fa-facebook",
+                                            "aria-hidden": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
-                        "a": {
-                            "href": "https://www.instagram.com/amd",
-                            "title": "Instagram",
-                            "i": {
-                                "class": "fa fa-instagram",
-                                "aria-hidden": true
+                        "tag": "li",
+                        "children": [
+                            {
+                                "tag": "a",
+                                "attributes": {
+                                    "href": "https://www.twitter.com/amd",
+                                    "title": "Twitter"
+                                },
+                                "children": [
+                                    {
+                                        "tag": "i",
+                                        "attributes": {
+                                            "class": "fa fa-twitter",
+                                            "aria-hidden": true
+                                        }
+                                    }
+                                ]
                             }
-                        }
+                        ]
                     },
                     {
-                        "a": {
-                            "href": "https://www.linkedin.com/company/amd",
-                            "title": "LinkedIn",
-                            "i": {
-                                "class": "fa fa-linkedin",
-                                "aria-hidden": true
+                        "tag": "li",
+                        "children": [
+                            {
+                                "tag": "a",
+                                "attributes": {
+                                    "href": "https://www.instagram.com/amd",
+                                    "title": "Instagram"
+                                },
+                                "children": [
+                                    {
+                                        "tag": "i",
+                                        "attributes": {
+                                            "class": "fa fa-instagram",
+                                            "aria-hidden": true
+                                        }
+                                    }
+                                ]
                             }
-                        }
+                        ]
                     },
                     {
-                        "a": {
-                            "href": "https://www.youtube.com/user/amd",
-                            "title": "Youtube",
-                            "i": {
-                                "class": "fa fa-youtube-play",
-                                "aria-hidden": true
+                        "tag": "li",
+                        "children": [
+                            {
+                                "tag": "a",
+                                "attributes": {
+                                    "href": "https://www.linkedin.com/company/amd",
+                                    "title": "Linkedin"
+                                },
+                                "children": [
+                                    {
+                                        "tag": "i",
+                                        "attributes": {
+                                            "class": "fa fa-linkedin",
+                                            "aria-hidden": true
+                                        }
+                                    }
+                                ]
                             }
-                        }
+                        ]
                     },
                     {
-                        "a": {
-                            "href": "https://www.twitch.tv/amd",
-                            "title": "Twitch",
-                            "i": {
-                                "class": "fa fa-twitch",
-                                "aria-hidden": true
+                        "tag": "li",
+                        "children": [
+                            {
+                                "tag": "a",
+                                "attributes": {
+                                    "href": "https://www.youtube.com/user/amd",
+                                    "title": "Youtube"
+                                },
+                                "children": [
+                                    {
+                                        "tag": "i",
+                                        "attributes": {
+                                            "class": "fa fa-youtube-play",
+                                            "aria-hidden": true
+                                        }
+                                    }
+                                ]
                             }
-                        }
+                        ]
+                    },
+                    {
+                        "tag": "li",
+                        "children": [
+                            {
+                                "tag": "a",
+                                "attributes": {
+                                    "href": "https://www.twitch.tv/amd",
+                                    "title": "Twitch"
+                                },
+                                "children": [
+                                    {
+                                        "tag": "i",
+                                        "attributes": {
+                                            "class": "fa fa-twitch",
+                                            "aria-hidden": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
-        }
-    ],
-    "version": 0
+        ]
+    }
 }

@@ -12,8 +12,8 @@ import {
 
 document.addEventListener("DOMContentLoaded", async () => {
   titleSetter();
-  await navInitiator("header");
-  // navInitiator("side");
+  navInitiator("header");
+  await navInitiator("sideNav");
   // documentLoader();
   // contentLoader();
   // specLoader();
@@ -31,14 +31,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     navCloser("navHeaderGraphics");
     toggleNavItem("Header", "Graphics", false);
   });
-  // document.getElementById("navSideProcessors").addEventListener("click", () => {
-  //   navCloser("navSideProcessors");
-  //   toggleNavItem("Side", "Processors", false);
-  // });
-  // document.getElementById("navSideGraphics").addEventListener("click", () => {
-  //   navCloser("navSideGraphics");
-  //   toggleNavItem("Side", "Graphics", false);
-  // });
+  document.getElementById("navSideProcessors").addEventListener("click", () => {
+    navCloser("navSideProcessors");
+    toggleNavItem("Side", "Processors", false);
+  });
+  document.getElementById("navSideGraphics").addEventListener("click", () => {
+    navCloser("navSideGraphics");
+    toggleNavItem("Side", "Graphics", false);
+  });
   // Toggles the navigation pane for the mobile version
   document.getElementById("toggleNavButton").addEventListener("click", () => {
     toggleNavSideBar();

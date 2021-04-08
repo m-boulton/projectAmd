@@ -3,18 +3,14 @@ let pageContent = null;
 
 // loads the body with a template to be filled with content later
 function titleSetter() {
-  if (page.get("prod") == null) {
+  if (page.get("p") == null) {
     // sets the title tag in the head to the current page parameters
     switch (currentPagePath) {
-      case "index.html":
-        document.getElementsByClassName("title-name")[0].innerHTML =
-          "AMD Technology | Welcome";
-        break;
-      case "contact.html":
+      case "contact":
         document.getElementsByClassName("title-name")[0].innerHTML =
           "AMD Technology | Contact Us";
         break;
-      case "our-company.html":
+      case "about":
         document.getElementsByClassName("title-name")[0].innerHTML =
           "AMD Technology | Our Company";
         break;
@@ -26,7 +22,7 @@ function titleSetter() {
     pageContent = currentPagePath;
   } else {
     // reformats the url search parameters to a single word
-    pageContent = page.get("prod").split("-").join(" ");
+    pageContent = page.get("p").split("-").join(" ");
     let pageContentCapitalized = pageContent.replace(/^\w/, function (c) {
       return c.toUpperCase();
     });

@@ -6,20 +6,20 @@ function navCloser(id) {
   if (id != "navHeaderGraphics") {
     toggleNavItem("Header", "Graphics", true);
   }
-  // if (id != "navSideProcessors") {
-  //   toggleNavItem("Side", "Processors", true);
-  // }
-  // if (id != "navSideGraphics") {
-  //   toggleNavItem("Side", "Graphics", true);
-  // }
+  if (id != "navSideProcessors") {
+    toggleNavItem("Side", "Processors", true);
+  }
+  if (id != "navSideGraphics") {
+    toggleNavItem("Side", "Graphics", true);
+  }
 }
 
 // This function toggles the sidbar for mobile versions
 const toggleNavSideBar = () => {
-  if (document.querySelector(".nav-bar").style.display == "block") {
-    document.querySelector(".nav-bar").style.display = "none";
+  if (document.querySelector("#sideNavInsert").style.display == "block") {
+    document.querySelector("#sideNavInsert").style.display = "none";
   } else {
-    document.querySelector(".nav-bar").style.display = "block";
+    document.querySelector("#sideNavInsert").style.display = "block";
     navCloser();
   }
 };

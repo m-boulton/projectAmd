@@ -13,6 +13,9 @@ function iterateObject(item) {
     : (item.children || []).map(iterateObject).join(" ");
 
   if (item.hasOwnProperty("attributes")) {
+    if (item.tag == "img") {
+      return `<img ${attributes(item.attributes)}/>`;
+    }
     if (item.hasOwnProperty("name")) {
       return `<${item.tag} ${attributes(item.attributes)}>${
         item.name

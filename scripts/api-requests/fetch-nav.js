@@ -1,7 +1,9 @@
 import { apiUrl } from "../global-variables.js";
 
 async function getApiNav(target, version = null) {
+  // declaring the item to target from the database
   target = `?target=${target}`;
+  // declaring the version number if it is passed in arguments
   if (version == null) {
     version = "";
   } else if (typeof version == "number") {

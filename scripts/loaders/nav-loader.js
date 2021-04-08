@@ -1,6 +1,6 @@
 import getApiNav from "../api-requests/fetch-nav.js";
 import localStorageParser from "../localstorage-parser.js";
-import domBuilder from "./nav-builder.js";
+import domBuilder from "./dom-builder.js";
 
 const navLoader = async (target) => {
   // Gets the data from local storage
@@ -11,7 +11,7 @@ const navLoader = async (target) => {
     const apiReqVers = await getApiNav(target, versionCheck.data.version);
     // Returns if data is up to date
     if (apiReqVers.message == "Updated") {
-      return { message: "Updated", data: versionCheck.data };
+      return { message: "Updated" };
     }
     // Saves data to local storage if it is out of date
     localStorageParser("set", `navObj-${target}`, apiReqVers.data);

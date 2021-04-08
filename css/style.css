@@ -183,13 +183,13 @@
   }
 }
 
-#side-nav {
+#sideNav {
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
-#nav-bar {
+#sideNavInsert {
   display: none;
   font-family: Helvetica;
   position: -webkit-sticky;
@@ -204,30 +204,31 @@
   text-align: left;
 }
 
-#nav-bar ul li {
+#sideNavInsert ul li {
   font-size: 3rem;
   padding: 0.4em;
 }
 
-#nav-bar ul li i {
+#sideNavInsert ul li i {
   font-size: 1.5rem;
+  margin: 1rem;
 }
 
-#nav-bar ul li ul {
+#sideNavInsert ul li ul {
   margin-top: 2rem;
 }
 
-#nav-bar ul li ul li {
+#sideNavInsert ul li ul li {
   margin: auto;
   line-height: 3rem;
   font-size: 1.5rem;
 }
 
-#nav-bar ul li ul li a {
-  color: #b2bec3;
+#sideNavInsert ul li ul li a {
+  color: orangered;
 }
 
-#nav-bar .social-media-links {
+#sideNavInsert .social-media-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -239,12 +240,12 @@
           justify-content: space-evenly;
 }
 
-#nav-bar .social-media-links li {
+#sideNavInsert .social-media-links li {
   display: inline-block;
   margin: auto;
 }
 
-#nav-bar .social-media-links li a i {
+#sideNavInsert .social-media-links li a i {
   color: orangered;
   font-size: 2rem;
 }
@@ -267,7 +268,7 @@
           transform: rotate(0deg);
 }
 
-.nav-items,
+.side-nav-links,
 .toggle-nav-processors,
 .toggle-nav-graphics {
   color: orangered;
@@ -275,10 +276,10 @@
 }
 
 @media only screen and (min-width: 768px) {
-  #side-nav {
+  #sideNav {
     display: none;
   }
-  #side-nav #nav-bar {
+  #sideNav #sideNavInsert {
     display: none;
   }
 }
