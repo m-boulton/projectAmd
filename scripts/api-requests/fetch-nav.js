@@ -10,9 +10,7 @@ async function getApiNav(target, version = null) {
     version = `&version=${version}`;
   }
   try {
-    const res = await fetch(
-      `https://www.api.mboulton.com:3500/amd/nav/${target}${version}`
-    );
+    const res = await fetch(`${apiUrl}/amd/nav/${target}${version}`);
     const apiRes = await res.json();
     return apiRes;
   } catch (error) {
