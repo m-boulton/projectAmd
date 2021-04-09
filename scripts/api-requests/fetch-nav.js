@@ -10,7 +10,9 @@ async function getApiNav(target, version = null) {
     version = `&version=${version}`;
   }
   try {
-    const res = await fetch(`${apiUrl}/amd/nav${target}${version}`);
+    const url = `${apiUrl}/amd/nav${target}${version}`;
+    const res = await fetch(url);
+    console.log(url);
     const apiRes = await res.json();
     return apiRes;
   } catch (error) {
