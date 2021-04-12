@@ -1,4 +1,4 @@
-const apiUrl = "https://www.api.mboulton.com:3502";
+const apiUrl = "http://www.api.mboulton.com:3500";
 // const apiUrl = "http://localhost:3500/amd";
 
 const currentPage = window.location.search;
