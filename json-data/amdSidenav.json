@@ -188,6 +188,38 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "tag": "li",
+                        "attributes": {
+                            "class": "side-nav-links"
+                        },
+                        "children": [
+                            {
+                                "tag": "a",
+                                "attributes": {
+                                    "href": "/?p=about",
+                                    "class": "side-nav-items"
+                                },
+                                "value": "About Us"
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "li",
+                        "attributes": {
+                            "class": "side-nav-links"
+                        },
+                        "children": [
+                            {
+                                "tag": "a",
+                                "attributes": {
+                                    "href": "/?p=contact",
+                                    "class": "side-nav-items"
+                                },
+                                "value": "Contact"
+                            }
+                        ]
                     }
                 ]
             },

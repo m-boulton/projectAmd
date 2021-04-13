@@ -270,7 +270,8 @@
 
 .side-nav-links,
 .toggle-nav-processors,
-.toggle-nav-graphics {
+.toggle-nav-graphics,
+.side-nav-items {
   color: orangered;
   cursor: pointer;
 }
