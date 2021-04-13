@@ -11,7 +11,7 @@
             {
                 "tag": "a",
                 "attributes": {
-                    "href": "/index.html",
+                    "href": "/",
                     "class": "logo"
                 },
                 "children": [
@@ -38,7 +38,7 @@
                         "children": [
                             {
                                 "tag": "li",
-                                "name": "Processors",
+                                "text": "Processors",
                                 "attributes": {
                                     "href": "null",
                                     "id": "navHeaderProcessors",
@@ -58,7 +58,7 @@
                                                     {
                                                         "tag": "a",
                                                         "attributes": {
-                                                            "href": "/index.html?p=ryzen"
+                                                            "href": "/?p=ryzen"
                                                         },
                                                         "value": "Ryzen"
                                                     }
@@ -70,7 +70,7 @@
                                                     {
                                                         "tag": "a",
                                                         "attributes": {
-                                                            "href": "/index.html?p=threadripper"
+                                                            "href": "/?p=threadripper"
                                                         },
                                                         "value": "Threadripper"
                                                     }
@@ -82,7 +82,7 @@
                                                     {
                                                         "tag": "a",
                                                         "attributes": {
-                                                            "href": "/index.html?p=ryzen-graphics"
+                                                            "href": "/?p=ryzen-graphics"
                                                         },
                                                         "value": "Ryzen with Graphics"
                                                     }
@@ -94,7 +94,7 @@
                                                     {
                                                         "tag": "a",
                                                         "attributes": {
-                                                            "href": "/index.html?p=ryzen-pro"
+                                                            "href": "/?p=ryzen-pro"
                                                         },
                                                         "value": "Ryzen Pro"
                                                     }
@@ -106,7 +106,7 @@
                                                     {
                                                         "tag": "a",
                                                         "attributes": {
-                                                            "href": "/index.html?p=athlon"
+                                                            "href": "/?p=athlon"
                                                         },
                                                         "value": "Athlon"
                                                     }
@@ -118,7 +118,7 @@
                                                     {
                                                         "tag": "a",
                                                         "attributes": {
-                                                            "href": "/index.html?p=athlon-pro"
+                                                            "href": "/?p=athlon-pro"
                                                         },
                                                         "value": "Athlon Pro"
                                                     }
@@ -138,7 +138,7 @@
                             },
                             {
                                 "tag": "li",
-                                "name": "Graphics",
+                                "text": "Graphics",
                                 "attributes": {
                                     "href": "null",
                                     "id": "navHeaderGraphics",
@@ -158,7 +158,7 @@
                                                     {
                                                         "tag": "a",
                                                         "attributes": {
-                                                            "href": "/index.html?p=rx6000"
+                                                            "href": "/?p=rx6000"
                                                         },
                                                         "value": "Radeon RX 6000 Series"
                                                     }
@@ -170,7 +170,7 @@
                                                     {
                                                         "tag": "a",
                                                         "attributes": {
-                                                            "href": "/index.html?p=rx5000"
+                                                            "href": "/?p=rx5000"
                                                         },
                                                         "value": "Radeon RX 5000 Series"
                                                     }
@@ -182,7 +182,7 @@
                                                     {
                                                         "tag": "a",
                                                         "attributes": {
-                                                            "href": "/index.html?p=rxvega"
+                                                            "href": "/?p=rxvega"
                                                         },
                                                         "value": "Radeon Vega Series"
                                                     }
@@ -194,7 +194,7 @@
                                                     {
                                                         "tag": "a",
                                                         "attributes": {
-                                                            "href": "/index.html?p=rx500"
+                                                            "href": "/?p=rx500"
                                                         },
                                                         "value": "Radeon RX 500 Series"
                                                     }

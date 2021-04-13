@@ -11,7 +11,6 @@ async function getApiNav(target, version = null) {
   }
   try {
     const url = `${apiUrl}/amd/nav${target}${version}`;
-    console.log(url);
     const res = await fetch(url);
     const apiRes = await res.json();
     return apiRes;

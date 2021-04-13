@@ -16,9 +16,9 @@ function iterateObject(item) {
     if (item.tag == "img") {
       return `<img ${attributes(item.attributes)}/>`;
     }
-    if (item.hasOwnProperty("name")) {
+    if (item.hasOwnProperty("text")) {
       return `<${item.tag} ${attributes(item.attributes)}>${
-        item.name
+        item.text
       }${innerHtml}</${item.tag}>`;
     }
     return `<${item.tag} ${attributes(item.attributes)}>${innerHtml}</${
