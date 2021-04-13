@@ -6,9 +6,10 @@ async function navInitiator(target) {
   const navObj = await navLoader(target);
   if (navObj.message == "Data") {
     // re-rendering the dom if the local storage is out of date
-    domBuilder(target, navObj.data);
+    await domBuilder(target, navObj.data);
     return console.log(`${target} is updating to localstorage`);
   }
-  return console.log(`localstorage-${target} is up to date`);
+  if (navObj.message == "")
+    return console.log(`localstorage-${target} is up to date`);
 }
 export default navInitiator;
