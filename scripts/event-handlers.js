@@ -8,15 +8,14 @@ import {
   navCloser,
 } from "./navigation-scripts.js";
 
-document.addEventListener("DOMContentLoaded", async (e) => {
+document.addEventListener("DOMContentLoaded", async () => {
   // Event handlers for document loading
   const product = await titleSetter();
   contentLoader(product);
   navInitiator("header");
   await navInitiator("sideNav");
   // specLoader();
-});
-document.addEventListener("load", (e) => {
+
   // Event handlers for click events
   // Closes all nav panes and then opens the targeted element
   document
