@@ -392,30 +392,6 @@
   width: 100%;
 }
 
-.feature-01-image {
-  grid-area: feature-01-image;
-}
-
-.feature-01-article {
-  grid-area: feature-01-description;
-}
-
-.feature-02-image {
-  grid-area: feature-02-image;
-}
-
-.feature-02-article {
-  grid-area: feature-02-description;
-}
-
-.feature-03-image {
-  grid-area: feature-03-image;
-}
-
-.feature-03-article {
-  grid-area: feature-03-description;
-}
-
 table {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
