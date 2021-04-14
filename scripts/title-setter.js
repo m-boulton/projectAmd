@@ -1,35 +1,45 @@
-import { currentPage, currentPagePath, page } from "./global-variables.js";
+import { productQuery } from "./global-variables.js";
 let pageContent = null;
 
 // loads the body with a template to be filled with content later
 function titleSetter() {
-  if (page.get("p") == null) {
-    // sets the title tag in the head to the current page parameters
-    switch (currentPagePath) {
+  let query = "";
+  if (
+    productQuery == null ||
+    productQuery == "contact" ||
+    productQuery == "about"
+  ) {
+    // sets the title tag in the head to the current productQuery parameters
+    switch (productQuery) {
       case "contact":
-        document.getElementsByClassName("title-name")[0].innerHTML =
+        document.getElementById("title-name").innerHTML =
           "AMD Technology | Contact Us";
+        query = productQuery;
         break;
       case "about":
-        document.getElementsByClassName("title-name")[0].innerHTML =
+        document.getElementById("title-name").innerHTML =
           "AMD Technology | Our Company";
+        query = productQuery;
         break;
       default:
-        document.getElementsByClassName("title-name")[0].innerHTML =
+        document.getElementById("title-name").innerHTML =
           "AMD Technology | Welcome";
+        query = "home";
         break;
     }
-    pageContent = currentPagePath;
   } else {
     // reformats the url search parameters to a single word
-    pageContent = page.get("p").split("-").join(" ");
-    let pageContentCapitalized = pageContent.replace(/^\w/, function (c) {
-      return c.toUpperCase();
-    });
-    // sets the title tag in the head to the current pages parameter
-    document.getElementsByClassName("title-name")[0].innerHTML =
-      "AMD Technology | " + pageContentCapitalized;
+    pageContent = productQuery.split("-").join(" ");
+    let pageContentCapitalized = pageContent.replace(/^\w/, (c) =>
+      c.toUpperCase()
+    );
+    // sets the title tag in the head to the current productQuerys parameter
+    document.getElementById(
+      "title-name"
+    ).innerHTML = `AMD Technology | ${pageContentCapitalized}`;
+    query = productQuery;
   }
+  return query;
 }
 
 export default titleSetter;

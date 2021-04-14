@@ -1,8 +1,8 @@
 const apiUrl = "https://api.mboulton.com";
 // const apiUrl = "http://localhost:3500";
 
-const currentPage = window.location.search;
-const currentPagePath = window.location.pathname.split(";")[0].split("/").pop();
-const page = new URLSearchParams(currentPage);
+// sets productQuery to the ?p= value in the url
+const urlQuery = new URLSearchParams(window.location.search);
+const productQuery = urlQuery.get("p");
 
-export { apiUrl, currentPage, currentPagePath, page };
+export { apiUrl, productQuery };

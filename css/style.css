@@ -3,7 +3,7 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: header;
-  height: 10vh;
+  height: 7vh;
   width: 100%;
   position: -webkit-sticky;
   position: sticky;
@@ -17,8 +17,8 @@
   display: grid;
   -ms-grid-columns: auto 6rem;
       grid-template-columns: auto 6rem;
-  -ms-grid-rows: 10vh;
-      grid-template-rows: 10vh;
+  -ms-grid-rows: 7vh;
+      grid-template-rows: 7vh;
       grid-template-areas: "logo menu";
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -52,7 +52,7 @@
 }
 
 #headerInsert .header-nav-bar .header-nav-bar-items {
-  height: 10vh;
+  height: 7vh;
 }
 
 #headerInsert .header-nav-bar ul {
@@ -87,6 +87,8 @@
 
 #headerInsert .header-nav-bar ul li ul :hover {
   background-color: orangered;
+  -webkit-transition: ease, 0.5s;
+  transition: ease, 0.5s;
 }
 
 #headerInsert .header-nav-bar ul li ul li {
@@ -140,7 +142,7 @@
   display: inline-block;
   width: 100%;
   height: 100%;
-  line-height: 10vh;
+  line-height: 7vh;
   cursor: pointer;
   background-color: black;
   color: orangered;
@@ -154,6 +156,8 @@
 .header-nav-bar-items :hover {
   background-color: orangered;
   color: #fff;
+  -webkit-transition: ease, 0.5s;
+  transition: ease, 0.5s;
 }
 
 .header-nav-items {
@@ -225,7 +229,10 @@
 }
 
 #sideNavInsert ul li ul li a {
-  color: orangered;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  color: #ff3300;
 }
 
 #sideNavInsert .social-media-links {
@@ -500,8 +507,8 @@ body {
       grid-template-areas: "header header header" "main main main" "footer footer footer";
   -ms-grid-columns: 2fr 1fr;
       grid-template-columns: 2fr 1fr;
-  -ms-grid-rows: 10vh auto;
-      grid-template-rows: 10vh auto;
+  -ms-grid-rows: 7vh auto;
+      grid-template-rows: 7vh auto;
   position: relative;
   z-index: auto;
 }

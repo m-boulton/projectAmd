@@ -1,428 +1,149 @@
-[
-    {
-        "link": "/product.html?p=ryzen",
-        "title": "Ryzen",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
+{
+    "product": "ryzen",
+    "insertId": "content",
+    "content": {
+        "tag": "div",
+        "attributes": {
+            "id": "contentInsert"
+        },
+        "children": [
+            {
+                "tag": "span",
+                "attributes": {
+                    "id": "productHeader"
+                },
+                "children": [
+                    {
+                        "tag": "img",
+                        "attributes": {
+                            "src": "/img/products/648625-vermeer-black-chip-render-1260x709_2.webp",
+                            "alt": "Product Header Image",
+                            "id": "productHeaderImage"
+                        }
+                    },
+                    {
+                        "tag": "h2",
+                        "attributes": {
+                            "id": "productHeaderTitle"
+                        },
+                        "value": "The Fastest in the Game"
+                    },
+                    {
+                        "tag": "h4",
+                        "attributes": {
+                            "id": "productHeaderDescription"
+                        },
+                        "value": "Introducing the AMD Ryzen™ 5000 Series Desktop Processors"
+                    }
+                ]
             },
-            "features": [
-                {
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "overview"
                 },
-                {
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ],
-            "models": [
-                {
-                    "name": "5600X"
-                },
-                {
-                    "name": "5700X"
-                },
-                {
-                    "name": "5800X"
-                },
-                {
-                    "name": "5900X"
-                },
-                {
-                    "name": "5950X"
-                }
-            ]
-        }
-    },
-    {
-        "link": "/product.html?p=threadripper",
-        "title": "Threadripper",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
+                "children": [
+                    {
+                        "tag": "p",
+                        "attributes": {
+                            "id": "overviewParagraph"
+                        },
+                        "value": "When you have the world’s most advanced processor architecture2 for gamers and content creators, the possibilities are endless. Whether you are playing the latest games, designing the next skyscraper, or crunching data, you need a powerful processor that can handle it all—and more. Hands down, the AMD Ryzen™ 5000 Series desktop processors set the bar for gamers and artists alike."
+                    }
+                ]
             },
-            "features": [
-                {
-                    "id": 0,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "features"
                 },
-                {
-                    "id": 1,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ],
-            "models": []
-        }
-    },
-    {
-        "link": "/product.html?p=ryzen-graphics",
-        "title": "Ryzen with Graphics",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
-            },
-            "features": [
-                {
-                    "id": 0,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 1,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ],
-            "models": []
-        }
-    },
-    {
-        "link": "/product.html?p=athlon",
-        "title": "Athlon",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
-            },
-            "features": [
-                {
-                    "id": 0,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 1,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ],
-            "models": []
-        }
-    },
-    {
-        "link": "/product.html?p=ryzen-pro",
-        "title": "Ryzen Pro",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
-            },
-            "features": [
-                {
-                    "id": 0,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 1,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ],
-            "models": []
-        }
-    },
-    {
-        "link": "/product.html?p=athlon-pro",
-        "title": "Athlon Pro",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
-            },
-            "features": [
-                {
-                    "id": 0,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 1,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ],
-            "models": []
-        }
-    },
-    {
-        "link": "/product.html?p=rx-6000",
-        "title": "Radeon RX 6000 Series",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
-            },
-            "features": [
-                {
-                    "id": 0,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 1,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ],
-            "models": []
-        }
-    },
-    {
-        "link": "/product.html?p=rx-5000",
-        "title": "Radeon RX 5000 Series",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
-            },
-            "features": [
-                {
-                    "id": 0,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 1,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ],
-            "models": []
-        }
-    },
-    {
-        "link": "/product.html?p=rx-vega",
-        "title": "Radeon RX Vega Series",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
-            },
-            "features": [
-                {
-                    "id": 0,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 1,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ],
-            "models": []
-        }
-    },
-    {
-        "link": "/product.html?p=rx-500",
-        "title": "Radeon RX 500 Series",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
-            },
-            "features": [
-                {
-                    "id": 0,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 1,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ],
-            "models": []
-        }
-    },
-    {
-        "link": "/product.html?p=about",
-        "title": "About Us",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
-            },
-            "features": [
-                {
-                    "id": 0,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 1,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ]
-        }
-    },
-    {
-        "link": "/product.html?p=contact",
-        "title": "Contact Us",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
-            },
-            "features": [
-                {
-                    "id": 0,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 1,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ]
-        }
-    },
-    {
-        "link": "/index.html",
-        "title": "Home",
-        "content": {
-            "overview": {
-                "overviewHeader": "",
-                "overviewParagraph": "",
-                "overviewImage": ""
-            },
-            "features": [
-                {
-                    "id": 0,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 1,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "",
-                    "paragraph": "",
-                    "image": ""
-                }
-            ]
-        }
+                "children": [
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItems"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/648625-farcry6-key-art-monitor-1260x709_1.webp",
+                                    "alt": "First Feature",
+                                    "id": "firstFeature"
+                                }
+                            },
+                            {
+                                "tag": "h2",
+                                "value": "The Fastest in the Game"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "Whether gaming or creating, AMD Ryzen™ processors offer ultimate performance."
+                            },
+                            {
+                                "tag": "p",
+                                "value": "AMD Ryzen™ 5000 Series processors power the next generation of demanding games, providing one of a kind immersive experiences and dominate any multithreaded task like 3D and video rendering3, and software compiling."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItems"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/616656-amd-ryzen-embossed-cip-left-angle-1260x709_1.webp",
+                                    "alt": "second Feature",
+                                    "id": "secondFeature"
+                                }
+                            },
+                            {
+                                "tag": "h2",
+                                "value": "The Latest Technologies"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "AMD Ryzen™ processors have all the best features to keep you in the game."
+                            },
+                            {
+                                "tag": "p",
+                                "value": "With great processing power comes the bleeding-edge technologies to support. All AMD Ryzen™ 5000 Series processors come with a full suite of technologies designed to elevate your PC’s processing power including Precision Boost 2, Precision Boost Overdrive4 and PCIe® 4.0."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItems"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/616656-amd-motherboard-right-angle1260x709_1.webp",
+                                    "alt": "third Feature",
+                                    "id": "thirdFeature"
+                                }
+                            },
+                            {
+                                "tag": "h2",
+                                "value": "Build with Confidence"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "AMD Ryzen™ processors are easy to configure and easy to customize."
+                            },
+                            {
+                                "tag": "p",
+                                "value": "Not only are these processors drop-in ready on 500 series motherboards with a simple BIOS update, you can easily tweak and tune your processor with Ryzen™ Master and AMD StoreMI.<br><br>                                BIOS updates supporting the AMD Ryzen™ 5000 Series desktop processors on AMD 400 Series chipsets are expected to be available starting January 2021; exact availability will vary by manufacturer and motherboard model."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
-]
+}

@@ -3,7 +3,6 @@ function attributes(object) {
   for (const [key, value] of Object.entries(object)) {
     array.push(`${key}="${value}"`);
   }
-
   return array.join(" ");
 }
 

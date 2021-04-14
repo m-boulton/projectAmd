@@ -11,11 +11,10 @@ import {
 // Event handlers for document loading
 
 document.addEventListener("DOMContentLoaded", async () => {
-  titleSetter();
+  const product = await titleSetter();
+  contentLoader(product);
   navInitiator("header");
   await navInitiator("sideNav");
-  // documentLoader();
-  // contentLoader();
   // specLoader();
 
   // Event handlers for click events

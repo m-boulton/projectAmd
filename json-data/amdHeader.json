@@ -220,7 +220,8 @@
                                     {
                                         "tag": "a",
                                         "attributes": {
-                                            "class": "header-nav-items"
+                                            "class": "header-nav-items",
+                                            "href": "/?p=about"
                                         },
                                         "value": "About Us"
                                     }
@@ -235,7 +236,8 @@
                                     {
                                         "tag": "a",
                                         "attributes": {
-                                            "class": "header-nav-items"
+                                            "class": "header-nav-items",
+                                            "href": "/?p=contact"
                                         },
                                         "value": "Contact"
                                     }
