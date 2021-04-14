@@ -28,10 +28,10 @@ function iterateObject(item) {
   return `<${item.tag}>${innerHtml}</${item.tag}>`;
 }
 
-const domBuilder = (target, objData) => {
+const domBuilder = (targetInsert, objData) => {
   let insert = null;
-  if (target) {
-    insert = target;
+  if (targetInsert) {
+    insert = targetInsert;
   } else {
     insert = objData.insertId;
   }

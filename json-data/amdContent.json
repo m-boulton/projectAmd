@@ -10,39 +10,31 @@
             {
                 "tag": "span",
                 "attributes": {
-                    "id": "productHeader"
+                    "id": "productOverview"
                 },
                 "children": [
                     {
                         "tag": "img",
                         "attributes": {
                             "src": "/img/products/648625-vermeer-black-chip-render-1260x709_2.webp",
-                            "alt": "Product Header Image",
-                            "id": "productHeaderImage"
+                            "alt": "Product Overview Image",
+                            "id": "productOverviewImage"
                         }
                     },
                     {
                         "tag": "h2",
                         "attributes": {
-                            "id": "productHeaderTitle"
+                            "id": "productOverviewTitle"
                         },
                         "value": "The Fastest in the Game"
                     },
                     {
                         "tag": "h4",
                         "attributes": {
-                            "id": "productHeaderDescription"
+                            "id": "productOverviewDescription"
                         },
                         "value": "Introducing the AMD Ryzen™ 5000 Series Desktop Processors"
-                    }
-                ]
-            },
-            {
-                "tag": "section",
-                "attributes": {
-                    "id": "overview"
-                },
-                "children": [
+                    },
                     {
                         "tag": "p",
                         "attributes": {
@@ -61,7 +53,7 @@
                     {
                         "tag": "article",
                         "attributes": {
-                            "class": "featuresItems"
+                            "class": "featuresItem"
                         },
                         "children": [
                             {
@@ -73,7 +65,7 @@
                                 }
                             },
                             {
-                                "tag": "h2",
+                                "tag": "h3",
                                 "value": "The Fastest in the Game"
                             },
                             {
@@ -89,7 +81,7 @@
                     {
                         "tag": "article",
                         "attributes": {
-                            "class": "featuresItems"
+                            "class": "featuresItem"
                         },
                         "children": [
                             {
@@ -101,7 +93,7 @@
                                 }
                             },
                             {
-                                "tag": "h2",
+                                "tag": "h3",
                                 "value": "The Latest Technologies"
                             },
                             {
@@ -117,7 +109,7 @@
                     {
                         "tag": "article",
                         "attributes": {
-                            "class": "featuresItems"
+                            "class": "featuresItem"
                         },
                         "children": [
                             {
@@ -129,7 +121,7 @@
                                 }
                             },
                             {
-                                "tag": "h2",
+                                "tag": "h3",
                                 "value": "Build with Confidence"
                             },
                             {

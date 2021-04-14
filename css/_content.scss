@@ -1,65 +1,76 @@
-#content {
+#contentInsert {
   display: block;
-  width: 100%;
+  margin: 2rem;
+  width: calc(100% - 4rem);
   height: calc(100% - 10vh);
   position: relative;
-  h2 {
-    font-size: 2rem;
-    font-weight: 700;
+  #productOverview {
+    display: grid;
+    grid-template-areas:
+      "image"
+      "description"
+      "subheader";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    position: relative;
+    text-align: center;
+    img {
+      grid-area: image;
+      display: block;
+      width: 100%;
+    }
+    h2 {
+      grid-area: description;
+      display: block;
+      width: 100%;
+      margin: 1rem auto;
+      font-size: 2.3rem;
+      font-weight: 700;
+    }
+    h4 {
+      grid-area: subheader;
+      display: block;
+      width: 100%;
+      margin: 1rem auto;
+      font-size: 1.5rem;
+      font-weight: 600;
+      line-height: 1.8rem;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
   }
-  p {
-    font-size: 1.5rem;
-  }
-}
-.overview {
-  margin: 4rem auto;
-  display: grid;
-  grid-template-areas:
-    "image"
-    "description";
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  align-items: center;
-  position: relative;
-}
-.overview-image {
-  grid-area: image;
-  display: block;
-  width: 100%;
-}
-.overview-description {
-  grid-area: description;
-  display: block;
-  width: 100%;
-}
-.overview-header {
-  margin: 3rem;
-}
-.overview-paragraph {
-  margin: 3rem;
 }
 // Features styling
-.features {
-  margin: 4rem auto;
+#features {
   display: grid;
-  grid-template-areas:
-    "feature-01-image"
-    "feature-01-description"
-    "feature-02-image"
-    "feature-02-description"
-    "feature-03-image"
-    "feature-03-description";
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  align-items: center;
+  text-align: center;
   position: relative;
   article {
     width: 100%;
-    h2 {
-      margin: 3rem;
+    margin: 4rem auto;
+    h3 {
+      display: block;
+      width: 100%;
+      margin: 1rem auto;
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 3rem;
+    }
+    h5 {
+      display: block;
+      width: 100%;
+      margin: 1rem auto;
+      font-size: 1.3rem;
+      font-weight: 600;
+      line-height: 1.8rem;
     }
     p {
-      margin: 3rem;
+      font-size: 1rem;
+      line-height: 1.5rem;
     }
   }
   img {

@@ -7,8 +7,13 @@ async function contentLoader(product) {
   // fetch from db content
   const pageContent = await getApiContent(product);
   // send url target and obj to dombiulder
-
-  domBuilder(pageContent.insertId, pageContent);
+  if (pageContent == null) {
+    console.log(
+      `There isn't any content for this page on the database : ${product}`
+    );
+  } else {
+    domBuilder(pageContent.insertId, pageContent);
+  }
 }
 
 export default contentLoader;
