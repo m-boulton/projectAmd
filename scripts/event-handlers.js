@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", async (e) => {
   navInitiator("header");
   await navInitiator("sideNav");
   // specLoader();
+  console.log("assets finished loading");
 });
 document.addEventListener("load", (e) => {
   // Event handlers for click events
@@ -41,4 +42,5 @@ document.addEventListener("load", (e) => {
   document.getElementById("toggleNavButton").addEventListener("click", () => {
     toggleNavSideBar();
   });
+  console.log("event listeners loaded");
 });
