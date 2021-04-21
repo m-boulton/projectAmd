@@ -1,0 +1,22 @@
+{
+    "target": "5800X",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model Number",
+            "description": "Ryzen™ 7 5800X"
+        },
+        {
+            "header": "Number of Cores",
+            "description": "8"
+        },
+        {
+            "header": "Number of Threads",
+            "description": "16"
+        },
+        {
+            "header": "Base Clock",
+            "description": "3.8 Ghz"
+        }
+    ]
+}

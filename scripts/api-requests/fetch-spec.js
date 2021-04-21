@@ -1,22 +1,22 @@
 import { apiUrl } from "../global-variables.js";
 
-async function getApiSpec(specId) {
-  // const getBody = { ...optionsBody, id: specId };
-  // const getOptions = { ...options, body: JSON.stringify(getBody) };
+async function getApiSpec(query, location) {
   try {
-    const res = await fetch(`${apiUrl}/spec`, getOptions);
+    const res = await fetch(
+      `${apiUrl}/amd/spec?target=${query}&location=${location}`
+    );
     const apiRes = await res.json();
-    if (apiRes.body.error) {
+    if (apiRes.message == "Error" || apiRes.message == "Empty") {
       console.log(
-        `The mboulton.com server returned an error ${apiRes.body.errorData}`
+        `The mboulton.com server returned an error : ${apiRes.error} : ${query}`
       );
-      return apiRes.body.message;
+      return apiRes.message;
     } else {
-      return apiRes.body;
+      return apiRes.data;
     }
   } catch (error) {
     console.log(
-      `There was an error requesting ${specId} data from mboulton.com${error}`
+      `There was an error requesting ${query} data from mboulton.com${error}`
     );
   }
 }

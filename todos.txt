@@ -1,4 +1,7 @@
 #FIXME
+
+fix document loading event handlers
+
 passing target to localstorage
 
 #TODO
@@ -13,7 +16,6 @@ building navBuilder functions
 //CURR 
 
 create dom content loading functions for,
-content,
 spec,
 footer
 

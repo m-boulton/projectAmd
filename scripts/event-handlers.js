@@ -2,6 +2,7 @@ import navInitiator from "./loaders/nav-initiator.js";
 import contentLoader from "./loaders/content-loader.js";
 import specLoader from "./loaders/spec-loader.js";
 import titleSetter from "./title-setter.js";
+import modelButtons from "./click-handlers.js";
 import {
   toggleNavSideBar,
   toggleNavItem,
@@ -10,13 +11,19 @@ import {
 
 document.addEventListener("DOMContentLoaded", async () => {
   // Event handlers for document loading
-  const product = await titleSetter();
-  contentLoader(product);
+  const query = await titleSetter();
+  contentLoader(query);
   navInitiator("header");
   await navInitiator("sideNav");
-  // specLoader();
+  const loc = await specLoader(query);
+  // specLoader(query, loc);
 
   // Event handlers for click events
+
+  document
+    .getElementById("modelSelect")
+    .addEventListener("click", modelButtons, false);
+
   // Closes all nav panes and then opens the targeted element
   document
     .getElementById("navHeaderProcessors")

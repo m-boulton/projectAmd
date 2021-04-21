@@ -1,0 +1,12 @@
+{
+    "target": "ryzen",
+    "insertId": "modelSelect",
+    "models": [
+        "5950X",
+        "5900X",
+        "5800X",
+        "5700X",
+        "5600X",
+        "5500X"
+    ]
+}

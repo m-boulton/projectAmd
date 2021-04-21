@@ -135,6 +135,38 @@
                         ]
                     }
                 ]
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "specifications"
+                },
+                "children": [
+                    {
+                        "tag": "h3",
+                        "value": "Specifications"
+                    },
+                    {
+                        "tag": "div",
+                        "attributes": {
+                            "id": "modelSelect"
+                        }
+                    },
+                    {
+                        "tag": "table",
+                        "attributes": {
+                            "id": "specificationsTable"
+                        },
+                        "children": [
+                            {
+                                "tag": "tbody",
+                                "attributes": {
+                                    "id": "specificationsTableBody"
+                                }
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }
