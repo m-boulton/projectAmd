@@ -1,66 +1,66 @@
 {
-    "target": "",
+    "target": "5950X",
     "insertId": "specificationsTableBody",
     "items": [
         {
             "header": "Model ",
-            "description": ""
+            "description": "Ryzen 9 5950X"
         },
         {
             "header": "Release date and price",
-            "description": ""
+            "description": "November 5, 2020 US $799 "
         },
         {
             "header": "Fabrication",
-            "description": ""
+            "description": "TSMC 7FF"
         },
         {
             "header": "Chiplets",
-            "description": ""
+            "description": "2 × CCD 1 × I/O"
         },
         {
             "header": "Cores (threads)",
-            "description": ""
+            "description": "16 (32)"
         },
         {
             "header": "Core Config",
-            "description": ""
+            "description": "2 × 8 "
         },
         {
             "header": "Base Clock",
-            "description": ""
+            "description": "3.4 "
         },
         {
             "header": "Boost Clock",
-            "description": ""
+            "description": "4.9 "
         },
         {
             "header": "L1 Cache",
-            "description": ""
+            "description": "32 KB data 32 KB inst. per core"
         },
         {
             "header": "L2 Cache",
-            "description": ""
+            "description": "512 KB per core"
         },
         {
             "header": "L3 Cache",
-            "description": ""
+            "description": "32 MB per CCD"
         },
         {
             "header": "Socket",
-            "description": ""
+            "description": "AM4"
         },
         {
             "header": "PCIe Lanes",
-            "description": ""
+            "description": "24"
         },
         {
             "header": "Memory Support",
-            "description": ""
+            "description": "DDR4-3200 dual-channel"
         },
         {
             "header": "TDP",
-            "description": ""
+            "description": "105 W"
         }
     ]
 }

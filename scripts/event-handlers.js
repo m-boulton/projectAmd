@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   navInitiator("header");
   await navInitiator("sideNav");
   const loc = await specLoader(query);
-  // specLoader(query, loc);
+  specLoader(loc, "item");
 
   // Event handlers for click events
 

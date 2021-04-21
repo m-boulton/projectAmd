@@ -80,46 +80,51 @@
 }
 // Specifications chart styling
 table {
+  margin-top: 1rem;
   justify-content: left;
   width: 100%;
   tbody {
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.3);
     tr {
       th {
-        background-color: rgba(0, 0, 0, 0.6);
         text-align: left;
         padding: 1rem;
       }
       td {
-        background-color: rgba(0, 0, 0, 0.5);
         padding: 1rem;
       }
     }
   }
 }
-.specifications {
+#specifications {
   font-size: 2rem;
   width: 100%;
   h3 {
     width: calc(100% - 2rem);
     padding: 0.7em 1rem;
     font-size: 2.5rem;
-    background-color: rgba(0, 0, 0, 0.9);
     color: orangered;
   }
 }
-.model-select {
+#model-select {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
   padding-bottom: 0.7em;
   font-size: 2.5rem;
   background-color: rgba(0, 0, 0, 0.9);
 }
-.model-select-button {
+.model-button {
+  margin: 0.2rem;
+  text-align: center;
   font-size: 1.5rem;
   padding: 0.8em;
   color: orangered;
   border: #000000;
   border-radius: 8px;
   background: linear-gradient(145deg, #15191a, #222729);
-  box-shadow: 30px 30px 59px #15191a, -30px -30px 59px #222729;
+  // box-shadow: 30px 30px 59px #15191a, -30px -30px 59px #222729;
 }
 // #FIXME
 // .specifications-table {

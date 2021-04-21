@@ -150,7 +150,6 @@
 
 .header-nav-bar-items {
   text-decoration: none;
-  color: orangered;
 }
 
 .header-nav-bar-items :hover {
@@ -393,51 +392,61 @@
 }
 
 table {
+  margin-top: 1rem;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
   width: 100%;
 }
 
+table tbody {
+  font-size: 1.3rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 table tbody tr th {
-  background-color: rgba(0, 0, 0, 0.6);
   text-align: left;
   padding: 1rem;
 }
 
 table tbody tr td {
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 1rem;
 }
 
-.specifications {
+#specifications {
   font-size: 2rem;
   width: 100%;
 }
 
-.specifications h3 {
+#specifications h3 {
   width: calc(100% - 2rem);
   padding: 0.7em 1rem;
   font-size: 2.5rem;
-  background-color: rgba(0, 0, 0, 0.9);
   color: orangered;
 }
 
-.model-select {
+#model-select {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-bottom: 0.7em;
   font-size: 2.5rem;
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.model-select-button {
+.model-button {
+  margin: 0.2rem;
+  text-align: center;
   font-size: 1.5rem;
   padding: 0.8em;
   color: orangered;
   border: #000000;
   border-radius: 8px;
   background: linear-gradient(145deg, #15191a, #222729);
-  -webkit-box-shadow: 30px 30px 59px #15191a, -30px -30px 59px #222729;
-          box-shadow: 30px 30px 59px #15191a, -30px -30px 59px #222729;
 }
 
 @media only screen and (min-width: 768px) {
