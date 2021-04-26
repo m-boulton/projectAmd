@@ -5,7 +5,7 @@
 @import "./footer";
 html {
   font-size: 62.5%;
-  background-color: $primary-background-color;
+  background-color: rgb(10, 10, 10);
   color: $primary-font-color;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,26 +13,24 @@ html {
   text-transform: uppercase;
 }
 body {
-  width: 100%;
+  width: auto;
+  height: auto;
 }
 #container {
   display: grid;
   width: auto;
-  height: auto;
   grid-template-areas:
     "header header header"
-    "main main main"
-    "footer footer footer";
+    "main main main";
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 7vh auto;
-  position: relative;
   z-index: auto;
 }
 #main {
   grid-area: main;
   width: 100%;
-  max-width: 1600px;
   min-height: calc(100vh - 7vh);
+  max-width: 1600px;
   margin: auto;
   position: relative;
 }

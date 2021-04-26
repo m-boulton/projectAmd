@@ -1,14 +1,7 @@
-#content {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
 #contentInsert {
   display: block;
   margin: 2rem;
   width: calc(100% - 4rem);
-  height: calc(100% - 7vh);
   position: relative;
   #productOverview {
     display: grid;
@@ -30,7 +23,7 @@
       display: block;
       width: 100%;
       margin: 1rem auto;
-      font-size: 2.3rem;
+      font-size: 3rem;
       font-weight: 700;
     }
     h4 {
@@ -38,23 +31,25 @@
       display: block;
       width: 100%;
       margin: 1rem auto;
-      font-size: 1.5rem;
+      font-size: 2.5rem;
       font-weight: 600;
-      line-height: 1.8rem;
+      line-height: 2.8rem;
     }
     p {
-      font-size: 1.2rem;
-      line-height: 1.5rem;
+      font-size: 1.8rem;
+      line-height: 2rem;
     }
   }
 }
 
 #errorPage {
-  position: absolute;
-  width: 100%;
+  display: block;
+  margin: 0 2rem;
+  padding-top: 7vh;
+  height: calc(100vh - 14vh);
+  width: calc(100% - 4rem);
+  position: relative;
   text-align: center;
-  top: 50%;
-  transform: translate(0, -50%);
   #errorHeader {
     color: orangered;
     font-size: 8vw;
@@ -87,21 +82,21 @@
       display: block;
       width: 100%;
       margin: 1rem auto;
-      font-size: 2rem;
+      font-size: 3rem;
       font-weight: 700;
-      line-height: 3rem;
+      line-height: 4rem;
     }
     h5 {
       display: block;
       width: 100%;
       margin: 1rem auto;
-      font-size: 1.3rem;
+      font-size: 2rem;
       font-weight: 600;
-      line-height: 1.8rem;
+      line-height: 2.5rem;
     }
     p {
-      font-size: 1rem;
-      line-height: 1.5rem;
+      font-size: 1.5rem;
+      line-height: 2rem;
     }
   }
   img {

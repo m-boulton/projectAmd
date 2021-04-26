@@ -6,6 +6,9 @@
   top: 0;
   z-index: 95;
   background-color: rgba(0, 0, 0, 0.9);
+  border-bottom: 0.5rem solid;
+  border-image-source: linear-gradient(90deg, red, orangered);
+  border-image-slice: 1;
 }
 #headerInsert {
   display: grid;
@@ -13,9 +16,8 @@
   grid-template-rows: 7vh;
   grid-template-areas: "logo menu";
   align-items: center;
-  border-bottom: 0.5rem solid;
-  border-image-source: linear-gradient(90deg, red, orangered);
-  border-image-slice: 1;
+  max-width: 1400px;
+  margin: 0 auto;
 
   .logo {
     grid-area: logo;

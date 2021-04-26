@@ -2,23 +2,21 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  top: 0;
 }
 #sideNavInsert {
   display: none;
   font-family: Helvetica;
-  position: sticky;
-  top: 10vh;
-  right: 0;
-  bottom: 0;
   z-index: 100;
   width: 100%;
-  height: calc(90vh - 0.5rem);
+  top: calc(7vh + 0.5rem);
+  position: sticky;
+  height: calc(93vh - 0.5rem);
   background-color: rgba(0, 0, 0, 0.8);
   text-align: left;
   ul {
     li {
       font-size: 3rem;
-      padding: 0.4em;
       i {
         font-size: 1.5rem;
         margin: 1rem;
@@ -33,6 +31,7 @@
             display: inline-block;
             height: 100%;
             width: 100%;
+            padding: 0.4em;
             color: rgb(255, 51, 0);
           }
         }
@@ -58,7 +57,7 @@
   }
 }
 .side-nav-list {
-  margin: 3rem;
+  margin: 0 3rem;
   padding-top: 3rem;
 }
 .nav-list-processors,
@@ -75,6 +74,7 @@
 .side-nav-items {
   color: orangered;
   cursor: pointer;
+  padding: 0.4em 0;
 }
 
 @media only screen and (min-width: 768px) {

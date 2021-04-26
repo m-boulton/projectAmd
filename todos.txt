@@ -14,14 +14,21 @@ building navBuilder functions
 create dom content loading functions for,
 spec,
 footer
-
-//CURR 
-
 build 404 page
 
 
-//NEXT
+//CURR 
+
+fix background image scrolling issue
+
 build contact form with email output
 
+//NEXT
 
+style for desktop views
 
+build full product lines in db
+
+build random product loading on home page
+
+migrate to amd.mboulton.com
