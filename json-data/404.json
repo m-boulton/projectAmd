@@ -1,0 +1,68 @@
+{
+    "product": "404",
+    "insertId": "content",
+    "content": {
+        "tag": "div",
+        "attributes": {
+            "id": "contentInsert"
+        },
+        "children": [
+            {
+                "tag": "span",
+                "attributes": {
+                    "id": "errorPage"
+                },
+                "children": [
+                    {
+                        "tag": "h1",
+                        "attributes": {
+                            "id": "errorHeader"
+                        },
+                        "text": "Oops..."
+                    },
+                    {
+                        "tag": "h2",
+                        "attributes": {
+                            "id": "errorSubHeader"
+                        },
+                        "text": "The page you're trying to reach doesn't exist."
+                    },
+                    {
+                        "tag": "p",
+                        "attributes": {
+                            "id": "errorParagraph"
+                        },
+                        "children": [
+                            {
+                                "tag": "p",
+                                "value": "Go back to "
+                            },
+                            {
+                                "tag": "a",
+                                "attributes": {
+                                    "href": "/"
+                                },
+                                "value": "AMD Home "
+                            },
+                            {
+                                "tag": "P",
+                                "value": "or "
+                            },
+                            {
+                                "tag": "a",
+                                "attributes": {
+                                    "href": "/?p=contact"
+                                },
+                                "value": "Contact us "
+                            },
+                            {
+                                "tag": "p",
+                                "value": "about the problem."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

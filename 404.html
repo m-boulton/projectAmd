@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-      $(function () {
-        $("head").load("/pages/head-scripts.html");
-      });
-    </script>
+    <title id="title-name"></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="/img/ico/amd-red.png"
+      type="image/x-icon"
+      color="orange"
+    />
   </head>
+  <body>
+    <div id="container">
+      <header id="header"></header>
+      <div
+        id="main"
+        style="
+          background-image: url(/img/background-polygon.jpg);
+          background-position: center;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: auto 100%;
+        "
+      >
+        <div id="sideNav"></div>
+        <div id="errorPage">
+          <h1 id="errorHeader">Oops...</h1>
+          <h2 id="errorSubHeader">
+            The page you're trying to reach doesn't exist.
+          </h2>
+          <p id="errorParagraph">
+            Go back to <a href="/">AMD Home</a> or
+            <a href="/?p=contact">Contact us</a> about the problem.
+          </p>
+        </div>
+      </div>
+      <footer id="footer"></footer>
+    </div>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
 </html>

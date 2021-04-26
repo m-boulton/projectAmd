@@ -32,13 +32,9 @@ body {
   grid-area: main;
   width: 100%;
   max-width: 1600px;
-  min-height: calc(100vh - 10vh);
+  min-height: calc(100vh - 7vh);
   margin: auto;
   position: relative;
-  background-image: url(/img/background-blow-out.jpg);
-  background-position: center top;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 @media only screen and (min-width: 768px) {
 }

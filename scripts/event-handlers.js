@@ -19,11 +19,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   specLoader(loc, "item");
 
   // Event handlers for click events
-
-  document
-    .getElementById("modelSelect")
-    .addEventListener("click", modelButtons, false);
-
+  if (loc) {
+    document
+      .getElementById("modelSelect")
+      .addEventListener("click", modelButtons, false);
+  }
   // Closes all nav panes and then opens the targeted element
   document
     .getElementById("navHeaderProcessors")

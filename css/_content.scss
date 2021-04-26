@@ -1,8 +1,14 @@
+#content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
 #contentInsert {
   display: block;
   margin: 2rem;
   width: calc(100% - 4rem);
-  height: calc(100% - 10vh);
+  height: calc(100% - 7vh);
   position: relative;
   #productOverview {
     display: grid;
@@ -39,6 +45,31 @@
     p {
       font-size: 1.2rem;
       line-height: 1.5rem;
+    }
+  }
+}
+
+#errorPage {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translate(0, -50%);
+  #errorHeader {
+    color: orangered;
+    font-size: 8vw;
+  }
+  #errorSubHeader {
+    margin: 2vw auto;
+    font-size: 4vw;
+  }
+  #errorParagraph {
+    font-size: 3vw;
+
+    a {
+      text-decoration: none;
+      color: orangered;
+      cursor: pointer;
     }
   }
 }

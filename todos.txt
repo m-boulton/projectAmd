@@ -2,7 +2,6 @@
 
 fix document loading event handlers
 
-passing target to localstorage
 
 #TODO
 build jwt token authentication for api calls ?
@@ -12,17 +11,17 @@ build jwt token authentication for api calls ?
 added target query to nav api lookup, 
 event listeners with promises for multiple api calls
 building navBuilder functions
-
-//CURR 
-
 create dom content loading functions for,
 spec,
 footer
+
+//CURR 
+
+build 404 page
 
 
 //NEXT
 build contact form with email output
 
-build 404 page
 
 
