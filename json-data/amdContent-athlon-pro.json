@@ -59,7 +59,7 @@
                             {
                                 "tag": "video",
                                 "attributes": {
-                                    "src": "/vid/products/Security_Layer.webm",
+                                    "src": "/vid/Security_Layer.webm",
                                     "name": "media",
                                     "repeat": "replay",
                                     "poster": "/",
@@ -92,7 +92,7 @@
                             {
                                 "tag": "video",
                                 "attributes": {
-                                    "src": "/vid/products/memory_guard.mp4",
+                                    "src": "/vid/memory_guard.mp4",
                                     "name": "media",
                                     "repeat": "replay",
                                     "poster": "/",
