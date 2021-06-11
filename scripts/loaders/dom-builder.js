@@ -16,7 +16,7 @@ function iterateObject(item) {
       return `<${item.tag} ${attributes(item.attributes)}/>`;
     }
     if (item.tag == "video") {
-      return `<video ${attributes(item.attributes)}></video>`;
+      return `<video ${attributes(item.attributes)}>${innerHtml}</video>`;
     }
     if (item.tag == "source") {
       return `<source ${attributes(item.attributes)}>`;
