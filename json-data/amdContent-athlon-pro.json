@@ -59,15 +59,22 @@
                             {
                                 "tag": "video",
                                 "attributes": {
-                                    "src": "/vid/Security_Layer.webm",
                                     "name": "media",
                                     "repeat": "replay",
                                     "poster": "/",
                                     "muted": "",
-                                    "playsinlinde": "",
+                                    "playsinline": "",
                                     "alt": "First Feature",
                                     "id": "firstFeature"
-                                }
+                                },
+                                "children": [
+                                    {
+                                        "tag": "source",
+                                        "attributes": {
+                                            "src": "/vid/Security_Layer.webm"
+                                        }
+                                    }
+                                ]
                             },
                             {
                                 "tag": "h3",
@@ -92,15 +99,22 @@
                             {
                                 "tag": "video",
                                 "attributes": {
-                                    "src": "/vid/memory_guard.mp4",
                                     "name": "media",
                                     "repeat": "replay",
                                     "poster": "/",
                                     "muted": "",
-                                    "playsinlinde": "",
+                                    "playsinline": "",
                                     "alt": "second Feature",
                                     "id": "secondFeature"
-                                }
+                                },
+                                "children": [
+                                    {
+                                        "tag": "source",
+                                        "attributes": {
+                                            "src": "/vid/memory_guard.mp4"
+                                        }
+                                    }
+                                ]
                             },
                             {
                                 "tag": "h3",

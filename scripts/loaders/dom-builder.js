@@ -18,6 +18,9 @@ function iterateObject(item) {
     if (item.tag == "video") {
       return `<video ${attributes(item.attributes)}></video>`;
     }
+    if (item.tag == "source") {
+      return `<source ${attributes(item.attributes)}>`;
+    }
     if (item.hasOwnProperty("text")) {
       return `<${item.tag} ${attributes(item.attributes)}>${
         item.text
