@@ -19,7 +19,6 @@ build 404 page
 
 //CURR 
 
-fix background image scrolling issue
 
 build contact form with email output
 
