@@ -13,7 +13,10 @@ function iterateObject(item) {
 
   if (item.hasOwnProperty("attributes")) {
     if (item.tag == "img") {
-      return `<img ${attributes(item.attributes)}/>`;
+      return `<${item.tag} ${attributes(item.attributes)}/>`;
+    }
+    if (item.tag == "video") {
+      return `<video ${attributes(item.attributes)}></video>`;
     }
     if (item.hasOwnProperty("text")) {
       return `<${item.tag} ${attributes(item.attributes)}>${

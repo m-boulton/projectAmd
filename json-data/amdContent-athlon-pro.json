@@ -57,9 +57,14 @@
                         },
                         "children": [
                             {
-                                "tag": "img",
+                                "tag": "video",
                                 "attributes": {
-                                    "src": "/img/products/Security_Layer.webm",
+                                    "src": "/vid/products/Security_Layer.webm",
+                                    "name": "media",
+                                    "repeat": "replay",
+                                    "poster": "/",
+                                    "muted": "",
+                                    "playsinlinde": "",
                                     "alt": "First Feature",
                                     "id": "firstFeature"
                                 }
@@ -85,9 +90,14 @@
                         },
                         "children": [
                             {
-                                "tag": "img",
+                                "tag": "video",
                                 "attributes": {
-                                    "src": "/img/products/memory_guard.mp4",
+                                    "src": "/vid/products/memory_guard.mp4",
+                                    "name": "media",
+                                    "repeat": "replay",
+                                    "poster": "/",
+                                    "muted": "",
+                                    "playsinlinde": "",
                                     "alt": "second Feature",
                                     "id": "secondFeature"
                                 }
