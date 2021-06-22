@@ -1,11 +1,7 @@
 #header {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
   grid-area: header;
   height: 7vh;
   width: 100%;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 95;
@@ -16,69 +12,49 @@
 }
 
 #headerInsert {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto 6rem;
-      grid-template-columns: auto 6rem;
-  -ms-grid-rows: 7vh;
-      grid-template-rows: 7vh;
-      grid-template-areas: "logo menu";
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  grid-template-columns: auto 6rem;
+  grid-template-rows: 7vh;
+  grid-template-areas: "logo menu";
+  align-items: center;
   max-width: 1400px;
   margin: 0 auto;
 }
-
 #headerInsert .logo {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: logo;
   display: block;
   padding: 1.5rem;
 }
-
 #headerInsert .logo img {
   max-height: 4vh;
   display: block;
 }
-
 #headerInsert .header-nav-bar {
   grid-area: nav;
   display: none;
   margin-left: 5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   height: 100%;
 }
-
 #headerInsert .header-nav-bar .header-nav-bar-items {
   height: 7vh;
 }
-
 #headerInsert .header-nav-bar ul {
   width: 100%;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
-
 #headerInsert .header-nav-bar ul li {
   position: relative;
   font-size: 2rem;
 }
-
 #headerInsert .header-nav-bar ul li i {
   font-size: 2.5rem;
 }
-
 #headerInsert .header-nav-bar ul li a {
   display: inline-block;
   height: 100%;
   width: 100%;
 }
-
 #headerInsert .header-nav-bar ul li ul {
   margin: auto;
   position: absolute;
@@ -86,19 +62,15 @@
   background-color: black;
   width: 100%;
 }
-
 #headerInsert .header-nav-bar ul li ul :hover {
   background-color: orangered;
-  -webkit-transition: ease, 0.5s;
   transition: ease, 0.5s;
 }
-
 #headerInsert .header-nav-bar ul li ul li {
   margin: auto;
   line-height: 3rem;
   position: relative;
 }
-
 #headerInsert .header-nav-bar ul li ul li a {
   color: #b2bec3;
   padding: 1rem;
@@ -110,8 +82,6 @@
 }
 
 .toggle-header-nav-button {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
   grid-area: menu;
   font-size: 2rem;
   height: 5rem;
@@ -122,7 +92,6 @@
   border-radius: 0.8rem;
   cursor: pointer;
 }
-
 .toggle-header-nav-button i {
   color: #fa7d32;
 }
@@ -134,8 +103,7 @@
 
 #headerProcessorsArrow,
 #headerGraphicsArrow {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 
 .header-nav-links {
@@ -153,11 +121,9 @@
 .header-nav-bar-items {
   text-decoration: none;
 }
-
 .header-nav-bar-items :hover {
   background-color: orangered;
   color: #fff;
-  -webkit-transition: ease, 0.5s;
   transition: ease, 0.5s;
 }
 
@@ -167,27 +133,24 @@
 
 @media only screen and (min-width: 768px) {
   #headerInsert {
-    -ms-grid-columns: 120px auto;
-        grid-template-columns: 120px auto;
-        grid-template-areas: "logo nav";
+    grid-template-columns: 120px auto;
+    grid-template-areas: "logo nav";
   }
   #headerInsert .header-nav-bar {
     display: block;
   }
   #headerInsert .header-nav-bar .header-nav-bar-items {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   #headerInsert .header-nav-bar .header-nav-bar-items li .header-nav-list-processors,
-  #headerInsert .header-nav-bar .header-nav-bar-items li .header-nav-list-graphics {
+#headerInsert .header-nav-bar .header-nav-bar-items li .header-nav-list-graphics {
     display: none;
   }
+
   .toggle-header-nav-button {
     display: none;
   }
 }
-
 #sideNav {
   position: absolute;
   width: 100%;
@@ -201,32 +164,26 @@
   z-index: 100;
   width: 100%;
   top: calc(7vh + 0.5rem);
-  position: -webkit-sticky;
   position: sticky;
   height: calc(93vh - 0.5rem);
   background-color: rgba(0, 0, 0, 0.8);
   text-align: left;
 }
-
 #sideNavInsert ul li {
   font-size: 3rem;
 }
-
 #sideNavInsert ul li i {
   font-size: 1.5rem;
   margin: 1rem;
 }
-
 #sideNavInsert ul li ul {
   margin-top: 2rem;
 }
-
 #sideNavInsert ul li ul li {
   margin: auto;
   line-height: 3rem;
   font-size: 1.5rem;
 }
-
 #sideNavInsert ul li ul li a {
   display: inline-block;
   height: 100%;
@@ -234,24 +191,17 @@
   padding: 0.4em;
   color: #ff3300;
 }
-
 #sideNavInsert .social-media-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: absolute;
   bottom: 1rem;
   width: 100%;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
-
 #sideNavInsert .social-media-links li {
   display: inline-block;
   margin: auto;
 }
-
 #sideNavInsert .social-media-links li a i {
   color: orangered;
   font-size: 2rem;
@@ -266,13 +216,11 @@
 .nav-list-graphics {
   display: none;
 }
-
 .nav-list-processors #processors-arrow,
 .nav-list-processors #graphics-arrow,
 .nav-list-graphics #processors-arrow,
 .nav-list-graphics #graphics-arrow {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 
 .side-nav-links,
@@ -292,37 +240,26 @@
     display: none;
   }
 }
-
 #contentInsert {
   display: block;
   margin: 2rem;
   width: calc(100% - 4rem);
   position: relative;
 }
-
 #contentInsert #productOverview {
-  display: -ms-grid;
   display: grid;
-      grid-template-areas: "image" "description" "subheader";
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
+  grid-template-areas: "image" "description" "subheader";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
   position: relative;
   text-align: center;
 }
-
 #contentInsert #productOverview img {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: image;
   display: block;
   width: 100%;
 }
-
 #contentInsert #productOverview h2 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
   grid-area: description;
   display: block;
   width: 100%;
@@ -330,10 +267,7 @@
   font-size: 3rem;
   font-weight: 700;
 }
-
 #contentInsert #productOverview h4 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
   grid-area: subheader;
   display: block;
   width: 100%;
@@ -342,7 +276,6 @@
   font-weight: 600;
   line-height: 2.8rem;
 }
-
 #contentInsert #productOverview p {
   font-size: 1.8rem;
   line-height: 2rem;
@@ -357,21 +290,17 @@
   position: relative;
   text-align: center;
 }
-
 #errorPage #errorHeader {
   color: orangered;
   font-size: 8vw;
 }
-
 #errorPage #errorSubHeader {
   margin: 2vw auto;
   font-size: 4vw;
 }
-
 #errorPage #errorParagraph {
   font-size: 3vw;
 }
-
 #errorPage #errorParagraph a {
   text-decoration: none;
   color: orangered;
@@ -379,21 +308,16 @@
 }
 
 #features {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
   text-align: center;
   position: relative;
 }
-
 #features article {
   width: 100%;
   margin: 4rem auto;
 }
-
 #features article h3 {
   display: block;
   width: 100%;
@@ -402,7 +326,6 @@
   font-weight: 700;
   line-height: 4rem;
 }
-
 #features article h5 {
   display: block;
   width: 100%;
@@ -411,12 +334,13 @@
   font-weight: 600;
   line-height: 2.5rem;
 }
-
 #features article p {
   font-size: 1.5rem;
   line-height: 2rem;
 }
-
+#features video {
+  width: 100%;
+}
 #features img {
   display: block;
   width: 100%;
@@ -424,22 +348,17 @@
 
 table {
   margin-top: 1rem;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  justify-content: left;
   width: 100%;
 }
-
 table tbody {
   font-size: 1.3rem;
   background-color: rgba(0, 0, 0, 0.3);
 }
-
 table tbody tr th {
   text-align: left;
   padding: 1rem;
 }
-
 table tbody tr td {
   padding: 1rem;
 }
@@ -448,7 +367,6 @@ table tbody tr td {
   font-size: 2rem;
   width: 100%;
 }
-
 #specifications h3 {
   width: calc(100% - 2rem);
   padding: 0.7em 1rem;
@@ -457,13 +375,9 @@ table tbody tr td {
 }
 
 #model-select {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto;
-      grid-template-columns: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  grid-template-columns: auto;
+  align-items: center;
   padding-bottom: 0.7em;
   font-size: 2.5rem;
   background-color: rgba(0, 0, 0, 0.9);
@@ -482,17 +396,15 @@ table tbody tr td {
 
 @media only screen and (min-width: 768px) {
   .overview {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: "image description";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "image description";
   }
+
   .features {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: "feature-01-description feature-01-image" "feature-02-image feature-02-description" "feature-03-description feature-03-image";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "feature-01-description feature-01-image" "feature-02-image feature-02-description" "feature-03-description feature-03-image";
   }
 }
-
 .footer {
   grid-area: footer;
   display: none;
@@ -515,21 +427,15 @@ body {
 }
 
 #container {
-  display: -ms-grid;
   display: grid;
   width: auto;
-      grid-template-areas: "header header header" "main main main";
-  -ms-grid-columns: 2fr 1fr;
-      grid-template-columns: 2fr 1fr;
-  -ms-grid-rows: 7vh auto;
-      grid-template-rows: 7vh auto;
+  grid-template-areas: "header header header" "main main main";
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 7vh auto;
   z-index: auto;
 }
 
 #main {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
   grid-area: main;
   width: 100%;
   min-height: calc(100vh - 7vh);
@@ -537,4 +443,5 @@ body {
   margin: auto;
   position: relative;
 }
+
 /*# sourceMappingURL=style.css.map */
