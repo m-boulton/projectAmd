@@ -1,6 +1,15 @@
 {
   "name": "amd_product_display_website",
   "version": "1.0.0",
+  "keywords": [
+    "2",
+    "html",
+    "javascript",
+    "css",
+    "sass",
+    "webpack",
+    "jest"
+  ],
   "main": "index.js",
   "homepage": "https://amd.mboulton.com/",
   "scripts": {
