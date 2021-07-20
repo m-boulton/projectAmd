@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-vega-64-liquid",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX Vega 64 Liquid Cooled"
+        },
+        {
+            "header": "Release date and price",
+            "description": "August 14, 2017"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "GCN 5th gen Samsung/GloFo 14LPP"
+        },
+        {
+            "header": "Core Config",
+            "description": "4096:256:64 64CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1406"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "359.9"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "90"
+        },
+        {
+            "header": "Processing Power Half/Single/Double",
+            "description": "23036/11518/720"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "HBM2 2048-bit"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "8"
+        },
+        {
+            "header": "Memory Clock/Bandwidth",
+            "description": "1890(MT/s) / 483.8(GB/s)"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 3.0 x16"
+        }
+    ]
+}

@@ -1,0 +1,173 @@
+{
+    "product": "5000-series",
+    "insertId": "content",
+    "content": {
+        "tag": "div",
+        "attributes": {
+            "id": "contentInsert"
+        },
+        "children": [
+            {
+                "tag": "span",
+                "attributes": {
+                    "id": "productOverview"
+                },
+                "children": [
+                    {
+                        "tag": "img",
+                        "attributes": {
+                            "src": "/img/products/237107-rx5700xt-gpu-gallery1-1260x709.webp",
+                            "alt": "Product Overview Image",
+                            "id": "productOverviewImage"
+                        }
+                    },
+                    {
+                        "tag": "h2",
+                        "attributes": {
+                            "id": "productOverviewTitle"
+                        },
+                        "value": "AMD Radeon™ RX 5700 XT Graphics"
+                    },
+                    {
+                        "tag": "h4",
+                        "attributes": {
+                            "id": "productOverviewDescription"
+                        },
+                        "value": "Bend the rules"
+                    },
+                    {
+                        "tag": "p",
+                        "attributes": {
+                            "id": "overviewParagraph"
+                        },
+                        "value": "Designed from the ground up for exceptional 1440p performance and high-fidelity gaming."
+                    }
+                ]
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "features"
+                },
+                "children": [
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/237107-radeon-rx5700-gpu-left-side-1260x709.webp",
+                                    "alt": "First Feature",
+                                    "id": "firstFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "More Performance, Less Power."
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "Efficiently energetic, Radeon RX 5700 XT delivers more performance while consuming less power than its predecessor."
+                            },
+                            {
+                                "tag": "p",
+                                "value": ""
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/237107-radeon-rx5700-memory-1260x709.webp",
+                                    "alt": "second Feature",
+                                    "id": "secondFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "GDDR6 Memory for Advanced Gaming"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": ""
+                            },
+                            {
+                                "tag": "p",
+                                "value": "Equipped with 8GB of advanced GDDR6 memory to provide high bandwidth of up to 448 GB/s, enabling 1440p performance for today’s most demanding games."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/237107-radeon-rx5700-macro-board-illustration-1260x709.webp",
+                                    "alt": "third Feature",
+                                    "id": "thirdFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "Armed with More Bandwidth"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": ""
+                            },
+                            {
+                                "tag": "p",
+                                "value": "Radeon RX 5700 XT features PCI Express 4.0 support, with a throughput of 16 GT/s and enables two times the bandwidth compared to PCI Express 3.0. Get ready for the next generation of PC gaming."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "specifications"
+                },
+                "children": [
+                    {
+                        "tag": "h3",
+                        "value": "Specifications"
+                    },
+                    {
+                        "tag": "div",
+                        "attributes": {
+                            "id": "modelSelect"
+                        }
+                    },
+                    {
+                        "tag": "table",
+                        "attributes": {
+                            "id": "specificationsTable"
+                        },
+                        "children": [
+                            {
+                                "tag": "tbody",
+                                "attributes": {
+                                    "id": "specificationsTableBody"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

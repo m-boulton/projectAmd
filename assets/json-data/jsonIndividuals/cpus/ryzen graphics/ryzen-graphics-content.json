@@ -1,0 +1,173 @@
+{
+    "product": "ryzen-graphics",
+    "insertId": "content",
+    "content": {
+        "tag": "div",
+        "attributes": {
+            "id": "contentInsert"
+        },
+        "children": [
+            {
+                "tag": "span",
+                "attributes": {
+                    "id": "productOverview"
+                },
+                "children": [
+                    {
+                        "tag": "img",
+                        "attributes": {
+                            "src": "/img/products/739548-amd-am4-desktop-gamer-1260x709.webp",
+                            "alt": "Product Overview Image",
+                            "id": "productOverviewImage"
+                        }
+                    },
+                    {
+                        "tag": "h2",
+                        "attributes": {
+                            "id": "productOverviewTitle"
+                        },
+                        "value": "Power Your Next GG"
+                    },
+                    {
+                        "tag": "h4",
+                        "attributes": {
+                            "id": "productOverviewDescription"
+                        },
+                        "value": ""
+                    },
+                    {
+                        "tag": "p",
+                        "attributes": {
+                            "id": "overviewParagraph"
+                        },
+                        "value": "Get PCs powered by the world’s most advanced processors1 for high frame rates per second and an immersive experience. Good game, indeed."
+                    }
+                ]
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "features"
+                },
+                "children": [
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/559424-happy-woman-monitor-1260x709.webp",
+                                    "alt": "First Feature",
+                                    "id": "firstFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "Ultra-Responsive"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": ""
+                            },
+                            {
+                                "tag": "p",
+                                "value": "Get a PC with the performance you need with up to 8 cores fueled by the world’s most advanced 7nm processor core technology.1 With these processors delivering a generational leap in performance over the previous gen,2 the AMD Ryzen™ 5000 G-Series Desktop Processors with Radeon™ Graphics deliver ultra-fast responsiveness and multi-threaded performance for mainstream PCs."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/559424-happy-photographer-desktop-monitor-1260x709.webp",
+                                    "alt": "second Feature",
+                                    "id": "secondFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "The Most Advanced Technology"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": ""
+                            },
+                            {
+                                "tag": "p",
+                                "value": "Count on a PC that’s fast, efficient, and reliable with the world’s most advanced 7nm processor core technology1 at the heart of your system. AMD Ryzen™ 5000 G-Series Desktop Processors with Radeon™ Graphics are designed with industry-leading 7nm process “Zen 3” processor technology for faster, efficient processing to get it all done, faster than ever before, while running cool and quiet."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/559424-happy-girl-gamer-1260x709.webp",
+                                    "alt": "third Feature",
+                                    "id": "thirdFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "The World’s Fastest Graphics in a Desktop Processor."
+                            },
+                            {
+                                "tag": "h5",
+                                "value": ""
+                            },
+                            {
+                                "tag": "p",
+                                "value": "Be immersed in every detail as you edit photos and videos, get amazingly smooth HD gaming, and stream your favorite shows in vibrant 4K, HDR. AMD Ryzen™ 5000 G-Series Desktop Processors deliver the fastest graphics performance available in a desktop processor3 with AMD Radeon™ Graphics built right in. Enjoy smooth, 1080P gaming right out of the box, no additional graphics card required; and an easy path to future upgrades like graphics cards for HD+ gaming when you’re ready."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "specifications"
+                },
+                "children": [
+                    {
+                        "tag": "h3",
+                        "value": "Specifications"
+                    },
+                    {
+                        "tag": "div",
+                        "attributes": {
+                            "id": "modelSelect"
+                        }
+                    },
+                    {
+                        "tag": "table",
+                        "attributes": {
+                            "id": "specificationsTable"
+                        },
+                        "children": [
+                            {
+                                "tag": "tbody",
+                                "attributes": {
+                                    "id": "specificationsTableBody"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

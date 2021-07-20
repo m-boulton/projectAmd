@@ -1,0 +1,18 @@
+{
+    "target": "ryzen-pro",
+    "insertId": "modelSelect",
+    "models": [
+        "pro-5750ge",
+        "pro-5750g",
+        "pro-5650ge",
+        "pro-5650g",
+        "pro-5350ge",
+        "pro-5350g",
+        "pro-4750ge",
+        "pro-4750g",
+        "pro-4650ge",
+        "pro-4650g",
+        "pro-4350ge",
+        "pro-4350g"
+    ]
+}

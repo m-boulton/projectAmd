@@ -1,0 +1,10 @@
+{
+    "target": "6000-series",
+    "insertId": "modelSelect",
+    "models": [
+        "radeon-rx-6700-xt",
+        "radeon-rx-6800",
+        "radeon-rx-6800-xt",
+        "radeon-rx-6900-xt"
+    ]
+}

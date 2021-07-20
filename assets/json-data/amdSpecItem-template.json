@@ -1,0 +1,66 @@
+{
+    "target": "",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": ""
+        },
+        {
+            "header": "Release date and price",
+            "description": ""
+        },
+        {
+            "header": "Fabrication",
+            "description": ""
+        },
+        {
+            "header": "Chiplets",
+            "description": ""
+        },
+        {
+            "header": "Cores (threads)",
+            "description": ""
+        },
+        {
+            "header": "Core Config",
+            "description": ""
+        },
+        {
+            "header": "Base Clock",
+            "description": ""
+        },
+        {
+            "header": "Boost Clock",
+            "description": ""
+        },
+        {
+            "header": "L1 Cache",
+            "description": ""
+        },
+        {
+            "header": "L2 Cache",
+            "description": ""
+        },
+        {
+            "header": "L3 Cache",
+            "description": ""
+        },
+        {
+            "header": "Socket",
+            "description": ""
+        },
+        {
+            "header": "PCIe Lanes",
+            "description": ""
+        },
+        {
+            "header": "Memory Support",
+            "description": ""
+        },
+        {
+            "header": "TDP",
+            "description": ""
+        }
+    ]
+}

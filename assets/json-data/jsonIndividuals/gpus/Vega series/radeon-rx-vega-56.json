@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-vega-56",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX Vega 56"
+        },
+        {
+            "header": "Release date and price",
+            "description": "April 28, 2017"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "GCN 4rd gen Samsung/GloFo 14LPP"
+        },
+        {
+            "header": "Core Config",
+            "description": "3584:224:64 56CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1156"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "258.9"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "74"
+        },
+        {
+            "header": "Processing Power Half/Single/Double",
+            "description": "16572/8286/518"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "HBM2 2048-bit"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "8"
+        },
+        {
+            "header": "Memory Clock/Bandwidth",
+            "description": "1600(MT/s) / 410(GB/s)"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 3.0 x16"
+        }
+    ]
+}

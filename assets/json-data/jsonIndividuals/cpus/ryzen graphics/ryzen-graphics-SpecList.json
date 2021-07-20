@@ -1,0 +1,16 @@
+{
+    "target": "ryzen-graphics",
+    "insertId": "modelSelect",
+    "models": [
+        "5700ge",
+        "5600ge",
+        "5300ge",
+        "5300g",
+        "4700ge",
+        "4700g",
+        "4600ge",
+        "4600g",
+        "4300ge",
+        "4300g"
+    ]
+}

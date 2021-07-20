@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-590",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX 590"
+        },
+        {
+            "header": "Release date and price",
+            "description": "November 15, 2018"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "GCN 4rd gen Samsung/GloFo 14LPP"
+        },
+        {
+            "header": "Core Config",
+            "description": "2304:144:32 36CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1469"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "211.5"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "47"
+        },
+        {
+            "header": "Processing Power Single/Double",
+            "description": "6769/423"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR5 256-bit"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "8"
+        },
+        {
+            "header": "Memory Clock/Bandwidth",
+            "description": "8000(MT/s) / 256(GB/s)"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 3.0 x16"
+        }
+    ]
+}

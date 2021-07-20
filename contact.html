@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title id="title-name"></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="/img/ico/amd-red.png"
+      type="image/x-icon"
+      color="orange"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <header id="header"></header>
+      <div
+        id="main"
+        style="
+          background-image: url(/assets/img/background-blow-out.jpg);
+          background-position: center top;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      >
+        <div id="sideNav"></div>
+        <div id="content">
+          <div id="contentInsert">
+            <section id="contactDescription">
+              <h2>Contact Us</h2>
+              <p>
+                This contact information is not accurate since this website is a
+                product display website for the the Developer at
+                <a href="http://Mboulton.com">Mboulton.com</a>, this website has
+                no affiliation with the AMD Corporation and is just a test
+                project.<br />All submitted forms and contact will route through
+                and will only ever be sent to the servers controlled by
+                <a href="http://Mboulton.com">Mboulton.com</a>
+              </p>
+            </section>
+            <hr style="color: orangered" />
+            <section id="contactFormSection">
+              <div id="contactCover">
+                <div id="contactPopup">
+                  <h3 id="contactMessage">Waiting for a response</h3>
+                  <button id="contactMessageButton">Close</button>
+                </div>
+              </div>
+              <form id="contactForm">
+                <label for="contactName">Name:</label><br />
+                <input type="text" id="contactName" value="" /><br />
+                <label for="contactEmail">Email:</label><br />
+                <input type="email" id="contactEmail" value="" /><br />
+                <label for="contactPhone">Phone Number:</label><br />
+                <input type="tel" id="contactPhone" value="" /><br />
+                <label for="contactTopic">Topic of contact:</label><br />
+                <input type="text" id="contactTopic" value="" /><br />
+                <label for="contactMessage">Your Message:</label><br />
+                <textarea
+                  id="contactMessage"
+                  name="contactMessage"
+                  rows="4"
+                  cols="50"
+                >
+                </textarea>
+                <input type="button" id="contactSubmit" value="Submit" />
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+      <footer id="footer"></footer>
+    </div>
+    <script type="module" src="./assets/scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+{
+    "target": "2990wx",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Ryzen™ Threadripper™ 2990WX"
+        },
+        {
+            "header": "CPU Cores / Threads",
+            "description": "32 / 64"
+        },
+        {
+            "header": "Base / Max Boost Clock (GHz)",
+            "description": "3.0 / 4.2"
+        },
+        {
+            "header": "Total Cache L1 / L2 / L3 (MB)",
+            "description": " 3 / 16 / 64"
+        },
+        {
+            "header": "Unlocked",
+            "description": "Yes"
+        },
+        {
+            "header": "CMOS",
+            "description": "12nm"
+        },
+        {
+            "header": "Package (Socket-type)",
+            "description": "sTR4"
+        },
+        {
+            "header": "BPCI Express® Version",
+            "description": "3.0"
+        },
+        {
+            "header": "Max TDP",
+            "description": "250W"
+        },
+        {
+            "header": "Max Temps",
+            "description": "68°C"
+        },
+        {
+            "header": "Thermal Solution",
+            "description": "Not Included"
+        },
+        {
+            "header": "System Memory Speed",
+            "description": "Up to 2933MHz"
+        },
+        {
+            "header": "Memory Type",
+            "description": "DDR4"
+        },
+        {
+            "header": "Memory Channels",
+            "description": "4"
+        },
+        {
+            "header": "Supported Technologies",
+            "description": "AMD SenseMI Technology<br>AMD \"Zen\" Core Architecture<br>AMD Ryzen™ Master Utility"
+        }
+    ]
+}

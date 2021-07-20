@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-vega-64",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX Vega 64"
+        },
+        {
+            "header": "Release date and price",
+            "description": "August 14, 2017"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "GCN 5th gen Samsung/GloFo 14LPP"
+        },
+        {
+            "header": "Core Config",
+            "description": "4096:256:64 64CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1247"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "319.2"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "79.8"
+        },
+        {
+            "header": "Processing Power Half/Single/Double",
+            "description": "20431/10215/638"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "HBM2 2048-bit"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "8"
+        },
+        {
+            "header": "Memory Clock/Bandwidth",
+            "description": "1890(MT/s) / 483.8(GB/s)"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 3.0 x16"
+        }
+    ]
+}

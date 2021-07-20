@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-570",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX 570"
+        },
+        {
+            "header": "Release date and price",
+            "description": "April 18, 2017"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "GCN 4rd gen Samsung/GloFo 14LPP"
+        },
+        {
+            "header": "Core Config",
+            "description": "2048:128:32 32CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1168"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "149.5"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "37.4"
+        },
+        {
+            "header": "Processing Power Single/Double",
+            "description": "4784/299"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR5 256-bit"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "4/8"
+        },
+        {
+            "header": "Memory Clock/Bandwidth",
+            "description": "7000(MT/s) / 224(GB/s)"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 3.0 x16"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "target": "radeon-rx-6800-xt",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX 6800 XT"
+        },
+        {
+            "header": "Release date and price",
+            "description": "November 18, 2020"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "RDNA 2 TSMC N7"
+        },
+        {
+            "header": "Core Config",
+            "description": "4608:288:128 72 CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1825"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "525.6"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "233.6"
+        },
+        {
+            "header": "Processing Power Half/Single/Double",
+            "description": "33638/16819/1051.2"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "16"
+        },
+        {
+            "header": "Memory Bandwidth / Clock",
+            "description": "512(GB/s) / 16000(MT/s)"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR6 256-bit"
+        },
+        {
+            "header": "Infinity Cache Size (MB)",
+            "description": "128"
+        },
+        {
+            "header": "Infinity Cache Bandwidth (GB/s)",
+            "description": "1664"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 4.0 x16"
+        }
+    ]
+}

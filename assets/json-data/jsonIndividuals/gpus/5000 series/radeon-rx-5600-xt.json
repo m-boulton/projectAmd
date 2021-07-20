@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-5600-xt",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX 5600 XT"
+        },
+        {
+            "header": "Release date and price",
+            "description": "January 21, 2020"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "RDNA TSMC 7FF"
+        },
+        {
+            "header": "Core Config",
+            "description": "2048:144:64 36 CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1375"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "198"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "88"
+        },
+        {
+            "header": "Processing Power Half/Single/Double",
+            "description": "12675/6337/396"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "6"
+        },
+        {
+            "header": "Memory Bandwidth / Clock",
+            "description": "288(GB/s) / 12000(MT/s)"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR6 192-bit"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 4.0 x16"
+        }
+    ]
+}

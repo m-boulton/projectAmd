@@ -8,6 +8,7 @@ import {
   toggleNavItem,
   navCloser,
 } from "./navigation-scripts.js";
+import contactForm from "./contactForm/contactMain.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
   // Event handlers for document loading
@@ -47,4 +48,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("toggleNavButton").addEventListener("click", () => {
     toggleNavSideBar();
   });
+
+  // Click handler for contact form
+  if (document.getElementById("contactForm")) {
+    // adds click event for the buttons in the contact form
+    document
+      .getElementById("contactForm")
+      .addEventListener("click", contactForm, false);
+  }
 });

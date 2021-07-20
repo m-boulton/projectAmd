@@ -1,0 +1,66 @@
+{
+    "target": "5800",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Ryzen 7 5800"
+        },
+        {
+            "header": "Release date and price",
+            "description": "January 12, 2021 OEM "
+        },
+        {
+            "header": "Fabrication",
+            "description": "TSMC 7FF "
+        },
+        {
+            "header": "Chiplets",
+            "description": "1 × CCD 1 × I/O"
+        },
+        {
+            "header": "Cores (threads)",
+            "description": "8 (16)"
+        },
+        {
+            "header": "Core Config",
+            "description": "1 × 8 "
+        },
+        {
+            "header": "Base Clock",
+            "description": "3.4"
+        },
+        {
+            "header": "Boost Clock",
+            "description": "4.6 "
+        },
+        {
+            "header": "L1 Cache",
+            "description": "32 KB data 32 KB inst. per core"
+        },
+        {
+            "header": "L2 Cache",
+            "description": "512 KB per core"
+        },
+        {
+            "header": "L3 Cache",
+            "description": "32 MB"
+        },
+        {
+            "header": "Socket",
+            "description": "AM4"
+        },
+        {
+            "header": "PCIe Lanes",
+            "description": "24 "
+        },
+        {
+            "header": "Memory Support",
+            "description": "DDR4-3200 dual-channel"
+        },
+        {
+            "header": "TDP",
+            "description": "65 W"
+        }
+    ]
+}

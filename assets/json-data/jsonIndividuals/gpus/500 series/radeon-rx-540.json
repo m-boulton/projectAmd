@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-540",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX 540"
+        },
+        {
+            "header": "Release date and price",
+            "description": "April 18, 2017"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "GCN 4rd gen Samsung/GloFo 14LPP"
+        },
+        {
+            "header": "Core Config",
+            "description": "512:32:16 8CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1219"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "39"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "19.5"
+        },
+        {
+            "header": "Processing Power Single/Double",
+            "description": "1248/78"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR5 128-bit"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "4"
+        },
+        {
+            "header": "Memory Clock/Bandwidth",
+            "description": "6000(MT/s) / 96(GB/s)"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 3.0 x8"
+        }
+    ]
+}

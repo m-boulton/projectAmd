@@ -1,0 +1,16 @@
+{
+    "target": "500-series",
+    "insertId": "modelSelect",
+    "models": [
+        "radeon-520",
+        "radeon-530",
+        "radeon-550x",
+        "radeon-rx-540",
+        "radeon-rx-550",
+        "radeon-rx-550x",
+        "radeon-rx-560",
+        "radeon-rx-570",
+        "radeon-rx-580",
+        "radeon-rx-590"
+    ]
+}

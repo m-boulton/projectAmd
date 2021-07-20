@@ -1,0 +1,173 @@
+{
+    "product": "500-series",
+    "insertId": "content",
+    "content": {
+        "tag": "div",
+        "attributes": {
+            "id": "contentInsert"
+        },
+        "children": [
+            {
+                "tag": "span",
+                "attributes": {
+                    "id": "productOverview"
+                },
+                "children": [
+                    {
+                        "tag": "img",
+                        "attributes": {
+                            "src": "/img/products/156955-radeon-rx590-1260x709_3.webp",
+                            "alt": "Product Overview Image",
+                            "id": "productOverviewImage"
+                        }
+                    },
+                    {
+                        "tag": "h2",
+                        "attributes": {
+                            "id": "productOverviewTitle"
+                        },
+                        "value": "Gaming Remastered"
+                    },
+                    {
+                        "tag": "h4",
+                        "attributes": {
+                            "id": "productOverviewDescription"
+                        },
+                        "value": "Introducing the Radeon RX 590"
+                    },
+                    {
+                        "tag": "p",
+                        "attributes": {
+                            "id": "overviewParagraph"
+                        },
+                        "value": ""
+                    }
+                ]
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "features"
+                },
+                "children": [
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/770814-amd-radeon-software-1260x709.webp",
+                                    "alt": "First Feature",
+                                    "id": "firstFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "AMD Radeon™ Software"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "Artfully Designed. Meticulously Crafted. Incredibly Intuitive."
+                            },
+                            {
+                                "tag": "p",
+                                "value": "Radeon™ Software has been designed to provide you with a clean, modern and easy-to-use interface where you can quickly access the latest software features, game stats, performance reports, driver updates, and much more - all from one convenient location.  Take advantage of the ALT+R hotkey to open Radeon Software directly in-game, making it even more convenient and easy to adjust your favorite features and get a fantastic gaming experience."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/151199-freesync-systems-1260x709.webp",
+                                    "alt": "second Feature",
+                                    "id": "secondFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "AMD FreeSync™ Technology"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "No stuttering. No tearing. Just gaming."
+                            },
+                            {
+                                "tag": "p",
+                                "value": "AMD FreeSync technology puts an end to choppy gameplay and broken frames with fluid, artifact-free performance at virtually any framerate. Behold the next breakthrough in PC and console gaming experiences."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/man-vr-headset-3d-graphics-1260x709_0.webp",
+                                    "alt": "third Feature",
+                                    "id": "thirdFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "AMD LiquidVR™ Technology"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "Reality. Reimagined."
+                            },
+                            {
+                                "tag": "p",
+                                "value": "AMD’s innovative LiquidVR™ technology enables beautifully rich and immersive VR experiences by simplifying VR content creation, unlocking many unique AMD hardware features designed to work seamlessly with headsets on compatible Radeon graphics cards. LiquidVR™ is dedicated to making VR experiences truly immersive by creating a sense of “presence” — a state of awareness where a virtual world seems so real, you’ll believe you are there."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "specifications"
+                },
+                "children": [
+                    {
+                        "tag": "h3",
+                        "value": "Specifications"
+                    },
+                    {
+                        "tag": "div",
+                        "attributes": {
+                            "id": "modelSelect"
+                        }
+                    },
+                    {
+                        "tag": "table",
+                        "attributes": {
+                            "id": "specificationsTable"
+                        },
+                        "children": [
+                            {
+                                "tag": "tbody",
+                                "attributes": {
+                                    "id": "specificationsTableBody"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

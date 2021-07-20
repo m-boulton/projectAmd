@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-5300",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX 5300"
+        },
+        {
+            "header": "Release date and price",
+            "description": "August 28, 2020"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "RDNA TSMC 7FF"
+        },
+        {
+            "header": "Core Config",
+            "description": "1408:88:32 22 CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1327"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "116.8"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "42.46"
+        },
+        {
+            "header": "Processing Power Half/Single/Double",
+            "description": "7474/3737/233.5"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "3"
+        },
+        {
+            "header": "Memory Bandwidth / Clock",
+            "description": "168(GB/s) / 14000(MT/s)"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR6 96-bit"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 4.0 x8"
+        }
+    ]
+}

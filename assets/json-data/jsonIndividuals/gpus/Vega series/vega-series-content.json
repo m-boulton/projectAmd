@@ -1,0 +1,173 @@
+{
+    "product": "vega-series",
+    "insertId": "content",
+    "content": {
+        "tag": "div",
+        "attributes": {
+            "id": "contentInsert"
+        },
+        "children": [
+            {
+                "tag": "span",
+                "attributes": {
+                    "id": "productOverview"
+                },
+                "children": [
+                    {
+                        "tag": "img",
+                        "attributes": {
+                            "src": "/img/products/108116-radeon-rx-vega-gpus-1260x709.webp",
+                            "alt": "Product Overview Image",
+                            "id": "productOverviewImage"
+                        }
+                    },
+                    {
+                        "tag": "h2",
+                        "attributes": {
+                            "id": "productOverviewTitle"
+                        },
+                        "value": "DEFY CONVENTION."
+                    },
+                    {
+                        "tag": "h4",
+                        "attributes": {
+                            "id": "productOverviewDescription"
+                        },
+                        "value": ""
+                    },
+                    {
+                        "tag": "p",
+                        "attributes": {
+                            "id": "overviewParagraph"
+                        },
+                        "value": "Get the ultimate gaming experience with Radeon™ RX Vega 64 and Radeon™ FreeSync Technology."
+                    }
+                ]
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "features"
+                },
+                "children": [
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/100600-vr-ready-premium-technology-1260x709.webp",
+                                    "alt": "First Feature",
+                                    "id": "firstFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "AMD Radeon™ VR Ready Premium"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "Escape into lifelike realms of virtual reality experiences with AMD Radeon VR Ready Premium solutions."
+                            },
+                            {
+                                "tag": "p",
+                                "value": "The hardware and software required to enable a AMD Radeon VR Ready Premium experience include:<br><br>CPU: AMD Ryzen™ 5 1500X or Intel i5-4590 equivalent or greater<br><br>System Memory: 8GB + RAM<br><br>Video Output: DisplayPort™ 1.2 (1.3 for HP Reverb G2)<br><br>USB Ports: 1 x USB 3.0 or newer<br><br>Operating System: Windows 10"
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/151199-freesync-systems-1260x709.webp",
+                                    "alt": "second Feature",
+                                    "id": "secondFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "AMD FreeSync™ Technology"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "No stuttering. No tearing. Just gaming."
+                            },
+                            {
+                                "tag": "p",
+                                "value": "AMD FreeSync technology puts an end to choppy gameplay and broken frames with fluid, artifact-free performance at virtually any framerate. Behold the next breakthrough in PC and console gaming experiences."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/770814-amd-radeon-chill-1260x709.webp",
+                                    "alt": "third Feature",
+                                    "id": "thirdFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "AMD Radeon™ Chill"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "Gameplay adaptive power saving"
+                            },
+                            {
+                                "tag": "p",
+                                "value": "Keep your system running cool and quiet by enabling Radeon™ Chill. This power saving feature helps save your battery by regulating your frame rates based on in-game movements. During intense motion, Radeon Chill will run your FPS up to a defined FPS cap, while in instances where there’s no motion on the screen, the FPS will lower automatically to save power consumption."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "specifications"
+                },
+                "children": [
+                    {
+                        "tag": "h3",
+                        "value": "Specifications"
+                    },
+                    {
+                        "tag": "div",
+                        "attributes": {
+                            "id": "modelSelect"
+                        }
+                    },
+                    {
+                        "tag": "table",
+                        "attributes": {
+                            "id": "specificationsTable"
+                        },
+                        "children": [
+                            {
+                                "tag": "tbody",
+                                "attributes": {
+                                    "id": "specificationsTableBody"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

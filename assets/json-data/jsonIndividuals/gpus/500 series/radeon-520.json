@@ -1,0 +1,54 @@
+{
+    "target": "radeon-520",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon 520"
+        },
+        {
+            "header": "Release date and price",
+            "description": "April 18, 2017"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "GCN 1st gen 28nm"
+        },
+        {
+            "header": "Core Config",
+            "description": "320:20:4 5CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1030"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "20.6"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "4.1"
+        },
+        {
+            "header": "Processing Power Single/Double",
+            "description": "659/na"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR5 64-bit"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "2"
+        },
+        {
+            "header": "Memory Clock/Bandwidth",
+            "description": "4500(MT/s) / 48(GB/s)"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 3.0 x8"
+        }
+    ]
+}

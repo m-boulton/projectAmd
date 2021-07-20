@@ -1,0 +1,12 @@
+{
+    "target": "mongoose findOne target",
+    "insertId": "html tag to append to",
+    "version": 0,
+    "content": {
+        "tag": "div",
+        "attributes": {
+            "id": "firstDivCreated"
+        },
+        "children": []
+    }
+}

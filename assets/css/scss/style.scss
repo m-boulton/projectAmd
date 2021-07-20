@@ -1,8 +1,10 @@
 @import "./variables";
 @import "./_header";
-@import "./nav-bar";
-@import "./content";
-@import "./footer";
+@import "./_nav-bar";
+@import "./_content";
+@import "./_footer";
+@import "./_contact";
+@import "./_about";
 html {
   font-size: 62.5%;
   background-color: rgb(10, 10, 10);

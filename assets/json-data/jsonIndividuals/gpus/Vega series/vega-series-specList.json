@@ -1,0 +1,9 @@
+{
+    "target": "vega-series",
+    "insertId": "modelSelect",
+    "models": [
+        "radeon-rx-vega-56",
+        "radeon-rx-vega-64",
+        "radeon-rx-vega-64-liquid"
+    ]
+}

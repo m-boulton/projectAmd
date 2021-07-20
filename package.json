@@ -13,7 +13,7 @@
   "main": "index.js",
   "homepage": "https://amd.mboulton.com/",
   "scripts": {
-    "start": "sass --watch css/scss:css/",
+    "start": "sass --watch assets/css/scss:assets/css/",
     "test": "jest"
   },
   "repository": {

@@ -1,0 +1,12 @@
+{
+    "target": "threadripper",
+    "insertId": "modelSelect",
+    "models": [
+        "3990x",
+        "3970x",
+        "3960x",
+        "2990wx",
+        "2970wx",
+        "2950x"
+    ]
+}

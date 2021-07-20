@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-5700-xt",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX 5700 XT"
+        },
+        {
+            "header": "Release date and price",
+            "description": "July 7, 2019"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "RDNA TSMC 7FF"
+        },
+        {
+            "header": "Core Config",
+            "description": "2560:160:64 40 CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1605"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "256.8"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "102.7"
+        },
+        {
+            "header": "Processing Power Half/Single/Double",
+            "description": "16435/8218/513.6"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "8"
+        },
+        {
+            "header": "Memory Bandwidth / Clock",
+            "description": "488(GB/s) / 14000(MT/s)"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR6 256-bit"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 4.0 x16"
+        }
+    ]
+}

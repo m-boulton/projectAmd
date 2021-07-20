@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-5700",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX 5700"
+        },
+        {
+            "header": "Release date and price",
+            "description": "July 7, 2019"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "RDNA TSMC 7FF"
+        },
+        {
+            "header": "Core Config",
+            "description": "2048:144:64 36 CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1465"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "211"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "93.8"
+        },
+        {
+            "header": "Processing Power Half/Single/Double",
+            "description": "13501/6751/421.9"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "8"
+        },
+        {
+            "header": "Memory Bandwidth / Clock",
+            "description": "488(GB/s) / 14000(MT/s)"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR6 256-bit"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 4.0 x16"
+        }
+    ]
+}

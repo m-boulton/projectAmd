@@ -1,0 +1,54 @@
+{
+    "target": "radeon-530",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon 530"
+        },
+        {
+            "header": "Release date and price",
+            "description": "April 18, 2017"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "GCN 3rd gen 28nm"
+        },
+        {
+            "header": "Core Config",
+            "description": "320:20:8 5CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1024"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "24.6"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "8.2"
+        },
+        {
+            "header": "Processing Power Single/Double",
+            "description": "655/na"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR5 64-bit"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "2"
+        },
+        {
+            "header": "Memory Clock/Bandwidth",
+            "description": "4500(MT/s) / 48(GB/s)"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 3.0 x8"
+        }
+    ]
+}

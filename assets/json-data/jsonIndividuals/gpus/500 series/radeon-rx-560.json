@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-560",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX 560"
+        },
+        {
+            "header": "Release date and price",
+            "description": "October 2017"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "GCN 4rd gen Samsung/GloFo 14LPP"
+        },
+        {
+            "header": "Core Config",
+            "description": "896:56:16 14CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1090"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "61"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "17.4"
+        },
+        {
+            "header": "Processing Power Single/Double",
+            "description": "1953/122"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR5 128-bit"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "4"
+        },
+        {
+            "header": "Memory Clock/Bandwidth",
+            "description": "7000(MT/s) / 112(GB/s)"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 3.0 x8"
+        }
+    ]
+}

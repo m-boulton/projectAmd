@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-580",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX 580"
+        },
+        {
+            "header": "Release date and price",
+            "description": "April 18, 2017"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "GCN 4rd gen Samsung/GloFo 14LPP"
+        },
+        {
+            "header": "Core Config",
+            "description": "2304:144:32 36CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1257"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "181"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "40.2"
+        },
+        {
+            "header": "Processing Power Single/Double",
+            "description": "5792/362"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR5 256-bit"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "8"
+        },
+        {
+            "header": "Memory Clock/Bandwidth",
+            "description": "8000(MT/s) / 256(GB/s)"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 3.0 x16"
+        }
+    ]
+}

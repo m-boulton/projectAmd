@@ -1,0 +1,173 @@
+{
+    "product": "6000-series",
+    "insertId": "content",
+    "content": {
+        "tag": "div",
+        "attributes": {
+            "id": "contentInsert"
+        },
+        "children": [
+            {
+                "tag": "span",
+                "attributes": {
+                    "id": "productOverview"
+                },
+                "children": [
+                    {
+                        "tag": "img",
+                        "attributes": {
+                            "src": "/img/products/749511-amd-radeon-6000-series-4-gpus-1290x709_0.webp",
+                            "alt": "Product Overview Image",
+                            "id": "productOverviewImage"
+                        }
+                    },
+                    {
+                        "tag": "h2",
+                        "attributes": {
+                            "id": "productOverviewTitle"
+                        },
+                        "value": "Performance to Rule Your Game"
+                    },
+                    {
+                        "tag": "h4",
+                        "attributes": {
+                            "id": "productOverviewDescription"
+                        },
+                        "value": ""
+                    },
+                    {
+                        "tag": "p",
+                        "attributes": {
+                            "id": "overviewParagraph"
+                        },
+                        "value": "Introducing the AMD Radeon™ RX 6000 Series graphics cards, featuring the breakthrough AMD RDNA™ 2 architecture, engineered to deliver ultra-high performance, ultra-high resolution, visually stunning gaming for all. We’re powering the next generation of gaming."
+                    }
+                ]
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "features"
+                },
+                "children": [
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "video",
+                                "attributes": {
+                                    "src": "/img/products/781817-SmartAccessMemory-1260x709.mp4",
+                                    "alt": "First Feature",
+                                    "id": "firstFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "AMD Smart Access Memory"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": ""
+                            },
+                            {
+                                "tag": "p",
+                                "value": "AMD Smart Access Memory6 allows new levels of communication between Ryzen processors and Radeon graphics cards. Get up to 16% more gaming performance across select games on the Radeon RX 6000 Series graphics cards."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/770814-amd-radeon-software-performance-tuning-1260x709.webp",
+                                    "alt": "second Feature",
+                                    "id": "secondFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "AMD Radeon™ Software: Performance"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "Unlock Your Graphics Potential"
+                            },
+                            {
+                                "tag": "p",
+                                "value": "Radeon™ Software is introducing new performance tuning presets for the launch of the AMD Radeon RX 6800 and RX 6900 series graphics cards.  These one-click presets adjust power levels on the card to deliver the performance or power savings you need. Rage Mode available on the Radeon™ RX 6800 XT and Radeon™ RX 6900 XT GPUs, allows users to take advantage of any extra headroom on the GPU to deliver the ultimate gaming performance."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "/img/products/749511-AMD-Radeon-Boost-system-1260x709.webp",
+                                    "alt": "third Feature",
+                                    "id": "thirdFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "AMD Radeon™ Boost"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "Turbocharge Your Game"
+                            },
+                            {
+                                "tag": "p",
+                                "value": "AMD Radeon™ Boost dynamically lowers resolution of the entire frame when fast on-screen character motion is detected via user input, allowing for higher FPS with little perceived impact to quality.2 Originally supporting select DirectX® 11 games, this feature now takes advantage of the variable rate shading hardware found on the Radeon™ RX 6000 series graphics cards and supported DirectX® 12 titles delivering extra performance and increased responsiveness while you play."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "specifications"
+                },
+                "children": [
+                    {
+                        "tag": "h3",
+                        "value": "Specifications"
+                    },
+                    {
+                        "tag": "div",
+                        "attributes": {
+                            "id": "modelSelect"
+                        }
+                    },
+                    {
+                        "tag": "table",
+                        "attributes": {
+                            "id": "specificationsTable"
+                        },
+                        "children": [
+                            {
+                                "tag": "tbody",
+                                "attributes": {
+                                    "id": "specificationsTableBody"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

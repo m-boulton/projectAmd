@@ -1,0 +1,54 @@
+{
+    "target": "radeon-rx-550x",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Radeon RX 550X"
+        },
+        {
+            "header": "Release date and price",
+            "description": "April 3, 2018"
+        },
+        {
+            "header": "Architecture & Fab",
+            "description": "GCN 4rd gen Samsung/GloFo 14LPP"
+        },
+        {
+            "header": "Core Config",
+            "description": "640:40:16 16CU"
+        },
+        {
+            "header": "Core Clock(MHz)",
+            "description": "1287"
+        },
+        {
+            "header": "Fillrate Texture(GT/s)",
+            "description": "51.48"
+        },
+        {
+            "header": "Fillrate Pixel(GP/s)",
+            "description": "20.6"
+        },
+        {
+            "header": "Processing Power Single/Double",
+            "description": "1647/103"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR5 64-bit"
+        },
+        {
+            "header": "Memory Size (GiB)",
+            "description": "4"
+        },
+        {
+            "header": "Memory Clock/Bandwidth",
+            "description": "7000(MT/s) / 112(GB/s)"
+        },
+        {
+            "header": "Bus Interface",
+            "description": "PCIe 3.0 x8"
+        }
+    ]
+}

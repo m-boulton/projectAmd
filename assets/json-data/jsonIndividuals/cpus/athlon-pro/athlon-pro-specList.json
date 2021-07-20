@@ -1,0 +1,11 @@
+{
+    "target": "athlon-pro",
+    "insertId": "modelSelect",
+    "models": [
+        "pro-3125ge",
+        "pro-3150g",
+        "pro-3150ge",
+        "pro-300ge",
+        "pro-200ge"
+    ]
+}

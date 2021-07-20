@@ -1,0 +1,836 @@
+[
+    {
+        "header": [
+            {
+                "a": {
+                    "href": "/index.html",
+                    "class": "logo",
+                    "img": {
+                        "src": "/img/logo/logo-white.svg",
+                        "alt": "AMD Logo"
+                    }
+                }
+            },
+            {
+                "nav": {
+                    "class": "header-nav-bar",
+                    "ul": {
+                        "class": "header-nav-bar-items",
+                        "li": [
+                            {
+                                "href": "null",
+                                "id": "navHeaderProcessors",
+                                "class": "header-nav-links",
+                                "name": "Processors",
+                                "i": {
+                                    "id": "navHeaderProcessorsArrow",
+                                    "class": "fa fa-chevron-down"
+                                },
+                                "ul": {
+                                    "id": "navHeaderProcessorsList",
+                                    "class": "header-nav-list-processors",
+                                    "li": [
+                                        {
+                                            "a": {
+                                                "href": "/index.html?p=ryzen",
+                                                "name": "Ryzen"
+                                            }
+                                        },
+                                        {
+                                            "a": {
+                                                "href": "/index.html?p=threadripper",
+                                                "name": "Threadripper"
+                                            }
+                                        },
+                                        {
+                                            "a": {
+                                                "href": "/index.html?p=ryzen-graphics",
+                                                "name": "Ryzen with Graphics"
+                                            }
+                                        },
+                                        {
+                                            "a": {
+                                                "href": "/index.html?p=ryzen-pro",
+                                                "name": "Ryzen Pro"
+                                            }
+                                        },
+                                        {
+                                            "a": {
+                                                "href": "/index.html?p=athlon",
+                                                "name": "Athlon with Graphics"
+                                            }
+                                        },
+                                        {
+                                            "a": {
+                                                "href": "/index.html?p=athlon-pro",
+                                                "name": "Athlon Pro"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "href": "null",
+                                "id": "navHeaderGraphics",
+                                "class": "header-nav-links",
+                                "name": "Graphics",
+                                "i": {
+                                    "id": "navHeaderGraphicsArrow",
+                                    "class": "fa fa-chevron-down"
+                                },
+                                "ul": {
+                                    "id": "navHeaderGraphicsList",
+                                    "class": "header-nav-list-graphics",
+                                    "li": [
+                                        {
+                                            "a": {
+                                                "href": "/index.html?p=rx-6000",
+                                                "name": "Radeon RX 6000"
+                                            }
+                                        },
+                                        {
+                                            "a": {
+                                                "href": "/index.html?p=rx-5000",
+                                                "name": "Radeon RX 5000"
+                                            }
+                                        },
+                                        {
+                                            "a": {
+                                                "href": "/index.html?p=rx-vega",
+                                                "name": "Radeon Vega"
+                                            }
+                                        },
+                                        {
+                                            "a": {
+                                                "href": "/index.html?p=rx-500",
+                                                "name": "Radeon Rx 500"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "class": "header-nav-links",
+                                "a": {
+                                    "href": "/index.html?p=about",
+                                    "class": "header-nav-items",
+                                    "name": "About Us"
+                                }
+                            },
+                            {
+                                "class": "header-nav-links",
+                                "a": {
+                                    "href": "/index.html?p=contact",
+                                    "class": "header-nav-items",
+                                    "name": "Contact Us"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "button": {
+                    "class": "toggle-header-nav-button",
+                    "id": "toggleNavButton",
+                    "i": {
+                        "class": "fa fa-bars",
+                        "aria-hidden": false
+                    }
+                }
+            }
+        ],
+        "nav-bar": [
+            {
+                "ul": {
+                    "class": "side-nav-list",
+                    "li": [
+                        {
+                            "href": "null",
+                            "id": "navSideProcessors",
+                            "class": "side-nav-links",
+                            "name": "Processors",
+                            "i": {
+                                "id": "navSideProcessorsArrow",
+                                "class": "fa fa-chevron-down"
+                            },
+                            "ul": {
+                                "id": "navSideProcessorsList",
+                                "class": "side-nav-list-processors",
+                                "li": [
+                                    {
+                                        "a": {
+                                            "href": "/index.html?p=ryzen",
+                                            "name": "Ryzen"
+                                        }
+                                    },
+                                    {
+                                        "a": {
+                                            "href": "/index.html?p=threadripper",
+                                            "name": "Threadripper"
+                                        }
+                                    },
+                                    {
+                                        "a": {
+                                            "href": "/index.html?p=ryzen-graphics",
+                                            "name": "Ryzen with Graphics"
+                                        }
+                                    },
+                                    {
+                                        "a": {
+                                            "href": "/index.html?p=ryzen-pro",
+                                            "name": "Ryzen Pro"
+                                        }
+                                    },
+                                    {
+                                        "a": {
+                                            "href": "/index.html?p=athlon",
+                                            "name": "Athlon with Graphics"
+                                        }
+                                    },
+                                    {
+                                        "a": {
+                                            "href": "/index.html?p=athlon-pro",
+                                            "name": "Athlon Pro"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "href": "null",
+                            "id": "navSideGraphics",
+                            "class": "side-nav-links",
+                            "name": "Graphics",
+                            "i": {
+                                "id": "navSideGraphicsArrow",
+                                "class": "fa fa-chevron-down"
+                            },
+                            "ul": {
+                                "id": "navSideGraphicsList",
+                                "class": "side-nav-list-graphics",
+                                "li": [
+                                    {
+                                        "a": {
+                                            "href": "/index.html?p=rx-6000",
+                                            "name": "Radeon RX 6000"
+                                        }
+                                    },
+                                    {
+                                        "a": {
+                                            "href": "/index.html?p=rx-5000",
+                                            "name": "Radeon RX 5000"
+                                        }
+                                    },
+                                    {
+                                        "a": {
+                                            "href": "/index.html?p=rx-vega",
+                                            "name": "Radeon Vega"
+                                        }
+                                    },
+                                    {
+                                        "a": {
+                                            "href": "/index.html?p=rx-500",
+                                            "name": "Radeon Rx 500"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "class": "side-nav-links",
+                            "a": {
+                                "href": "/index.html?p=about",
+                                "class": "side-nav-items",
+                                "name": "About Us"
+                            }
+                        },
+                        {
+                            "class": "side-nav-links",
+                            "a": {
+                                "href": "/index.html?p=contact",
+                                "class": "side-nav-items",
+                                "name": "Contact Us"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "ul": {
+                    "class": "social-media-links",
+                    "li": [
+                        {
+                            "a": {
+                                "href": "https://www.facebook.com/amd",
+                                "title": "Facebook",
+                                "i": {
+                                    "class": "fa fa-facebook",
+                                    "aria-hidden": true
+                                }
+                            }
+                        },
+                        {
+                            "a": {
+                                "href": "https://www.twitter.com/amd",
+                                "title": "Twitter",
+                                "i": {
+                                    "class": "fa fa-twitter",
+                                    "aria-hidden": true
+                                }
+                            }
+                        },
+                        {
+                            "a": {
+                                "href": "https://www.instagram.com/amd",
+                                "title": "Instagram",
+                                "i": {
+                                    "class": "fa fa-instagram",
+                                    "aria-hidden": true
+                                }
+                            }
+                        },
+                        {
+                            "a": {
+                                "href": "https://www.linkedin.com/company/amd",
+                                "title": "LinkedIn",
+                                "i": {
+                                    "class": "fa fa-linkedin",
+                                    "aria-hidden": true
+                                }
+                            }
+                        },
+                        {
+                            "a": {
+                                "href": "https://www.youtube.com/user/amd",
+                                "title": "Youtube",
+                                "i": {
+                                    "class": "fa fa-youtube-play",
+                                    "aria-hidden": true
+                                }
+                            }
+                        },
+                        {
+                            "a": {
+                                "href": "https://www.twitch.tv/amd",
+                                "title": "Twitch",
+                                "i": {
+                                    "class": "fa fa-twitch",
+                                    "aria-hidden": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "version": 1
+    },
+    [
+        {
+            "link": "/product.html?p=ryzen",
+            "title": "Ryzen",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ],
+                "models": [
+                    {
+                        "name": "5600X"
+                    },
+                    {
+                        "name": "5700X"
+                    },
+                    {
+                        "name": "5800X"
+                    },
+                    {
+                        "name": "5900X"
+                    },
+                    {
+                        "name": "5950X"
+                    }
+                ]
+            }
+        },
+        {
+            "link": "/product.html?p=threadripper",
+            "title": "Threadripper",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "id": 0,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 1,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ],
+                "models": []
+            }
+        },
+        {
+            "link": "/product.html?p=ryzen-graphics",
+            "title": "Ryzen with Graphics",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "id": 0,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 1,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ],
+                "models": []
+            }
+        },
+        {
+            "link": "/product.html?p=athlon",
+            "title": "Athlon",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "id": 0,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 1,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ],
+                "models": []
+            }
+        },
+        {
+            "link": "/product.html?p=ryzen-pro",
+            "title": "Ryzen Pro",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "id": 0,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 1,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ],
+                "models": []
+            }
+        },
+        {
+            "link": "/product.html?p=athlon-pro",
+            "title": "Athlon Pro",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "id": 0,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 1,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ],
+                "models": []
+            }
+        },
+        {
+            "link": "/product.html?p=rx-6000",
+            "title": "Radeon RX 6000 Series",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "id": 0,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 1,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ],
+                "models": []
+            }
+        },
+        {
+            "link": "/product.html?p=rx-5000",
+            "title": "Radeon RX 5000 Series",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "id": 0,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 1,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ],
+                "models": []
+            }
+        },
+        {
+            "link": "/product.html?p=rx-vega",
+            "title": "Radeon RX Vega Series",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "id": 0,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 1,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ],
+                "models": []
+            }
+        },
+        {
+            "link": "/product.html?p=rx-500",
+            "title": "Radeon RX 500 Series",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "id": 0,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 1,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ],
+                "models": []
+            }
+        },
+        {
+            "link": "/product.html?p=about",
+            "title": "About Us",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "id": 0,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 1,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ]
+            }
+        },
+        {
+            "link": "/product.html?p=contact",
+            "title": "Contact Us",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "id": 0,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 1,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ]
+            }
+        },
+        {
+            "link": "/index.html",
+            "title": "Home",
+            "content": {
+                "overview": {
+                    "overviewHeader": "",
+                    "overviewParagraph": "",
+                    "overviewImage": ""
+                },
+                "features": [
+                    {
+                        "id": 0,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 1,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    },
+                    {
+                        "id": 2,
+                        "title": "",
+                        "paragraph": "",
+                        "image": ""
+                    }
+                ]
+            }
+        }
+    ],
+    {
+        "specs": [
+            {
+                "title": "5600X",
+                "spec": {
+                    "Model Number": "Ryzen™ 5 5600X",
+                    "Number of Cores": 6,
+                    "Number of Threads": 12,
+                    "Base Clock": "3.7 Ghz",
+                    "Max Boost Clock": "4.6 Ghz",
+                    "L1 Cache": "",
+                    "L2 Cache": "34 MB",
+                    "L3 Cache": "32 MB",
+                    "Unlocked": "Yes",
+                    "Memory Speed": "",
+                    "Memory Type": "",
+                    "Memory Channels": "",
+                    "Graphics": "",
+                    "PCI Express Version": "",
+                    "Supported Technologies": [],
+                    "Thermal Solution": "",
+                    "TDP": "",
+                    "Max Temperature": "",
+                    "Process Technology": "",
+                    "Packaging": ""
+                }
+            },
+            {
+                "title": "5700X",
+                "spec": {
+                    "Model Number": "Ryzen™ 5 5600X",
+                    "Number of Cores": 6,
+                    "Number of Threads": 12,
+                    "Base Clock": "3.7 Ghz",
+                    "Max Boost Clock": "4.6 Ghz",
+                    "L1 Cache": "",
+                    "L2 Cache": "34 MB",
+                    "L3 Cache": "32 MB",
+                    "Unlocked": "Yes",
+                    "Memory Speed": "",
+                    "Memory Type": "",
+                    "Memory Channels": "",
+                    "Graphics": "",
+                    "PCI Express Version": "",
+                    "Supported Technologies": [],
+                    "Thermal Solution": "",
+                    "TDP": "",
+                    "Max Temperature": "",
+                    "Process Technology": "",
+                    "Packaging": ""
+                }
+            },
+            {
+                "title": "5800X",
+                "spec": {
+                    "Model Number": "Ryzen™ 5 5600X",
+                    "Number of Cores": 6,
+                    "Number of Threads": 12,
+                    "Base Clock": "3.7 Ghz",
+                    "Max Boost Clock": "4.6 Ghz",
+                    "L1 Cache": "",
+                    "L2 Cache": "34 MB",
+                    "L3 Cache": "32 MB",
+                    "Unlocked": "Yes",
+                    "Memory Speed": "",
+                    "Memory Type": "",
+                    "Memory Channels": "",
+                    "Graphics": "",
+                    "PCI Express Version": "",
+                    "Supported Technologies": [],
+                    "Thermal Solution": "",
+                    "TDP": "",
+                    "Max Temperature": "",
+                    "Process Technology": "",
+                    "Packaging": ""
+                }
+            }
+        ]
+    }
+]

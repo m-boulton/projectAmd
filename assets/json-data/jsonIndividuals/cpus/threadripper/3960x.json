@@ -1,0 +1,66 @@
+{
+    "target": "3960x",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Ryzen™ Threadripper™ 3960X"
+        },
+        {
+            "header": "CPU Cores / Threads",
+            "description": "24 / 48"
+        },
+        {
+            "header": "Base / Max Boost Clock (GHz)",
+            "description": "3.8 / 4.5"
+        },
+        {
+            "header": "Total Cache L1 / L2 / L3 (MB)",
+            "description": " 1.5 / 12 / 128"
+        },
+        {
+            "header": "Unlocked",
+            "description": "Yes"
+        },
+        {
+            "header": "CMOS",
+            "description": "TSMC 7nm FinFET"
+        },
+        {
+            "header": "Package (Socket-type)",
+            "description": "sTRX4"
+        },
+        {
+            "header": "BPCI Express® Version",
+            "description": "4.0"
+        },
+        {
+            "header": "Max TDP",
+            "description": "280W"
+        },
+        {
+            "header": "Max Temps",
+            "description": "95°C"
+        },
+        {
+            "header": "Thermal Solution",
+            "description": "Not Included"
+        },
+        {
+            "header": "System Memory Speed",
+            "description": "Up to 3200MHz"
+        },
+        {
+            "header": "Memory Type",
+            "description": "DDR4"
+        },
+        {
+            "header": "Memory Channels",
+            "description": "4"
+        },
+        {
+            "header": "Supported Technologies",
+            "description": "AMD \"Zen\" Core Architecture<br>AMD Ryzen™ Master Utility"
+        }
+    ]
+}

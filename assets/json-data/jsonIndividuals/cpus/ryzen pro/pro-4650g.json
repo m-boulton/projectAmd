@@ -1,0 +1,82 @@
+{
+    "target": "pro-4650g",
+    "insertId": "specificationsTableBody",
+    "items": [
+        {
+            "header": "Model ",
+            "description": "Ryzen™ 5 PRO 4650G Desktop APU"
+        },
+        {
+            "header": "CPU Cores / Threads",
+            "description": "6 / 12"
+        },
+        {
+            "header": "Base / Max Boost Clock (GHz)",
+            "description": "3.7 / 4.2"
+        },
+        {
+            "header": "Total Cache L1 / L2 / L3 (MB)",
+            "description": "0.384 / 3 / 8"
+        },
+        {
+            "header": "Unlocked",
+            "description": "No"
+        },
+        {
+            "header": "CMOS",
+            "description": "TSMC 7nm FinFET"
+        },
+        {
+            "header": "Package (Socket-type)",
+            "description": "AM4"
+        },
+        {
+            "header": "BPCI Express® Version",
+            "description": "3.0"
+        },
+        {
+            "header": "Max TDP",
+            "description": "65W"
+        },
+        {
+            "header": "Max Temps",
+            "description": "95°C"
+        },
+        {
+            "header": "Thermal Solution",
+            "description": "Wraith Stealth"
+        },
+        {
+            "header": "System Memory Speed",
+            "description": "Up to 3200MHz"
+        },
+        {
+            "header": "Memory Type",
+            "description": "DDR4"
+        },
+        {
+            "header": "Memory Channels",
+            "description": "2"
+        },
+        {
+            "header": "Graphics Core Count",
+            "description": "7"
+        },
+        {
+            "header": "Graphics Frequency",
+            "description": "1900 MHz"
+        },
+        {
+            "header": "Graphics Model",
+            "description": "Radeon Graphics"
+        },
+        {
+            "header": "Display Port / HDMI™",
+            "description": "Yes / Yes"
+        },
+        {
+            "header": "Supported Technologies",
+            "description": "AMD PRO technologies"
+        }
+    ]
+}

@@ -4,5 +4,4 @@
 *.scss.map
 node_modules
 todos.txt
-json-data
 untracked
