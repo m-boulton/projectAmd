@@ -16,7 +16,7 @@
                     {
                         "tag": "img",
                         "attributes": {
-                            "src": "/img/products/415625-threadripper-3990X-campagin-promo-1260x709_0.webp",
+                            "src": "assets/img/products/415625-threadripper-3990X-campagin-promo-1260x709_0.webp",
                             "alt": "Product Overview Image",
                             "id": "productOverviewImage"
                         }
@@ -59,7 +59,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/138886-3d-architecture-modeling-1260x709.webp",
+                                    "src": "assets/img/products/138886-3d-architecture-modeling-1260x709.webp",
                                     "alt": "First Feature",
                                     "id": "firstFeature"
                                 }
@@ -87,7 +87,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/138886-threadripper-video-programs-1260x709.webp",
+                                    "src": "assets/img/products/138886-threadripper-video-programs-1260x709.webp",
                                     "alt": "second Feature",
                                     "id": "secondFeature"
                                 }
@@ -115,7 +115,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/138886-3d-modeling-live-city-scene-1260x709.webp",
+                                    "src": "assets/img/products/138886-3d-modeling-live-city-scene-1260x709.webp",
                                     "alt": "third Feature",
                                     "id": "thirdFeature"
                                 }
@@ -143,7 +143,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/871550-FarCry6-key-art-1260x709.webp",
+                                    "src": "assets/img/products/871550-FarCry6-key-art-1260x709.webp",
                                     "alt": "third Feature",
                                     "id": "thirdFeature"
                                 }
@@ -171,7 +171,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/138886-ryzen-threadripper-motherboard-closeup-1260x709_0.webp",
+                                    "src": "assets/img/products/138886-ryzen-threadripper-motherboard-closeup-1260x709_0.webp",
                                     "alt": "third Feature",
                                     "id": "thirdFeature"
                                 }
@@ -199,7 +199,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/138886-threadripper-quad-channel-memory_2.webp",
+                                    "src": "assets/img/products/138886-threadripper-quad-channel-memory_2.webp",
                                     "alt": "third Feature",
                                     "id": "thirdFeature"
                                 }
@@ -227,7 +227,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/312762-amd-threadripper-motherboard1260x709.webp",
+                                    "src": "assets/img/products/312762-amd-threadripper-motherboard1260x709.webp",
                                     "alt": "third Feature",
                                     "id": "thirdFeature"
                                 }
@@ -255,7 +255,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/138886-ryzen-wraith-ripper-1260x709.webp",
+                                    "src": "assets/img/products/138886-ryzen-wraith-ripper-1260x709.webp",
                                     "alt": "third Feature",
                                     "id": "thirdFeature"
                                 }

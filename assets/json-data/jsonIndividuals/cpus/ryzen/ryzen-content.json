@@ -16,7 +16,7 @@
                     {
                         "tag": "img",
                         "attributes": {
-                            "src": "/img/products/648625-vermeer-black-chip-render-1260x709_2.webp",
+                            "src": "assets/img/products/648625-vermeer-black-chip-render-1260x709_2.webp",
                             "alt": "Product Overview Image",
                             "id": "productOverviewImage"
                         }
@@ -59,7 +59,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/648625-farcry6-key-art-monitor-1260x709_1.webp",
+                                    "src": "assets/img/products/648625-farcry6-key-art-monitor-1260x709_1.webp",
                                     "alt": "First Feature",
                                     "id": "firstFeature"
                                 }
@@ -87,7 +87,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/616656-amd-ryzen-embossed-cip-left-angle-1260x709_1.webp",
+                                    "src": "assets/img/products/616656-amd-ryzen-embossed-cip-left-angle-1260x709_1.webp",
                                     "alt": "second Feature",
                                     "id": "secondFeature"
                                 }
@@ -115,7 +115,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/616656-amd-motherboard-right-angle1260x709_1.webp",
+                                    "src": "assets/img/products/616656-amd-motherboard-right-angle1260x709_1.webp",
                                     "alt": "third Feature",
                                     "id": "thirdFeature"
                                 }

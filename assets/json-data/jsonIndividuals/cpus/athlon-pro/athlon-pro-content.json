@@ -16,7 +16,7 @@
                     {
                         "tag": "img",
                         "attributes": {
-                            "src": "/img/products/138914-athlon-pro-chipshot-back-1260x709.webp",
+                            "src": "assets/img/products/138914-athlon-pro-chipshot-back-1260x709.webp",
                             "alt": "Product Overview Image",
                             "id": "productOverviewImage"
                         }
@@ -73,7 +73,7 @@
                                     {
                                         "tag": "source",
                                         "attributes": {
-                                            "src": "/vid/Security_Layer.webm"
+                                            "src": "assets/vid/Security_Layer.webm"
                                         }
                                     }
                                 ]
@@ -115,7 +115,7 @@
                                     {
                                         "tag": "source",
                                         "attributes": {
-                                            "src": "/vid/memory_guard.mp4"
+                                            "src": "assets/vid/memory_guard.mp4"
                                         }
                                     }
                                 ]
@@ -143,7 +143,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/409555-amd-ryzen-pro-manageability-transparent-1260x709.webp",
+                                    "src": "assets/img/products/409555-amd-ryzen-pro-manageability-transparent-1260x709.webp",
                                     "alt": "third Feature",
                                     "id": "thirdFeature"
                                 }
@@ -171,7 +171,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/409555-pro-technologies-business-transparent-calendar_0.webp",
+                                    "src": "assets/img/products/409555-pro-technologies-business-transparent-calendar_0.webp",
                                     "alt": "third Feature",
                                     "id": "thirdFeature"
                                 }
@@ -199,7 +199,7 @@
                             {
                                 "tag": "img",
                                 "attributes": {
-                                    "src": "/img/products/582976-Biostar-A520MH-1260x709.webp",
+                                    "src": "assets/img/products/582976-Biostar-A520MH-1260x709.webp",
                                     "alt": "third Feature",
                                     "id": "thirdFeature"
                                 }
