@@ -431,11 +431,12 @@ table tbody tr td {
   border: 0.1em solid orangered;
   border-radius: 0.4em;
 }
-#contactCover #contactPopup #contactMessage {
+#contactCover #contactPopup #contactPopupMessage {
   grid-area: message;
   text-align: center;
   font-size: inherit;
   line-height: inherit;
+  overflow-y: scroll;
 }
 #contactCover #contactPopup #contactMessageButton {
   grid-area: button;

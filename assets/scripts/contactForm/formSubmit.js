@@ -1,6 +1,6 @@
 import { apiUrl } from "./../global-variables.js";
 
-function formSubmit(form) {
+async function formSubmit(formData) {
   // building options for the fetch request and passing data in body
   const options = {
     method: "POST",
@@ -17,7 +17,6 @@ function formSubmit(form) {
   try {
     //   post's form to server
     const res = await fetch(`${apiUrl}/amd/contact`, options);
-
     // checking for a valid http response
     if (res.ok) {
       // convert response from json to object

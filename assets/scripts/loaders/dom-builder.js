@@ -41,7 +41,6 @@ const domBuilder = (targetInsert, objData) => {
   } else {
     insert = objData.insertId;
   }
-  console.log(objData.content);
   document.getElementById(insert).innerHTML = iterateObject(objData.content);
 };
 export default domBuilder;

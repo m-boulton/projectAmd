@@ -4,7 +4,7 @@ function formBuilder() {
     name: document.getElementById("contactName").value,
     email: document.getElementById("contactEmail").value.toLowerCase(),
     phone: document.getElementById("contactPhone").value,
-    topic: document.getElementById("contactTopic").value,
+    subject: document.getElementById("contactTopic").value,
     message: document.getElementById("contactMessage").value,
   };
   return data;

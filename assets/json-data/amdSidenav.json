@@ -198,7 +198,7 @@
                             {
                                 "tag": "a",
                                 "attributes": {
-                                    "href": "/?p=about",
+                                    "href": "/about.html",
                                     "class": "side-nav-items"
                                 },
                                 "value": "About Us"
@@ -214,7 +214,7 @@
                             {
                                 "tag": "a",
                                 "attributes": {
-                                    "href": "/?p=contact",
+                                    "href": "/contact.html",
                                     "class": "side-nav-items"
                                 },
                                 "value": "Contact"

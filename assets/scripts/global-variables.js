@@ -1,5 +1,8 @@
-const apiUrl = "https://api.mboulton.com";
-// const apiUrl = "http://localhost:3500";
+const apiUrl =
+  window.location.hostname === "localhost"
+    ? "http://localhost:3500"
+    : "https://api.mboulton.com";
+console.log(apiUrl);
 
 // sets productQuery to the ?p= value in the url
 const urlQuery = new URLSearchParams(window.location.search);

@@ -2,7 +2,7 @@ import formBuilder from "./formBuilder.js";
 import formSubmit from "./formSubmit.js";
 import formReset from "./formReset.js";
 
-function contactForm(event) {
+async function contactForm(event) {
   if (event.target.id == "contactSubmit") {
     let cover = document.getElementById("contactCover");
     let message = document.getElementById("contactPopupMessage");

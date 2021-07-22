@@ -18,11 +18,12 @@
     line-height: 1.2em;
     border: 0.1em solid orangered;
     border-radius: 0.4em;
-    #contactMessage {
+    #contactPopupMessage {
       grid-area: message;
       text-align: center;
       font-size: inherit;
       line-height: inherit;
+      overflow-y: scroll;
     }
     #contactMessageButton {
       grid-area: button;
