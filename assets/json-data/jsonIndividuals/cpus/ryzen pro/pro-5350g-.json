@@ -1,10 +1,10 @@
 {
-    "target": "4300g",
+    "target": "pro-5350g-",
     "insertId": "specificationsTableBody",
     "items": [
         {
             "header": "Model ",
-            "description": "Ryzen™ 3 4300G Desktop APU"
+            "description": "Ryzen™ 3 PRO 5350G Desktop APU"
         },
         {
             "header": "CPU Cores / Threads",
@@ -12,15 +12,15 @@
         },
         {
             "header": "Base / Max Boost Clock (GHz)",
-            "description": "3.8 / 4.0"
+            "description": "4.0 / 4.2"
         },
         {
             "header": "Total Cache L1 / L2 / L3 (MB)",
-            "description": "0.256 / 2 / 4"
+            "description": "0.256 / 2 / 8"
         },
         {
             "header": "Unlocked",
-            "description": "Yes"
+            "description": "No"
         },
         {
             "header": "CMOS",
@@ -73,6 +73,10 @@
         {
             "header": "Display Port / HDMI™",
             "description": "Yes / Yes"
+        },
+        {
+            "header": "Supported Technologies",
+            "description": "AMD PRO technologies"
         }
     ]
 }

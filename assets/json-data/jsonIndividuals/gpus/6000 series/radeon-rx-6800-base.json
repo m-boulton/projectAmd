@@ -1,50 +1,58 @@
 {
-    "target": "radeon-rx-5600",
+    "target": "radeon-rx-6800-base",
     "insertId": "specificationsTableBody",
     "items": [
         {
             "header": "Model ",
-            "description": "Radeon RX 5600"
+            "description": "Radeon RX 6800"
         },
         {
             "header": "Release date and price",
-            "description": "January 21, 2020"
+            "description": "November 18, 2020"
         },
         {
             "header": "Architecture & Fab",
-            "description": "RDNA TSMC 7FF"
+            "description": "RDNA 2 TSMC N7"
         },
         {
             "header": "Core Config",
-            "description": "2048:128:64 32 CU"
+            "description": "3840:240:96 60 CU"
         },
         {
             "header": "Core Clock(MHz)",
-            "description": "1375"
+            "description": "1700"
         },
         {
             "header": "Fillrate Texture(GT/s)",
-            "description": "176"
+            "description": "408"
         },
         {
             "header": "Fillrate Pixel(GP/s)",
-            "description": "88"
+            "description": "163.2"
         },
         {
             "header": "Processing Power Half/Single/Double",
-            "description": "11264/5632/352"
+            "description": "26112/13056/816"
         },
         {
             "header": "Memory Size (GiB)",
-            "description": "6"
+            "description": "16"
         },
         {
             "header": "Memory Bandwidth / Clock",
-            "description": "288(GB/s) / 12000(MT/s)"
+            "description": "512(GB/s) / 16000(MT/s)"
         },
         {
             "header": "Memory Bus type & width",
-            "description": "GDDR6 192-bit"
+            "description": "GDDR6 256-bit"
+        },
+        {
+            "header": "Infinity Cache Size (MB)",
+            "description": "128"
+        },
+        {
+            "header": "Infinity Cache Bandwidth (GB/s)",
+            "description": "1664"
         },
         {
             "header": "Bus Interface",

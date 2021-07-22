@@ -2,13 +2,13 @@
     "target": "5000-series",
     "insertId": "modelSelect",
     "models": [
-        "radeon-rx-5300",
+        "radeon-rx-5300-base",
         "radeon-rx-5300-xt",
-        "radeon-rx-5500",
+        "radeon-rx-5500-base",
         "radeon-rx-5500-xt",
-        "radeon-rx-5600",
+        "radeon-rx-5600-base",
         "radeon-rx-5600-xt",
-        "radeon-rx-5700",
+        "radeon-rx-5700-base",
         "Radeon RX 5700 XT"
     ]
 }

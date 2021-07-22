@@ -1,10 +1,10 @@
 {
-    "target": "3150g",
+    "target": "pro-3150g-",
     "insertId": "specificationsTableBody",
     "items": [
         {
             "header": "Model ",
-            "description": "Athlon™ Gold 3150G"
+            "description": "Athlon™ Gold PRO 3150G"
         },
         {
             "header": "CPU Cores / Threads",
@@ -69,6 +69,10 @@
         {
             "header": "Display Port / HDMI™",
             "description": "Yes / Yes"
+        },
+        {
+            "header": "Supported Technologies",
+            "description": "AMD Memory Guard<br>AMD GuardMI Technology<br>DASH 1.2"
         }
     ]
 }

@@ -1,14 +1,14 @@
 {
-    "target": "radeon-rx-5500",
+    "target": "radeon-rx-5300-base",
     "insertId": "specificationsTableBody",
     "items": [
         {
             "header": "Model ",
-            "description": "Radeon RX 5500"
+            "description": "Radeon RX 5300"
         },
         {
             "header": "Release date and price",
-            "description": "October 7th, 2019"
+            "description": "August 28, 2020"
         },
         {
             "header": "Architecture & Fab",
@@ -20,31 +20,31 @@
         },
         {
             "header": "Core Clock(MHz)",
-            "description": "1670"
+            "description": "1327"
         },
         {
             "header": "Fillrate Texture(GT/s)",
-            "description": "146.7"
+            "description": "116.8"
         },
         {
             "header": "Fillrate Pixel(GP/s)",
-            "description": "53.44"
+            "description": "42.46"
         },
         {
             "header": "Processing Power Half/Single/Double",
-            "description": "9405/4703/293.9"
+            "description": "7474/3737/233.5"
         },
         {
             "header": "Memory Size (GiB)",
-            "description": "4"
+            "description": "3"
         },
         {
             "header": "Memory Bandwidth / Clock",
-            "description": "224(GB/s) / 14000(MT/s)"
+            "description": "168(GB/s) / 14000(MT/s)"
         },
         {
             "header": "Memory Bus type & width",
-            "description": "GDDR6 128-bit"
+            "description": "GDDR6 96-bit"
         },
         {
             "header": "Bus Interface",

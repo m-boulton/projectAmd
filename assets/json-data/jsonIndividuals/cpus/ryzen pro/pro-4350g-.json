@@ -1,26 +1,26 @@
 {
-    "target": "4700g",
+    "target": "pro-4350g-",
     "insertId": "specificationsTableBody",
     "items": [
         {
             "header": "Model ",
-            "description": "Ryzen™ 7 4700G Desktop APU"
+            "description": "Ryzen™ 3 PRO 4350G Desktop APU"
         },
         {
             "header": "CPU Cores / Threads",
-            "description": "8 / 16"
+            "description": "4 / 8"
         },
         {
             "header": "Base / Max Boost Clock (GHz)",
-            "description": "3.6 / 4.4"
+            "description": "3.8 / 4.0"
         },
         {
             "header": "Total Cache L1 / L2 / L3 (MB)",
-            "description": "0.512 / 4 / 8"
+            "description": "0.256 / 2 / 4"
         },
         {
             "header": "Unlocked",
-            "description": "Yes"
+            "description": "No"
         },
         {
             "header": "CMOS",
@@ -60,11 +60,11 @@
         },
         {
             "header": "Graphics Core Count",
-            "description": "8"
+            "description": "6"
         },
         {
             "header": "Graphics Frequency",
-            "description": "2100 MHz"
+            "description": "1700 MHz"
         },
         {
             "header": "Graphics Model",
@@ -73,6 +73,10 @@
         {
             "header": "Display Port / HDMI™",
             "description": "Yes / Yes"
+        },
+        {
+            "header": "Supported Technologies",
+            "description": "AMD PRO technologies"
         }
     ]
 }

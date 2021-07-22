@@ -1,10 +1,10 @@
 {
-    "target": "pro-4750g",
+    "target": "4700g-",
     "insertId": "specificationsTableBody",
     "items": [
         {
             "header": "Model ",
-            "description": "Ryzen™ 7 PRO 4750G Desktop APU"
+            "description": "Ryzen™ 7 4700G Desktop APU"
         },
         {
             "header": "CPU Cores / Threads",
@@ -20,7 +20,7 @@
         },
         {
             "header": "Unlocked",
-            "description": "No"
+            "description": "Yes"
         },
         {
             "header": "CMOS",
@@ -73,10 +73,6 @@
         {
             "header": "Display Port / HDMI™",
             "description": "Yes / Yes"
-        },
-        {
-            "header": "Supported Technologies",
-            "description": "AMD PRO technologies"
         }
     ]
 }

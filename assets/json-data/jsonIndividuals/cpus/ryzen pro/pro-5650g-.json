@@ -1,22 +1,22 @@
 {
-    "target": "pro-5750g",
+    "target": "pro-5650g-",
     "insertId": "specificationsTableBody",
     "items": [
         {
             "header": "Model ",
-            "description": "Ryzen™ 7 PRO 5750G Desktop APU"
+            "description": "Ryzen™ 5 PRO 5650G Desktop APU"
         },
         {
             "header": "CPU Cores / Threads",
-            "description": "8 / 16"
+            "description": "6 / 12"
         },
         {
             "header": "Base / Max Boost Clock (GHz)",
-            "description": "3.8 / 4.6"
+            "description": "3.9 / 4.4"
         },
         {
             "header": "Total Cache L1 / L2 / L3 (MB)",
-            "description": "0.512 / 4 / 16"
+            "description": "0.384 / 3 / 16"
         },
         {
             "header": "Unlocked",
@@ -60,11 +60,11 @@
         },
         {
             "header": "Graphics Core Count",
-            "description": "8"
+            "description": "7"
         },
         {
             "header": "Graphics Frequency",
-            "description": "2000 MHz"
+            "description": "1900 MHz"
         },
         {
             "header": "Graphics Model",

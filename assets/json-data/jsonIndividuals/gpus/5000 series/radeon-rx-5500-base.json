@@ -1,54 +1,54 @@
 {
-    "target": "radeon-rx-550",
+    "target": "radeon-rx-5500-base",
     "insertId": "specificationsTableBody",
     "items": [
         {
             "header": "Model ",
-            "description": "Radeon RX 550"
+            "description": "Radeon RX 5500"
         },
         {
             "header": "Release date and price",
-            "description": "April 20, 2017"
+            "description": "October 7th, 2019"
         },
         {
             "header": "Architecture & Fab",
-            "description": "GCN 4rd gen Samsung/GloFo 14LPP"
+            "description": "RDNA TSMC 7FF"
         },
         {
             "header": "Core Config",
-            "description": "640:40:16 10CU"
+            "description": "1408:88:32 22 CU"
         },
         {
             "header": "Core Clock(MHz)",
-            "description": "1100"
+            "description": "1670"
         },
         {
             "header": "Fillrate Texture(GT/s)",
-            "description": "35.2"
+            "description": "146.7"
         },
         {
             "header": "Fillrate Pixel(GP/s)",
-            "description": "17.6"
+            "description": "53.44"
         },
         {
-            "header": "Processing Power Single/Double",
-            "description": "1126/70.4"
-        },
-        {
-            "header": "Memory Bus type & width",
-            "description": "GDDR5 128-bit"
+            "header": "Processing Power Half/Single/Double",
+            "description": "9405/4703/293.9"
         },
         {
             "header": "Memory Size (GiB)",
             "description": "4"
         },
         {
-            "header": "Memory Clock/Bandwidth",
-            "description": "7000(MT/s) /  112(GB/s)"
+            "header": "Memory Bandwidth / Clock",
+            "description": "224(GB/s) / 14000(MT/s)"
+        },
+        {
+            "header": "Memory Bus type & width",
+            "description": "GDDR6 128-bit"
         },
         {
             "header": "Bus Interface",
-            "description": "PCIe 3.0 x8"
+            "description": "PCIe 4.0 x8"
         }
     ]
 }

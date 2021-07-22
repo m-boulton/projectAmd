@@ -1,10 +1,10 @@
 {
-    "target": "pro-4350g",
+    "target": "4300g-",
     "insertId": "specificationsTableBody",
     "items": [
         {
             "header": "Model ",
-            "description": "Ryzen™ 3 PRO 4350G Desktop APU"
+            "description": "Ryzen™ 3 4300G Desktop APU"
         },
         {
             "header": "CPU Cores / Threads",
@@ -20,7 +20,7 @@
         },
         {
             "header": "Unlocked",
-            "description": "No"
+            "description": "Yes"
         },
         {
             "header": "CMOS",
@@ -73,10 +73,6 @@
         {
             "header": "Display Port / HDMI™",
             "description": "Yes / Yes"
-        },
-        {
-            "header": "Supported Technologies",
-            "description": "AMD PRO technologies"
         }
     ]
 }

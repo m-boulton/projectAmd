@@ -1,14 +1,14 @@
 {
-    "target": "radeon-rx-5300",
+    "target": "radeon-rx-5600-base",
     "insertId": "specificationsTableBody",
     "items": [
         {
             "header": "Model ",
-            "description": "Radeon RX 5300"
+            "description": "Radeon RX 5600"
         },
         {
             "header": "Release date and price",
-            "description": "August 28, 2020"
+            "description": "January 21, 2020"
         },
         {
             "header": "Architecture & Fab",
@@ -16,39 +16,39 @@
         },
         {
             "header": "Core Config",
-            "description": "1408:88:32 22 CU"
+            "description": "2048:128:64 32 CU"
         },
         {
             "header": "Core Clock(MHz)",
-            "description": "1327"
+            "description": "1375"
         },
         {
             "header": "Fillrate Texture(GT/s)",
-            "description": "116.8"
+            "description": "176"
         },
         {
             "header": "Fillrate Pixel(GP/s)",
-            "description": "42.46"
+            "description": "88"
         },
         {
             "header": "Processing Power Half/Single/Double",
-            "description": "7474/3737/233.5"
+            "description": "11264/5632/352"
         },
         {
             "header": "Memory Size (GiB)",
-            "description": "3"
+            "description": "6"
         },
         {
             "header": "Memory Bandwidth / Clock",
-            "description": "168(GB/s) / 14000(MT/s)"
+            "description": "288(GB/s) / 12000(MT/s)"
         },
         {
             "header": "Memory Bus type & width",
-            "description": "GDDR6 96-bit"
+            "description": "GDDR6 192-bit"
         },
         {
             "header": "Bus Interface",
-            "description": "PCIe 4.0 x8"
+            "description": "PCIe 4.0 x16"
         }
     ]
 }
