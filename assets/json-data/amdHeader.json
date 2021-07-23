@@ -18,7 +18,7 @@
                     {
                         "tag": "img",
                         "attributes": {
-                            "src": "/img/logo/logo-white.svg",
+                            "src": "/assets/img/logo/logo-white.svg",
                             "alt": "AMD Logo"
                         }
                     }

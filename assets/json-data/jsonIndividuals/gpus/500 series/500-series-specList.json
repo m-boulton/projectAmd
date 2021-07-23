@@ -1,5 +1,5 @@
 {
-    "target": "500-series",
+    "target": "rx500",
     "insertId": "modelSelect",
     "models": [
         "radeon-520",

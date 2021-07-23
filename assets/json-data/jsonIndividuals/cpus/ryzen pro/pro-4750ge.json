@@ -1,10 +1,10 @@
 {
-    "target": "pro-5750g",
+    "target": "pro-4750ge",
     "insertId": "specificationsTableBody",
     "items": [
         {
             "header": "Model ",
-            "description": "Ryzen™ 7 PRO 5750G Desktop APU"
+            "description": "Ryzen™ 7 PRO 4750GE Desktop APU"
         },
         {
             "header": "CPU Cores / Threads",

@@ -1,5 +1,5 @@
 {
-    "target": "vega-series",
+    "target": "rxvega",
     "insertId": "modelSelect",
     "models": [
         "radeon-rx-vega-56",
