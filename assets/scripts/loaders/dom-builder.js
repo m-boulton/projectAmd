@@ -12,13 +12,18 @@ function iterateObject(item) {
     : (item.children || []).map(iterateObject).join(" ");
 
   if (item.hasOwnProperty("attributes")) {
-    if (item.tag == "img") {
-      return `<${item.tag} ${attributes(item.attributes)}/>`;
+    if (
+      item.tag === "img" ||
+      item.tag === "input" ||
+      item.tag === "br" ||
+      item.tag === "hr"
+    ) {
+      return `<${item.tag} ${attributes(item.attributes)} />`;
     }
-    if (item.tag == "video") {
+    if (item.tag === "video") {
       return `<video ${attributes(item.attributes)}>${innerHtml}</video>`;
     }
-    if (item.tag == "source") {
+    if (item.tag === "source") {
       return `<source ${attributes(item.attributes)}>`;
     }
     if (item.hasOwnProperty("text")) {
@@ -40,6 +45,9 @@ const domBuilder = (targetInsert, objData) => {
     insert = targetInsert;
   } else {
     insert = objData.insertId;
+  }
+  if (objData.background) {
+    document.getElementById("main").style.backgroundImage = objData.background;
   }
   document.getElementById(insert).innerHTML = iterateObject(objData.content);
 };

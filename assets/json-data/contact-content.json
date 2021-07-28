@@ -1,0 +1,167 @@
+{
+    "product": "contact",
+    "insertId": "content",
+    "background": "none",
+    "content": {
+        "tag": "div",
+        "attributes": {
+            "id": "contentInsert"
+        },
+        "children": [
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "contactDescription"
+                },
+                "children": [
+                    {
+                        "tag": "h2",
+                        "value": "Contact Us"
+                    },
+                    {
+                        "tag": "p",
+                        "value": "This contact information is not accurate since this website is aproduct display website for the the Developer at <a href=\"http://Mboulton.com\">Mboulton.com</a>, this website has no affiliation with the AMD Corporation and is just a test project.<br />All submitted forms and contact will route through and will only ever be sent to the servers controlled by <a href=\"http://Mboulton.com\">Mboulton.com</a>"
+                    }
+                ]
+            },
+            {
+                "tag": "hr",
+                "attributes": {
+                    "style": "color: orangered"
+                }
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "contactFormSection"
+                },
+                "children": [
+                    {
+                        "tag": "div",
+                        "attributes": {
+                            "id": "contactCover"
+                        },
+                        "children": [
+                            {
+                                "tag": "div",
+                                "attributes": {
+                                    "id": "contactPopup"
+                                },
+                                "children": [
+                                    {
+                                        "tag": "h3",
+                                        "text": "Waiting for a response",
+                                        "attributes": {
+                                            "id": "contactPopupMessage"
+                                        }
+                                    },
+                                    {
+                                        "tag": "button",
+                                        "text": "Close",
+                                        "attributes": {
+                                            "id": "contactMessageButton"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "form",
+                        "attributes": {
+                            "id": "contactForm"
+                        },
+                        "children": [
+                            {
+                                "tag": "label",
+                                "text": "Name : ",
+                                "attributes": {
+                                    "for": "contactName"
+                                }
+                            },
+                            {
+                                "tag": "input",
+                                "attributes": {
+                                    "type": "text",
+                                    "id": "contactName",
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "tag": "label",
+                                "text": "Email : ",
+                                "attributes": {
+                                    "for": "contactEmail"
+                                }
+                            },
+                            {
+                                "tag": "input",
+                                "attributes": {
+                                    "type": "email",
+                                    "id": "contactEmail",
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "tag": "label",
+                                "text": "Phone Number : ",
+                                "attributes": {
+                                    "for": "contactPhone"
+                                }
+                            },
+                            {
+                                "tag": "input",
+                                "attributes": {
+                                    "type": "tel",
+                                    "id": "contactPhone",
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "tag": "label",
+                                "text": "Topic of contact : ",
+                                "attributes": {
+                                    "for": "contactTopic"
+                                }
+                            },
+                            {
+                                "tag": "input",
+                                "attributes": {
+                                    "type": "text",
+                                    "id": "contactTopic",
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "tag": "label",
+                                "text": "Your Message : ",
+                                "attributes": {
+                                    "for": "contactMessage"
+                                }
+                            },
+                            {
+                                "tag": "textarea",
+                                "attributes": {
+                                    "type": "text",
+                                    "id": "contactMessage",
+                                    "name": "contactMessage",
+                                    "rows": 4,
+                                    "cols": 50,
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "tag": "input",
+                                "attributes": {
+                                    "id": "contactSubmit",
+                                    "type": "button",
+                                    "value": "Submit"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

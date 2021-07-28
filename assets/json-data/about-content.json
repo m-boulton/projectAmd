@@ -1,0 +1,71 @@
+{
+    "product": "about",
+    "insertId": "content",
+    "background": "url(/assets/img/background-multicolor.jpg)",
+    "content": {
+        "tag": "div",
+        "attributes": {
+            "id": "contentInsert"
+        },
+        "children": [
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "aboutSection"
+                },
+                "children": [
+                    {
+                        "tag": "h2",
+                        "value": "Our History"
+                    },
+                    {
+                        "tag": "p",
+                        "value": "Founded in 1969 as a Silicon Valley start-up, the AMD journey<br />began with dozens of employees focused on leading-edge<br />semiconductor products. From those modest beginnings, AMD has<br />grown into a global company achieving many important industry<br />firsts along the way. AMD today develops high-performance<br />computing and visualization products to solve some of the<br />world’s toughest and most interesting challenges."
+                    },
+                    {
+                        "tag": "br"
+                    },
+                    {
+                        "tag": "br"
+                    },
+                    {
+                        "tag": "h2",
+                        "value": "Our Vision"
+                    },
+                    {
+                        "tag": "p",
+                        "value": "High performance computing is transforming our lives."
+                    },
+                    {
+                        "tag": "br"
+                    },
+                    {
+                        "tag": "br"
+                    },
+                    {
+                        "tag": "h2",
+                        "value": "Our Mission"
+                    },
+                    {
+                        "tag": "p",
+                        "value": "Build great products that accelerate next-generation computing experiences."
+                    }
+                ]
+            },
+            {
+                "tag": "hr",
+                "attributes": {
+                    "style": "color: orangered"
+                }
+            },
+            {
+                "tag": "img",
+                "attributes": {
+                    "id": "aboutImage",
+                    "src": "assets/img/products/213225-amd-chip-angled-1260x709.webp",
+                    "alt": "About Us Picture"
+                }
+            }
+        ]
+    }
+}

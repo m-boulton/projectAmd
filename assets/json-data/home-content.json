@@ -1,0 +1,189 @@
+{
+    "product": "home",
+    "insertId": "content",
+    "content": {
+        "tag": "div",
+        "attributes": {
+            "id": "contentInsert"
+        },
+        "children": [
+            {
+                "tag": "span",
+                "attributes": {
+                    "id": "productOverview"
+                },
+                "children": [
+                    {
+                        "tag": "img",
+                        "attributes": {
+                            "src": "assets/img/products/logo-both.png",
+                            "alt": "Product Overview Image",
+                            "id": "productOverviewImage"
+                        }
+                    },
+                    {
+                        "tag": "h2",
+                        "attributes": {
+                            "id": "productOverviewTitle"
+                        },
+                        "value": "AMD Product Display Prototype Website"
+                    },
+                    {
+                        "tag": "h4",
+                        "attributes": {
+                            "id": "productOverviewDescription"
+                        },
+                        "value": "Designed by the developer of Mboulton.com."
+                    },
+                    {
+                        "tag": "p",
+                        "attributes": {
+                            "id": "overviewParagraph"
+                        },
+                        "value": "This website is not affiliated with \"Advanced Micro Devices Inc\", and has only been created as an experimental project for the puposes of learning website developement. All Images, Videos, and Written content are property of \"Advanced Micro Devices Inc\", and Mboulton.com does not claim to have any affiliation with \"Advanced Micro Devices Inc\"."
+                    }
+                ]
+            },
+            {
+                "tag": "section",
+                "attributes": {
+                    "id": "features"
+                },
+                "children": [
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "assets/img/products/616656-amd-ryzen-chip-emboss-front-view-1260x709.webp",
+                                    "alt": "First Feature",
+                                    "id": "firstFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "The Fastest in the Game"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "Introducing the AMD Ryzen™ 5000 Series Desktop Processors."
+                            },
+                            {
+                                "tag": "p",
+                                "value": ""
+                            },
+                            {
+                                "tag": "div",
+                                "attributes": {
+                                    "class": "home-buttons"
+                                },
+                                "children": [
+                                    {
+                                        "tag": "a",
+                                        "value": "Check out Ryzen",
+                                        "attributes": {
+                                            "class": "home-button-links",
+                                            "href": "/?p=ryzen"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "assets/img/products/749511-amd-radeon-6000-series-4-gpus-1290x709_0.webp",
+                                    "alt": "second Feature",
+                                    "id": "secondFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "Performance to Rule Your Game"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "Introducing the AMD Radeon™ RX 6000 Series graphics cards."
+                            },
+                            {
+                                "tag": "p",
+                                "value": ""
+                            },
+                            {
+                                "tag": "div",
+                                "attributes": {
+                                    "class": "home-buttons"
+                                },
+                                "children": [
+                                    {
+                                        "tag": "a",
+                                        "value": "Check out Radeon",
+                                        "attributes": {
+                                            "class": "home-button-links",
+                                            "href": "/?p=rx6000"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "article",
+                        "attributes": {
+                            "class": "featuresItem"
+                        },
+                        "children": [
+                            {
+                                "tag": "img",
+                                "attributes": {
+                                    "src": "assets/img/products/312762-amd-tr3-pib-1260x709.webp",
+                                    "alt": "third Feature",
+                                    "id": "thirdFeature"
+                                }
+                            },
+                            {
+                                "tag": "h3",
+                                "value": "Render Time Irrelevant"
+                            },
+                            {
+                                "tag": "h5",
+                                "value": "Introducing the AMD Ryzen™ Threadripper Series Processors."
+                            },
+                            {
+                                "tag": "p",
+                                "value": ""
+                            },
+                            {
+                                "tag": "div",
+                                "attributes": {
+                                    "class": "home-buttons"
+                                },
+                                "children": [
+                                    {
+                                        "tag": "a",
+                                        "value": "Check out Threadripper",
+                                        "attributes": {
+                                            "class": "home-button-links",
+                                            "href": "/?p=threadripper"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
