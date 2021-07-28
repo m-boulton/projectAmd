@@ -7,23 +7,31 @@
     display: grid;
     grid-template-areas:
       "image"
-      "description"
-      "subheader";
+      "header"
+      "subheader"
+      "description";
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    margin-bottom: 5rem;
     position: relative;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 2rem 1.5rem rgba(255, 255, 255, 0.1);
+    line-height: 1.2;
     img {
       grid-area: image;
       display: block;
       width: 100%;
+      margin: 0 auto;
     }
     h2 {
-      grid-area: description;
+      grid-area: header;
       display: block;
       width: 100%;
-      margin: 1rem auto;
-      font-size: 3rem;
+      margin: 0.5em auto;
+      align-self: flex-end;
+      color: orangered;
+      font-size: 2rem;
       font-weight: 700;
     }
     h4 {
@@ -31,13 +39,12 @@
       display: block;
       width: 100%;
       margin: 1rem auto;
-      font-size: 2.5rem;
+      font-size: 1.7rem;
       font-weight: 600;
-      line-height: 2.8rem;
     }
     p {
-      font-size: 1.8rem;
-      line-height: 2rem;
+      grid-area: description;
+      font-size: 1.4rem;
     }
   }
 }
@@ -70,46 +77,82 @@
 }
 // Features styling
 #features {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
   text-align: center;
   position: relative;
+  overflow: auto;
+  .featuresItem {
+    display: grid;
+    grid-template-areas:
+      "image"
+      "header"
+      "subheader"
+      "description";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    column-gap: 5rem;
+    margin-bottom: 3rem;
+  }
   article {
     width: 100%;
-    margin: 4rem auto;
+    line-height: 1.2;
     h3 {
+      grid-area: header;
       display: block;
       width: 100%;
       margin: 1rem auto;
-      font-size: 3rem;
+      font-size: 1.8rem;
       font-weight: 700;
-      line-height: 4rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.4);
     }
     h5 {
+      grid-area: subheader;
       display: block;
       width: 100%;
       margin: 1rem auto;
-      font-size: 2rem;
+      font-size: 1.6rem;
       font-weight: 600;
-      line-height: 2.5rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.4);
     }
     p {
-      font-size: 1.5rem;
-      line-height: 2rem;
+      grid-area: description;
+      font-size: 1.3rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.4);
+    }
+    .home-buttons {
+      width: max-content;
+      border: 0.2em solid orangered;
+      border-radius: 2px;
+      text-decoration: none;
+      font-size: 1.6rem;
+      font-weight: 600;
+      padding: 0.3em;
+      &:hover {
+        border: 0.2em solid white;
+        background-color: white;
+        a {
+          color: black;
+        }
+      }
+      a {
+        color: orangered;
+      }
     }
   }
   video {
+    grid-area: image;
     width: 100%;
   }
   img {
+    grid-area: image;
     display: block;
     width: 100%;
   }
 }
 // Specifications chart styling
 table {
-  margin-top: 1rem;
   justify-content: left;
   width: 100%;
   tbody {
@@ -128,21 +171,20 @@ table {
 }
 #specifications {
   font-size: 2rem;
+  margin-top: 1.5em;
   width: 100%;
   h3 {
     width: calc(100% - 2rem);
     padding: 0.7em 1rem;
     font-size: 2.5rem;
     color: orangered;
+    border-bottom: 2px solid orangered;
   }
 }
-#model-select {
-  display: grid;
-  grid-template-columns: auto;
+#modelSelect {
+  margin: 2rem auto;
   align-items: center;
-  padding-bottom: 0.7em;
   font-size: 2.5rem;
-  background-color: rgba(0, 0, 0, 0.9);
 }
 .model-button {
   margin: 0.2rem;
@@ -153,19 +195,62 @@ table {
   border: #000000;
   border-radius: 8px;
   background: linear-gradient(145deg, #15191a, #222729);
+  &:hover {
+    color: white;
+    border: orangered;
+    border-radius: 8px;
+    background: orangered;
+  }
   // box-shadow: 30px 30px 59px #15191a, -30px -30px 59px #222729;
 }
-
 @media only screen and (min-width: 768px) {
-  .overview {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "image description";
-  }
-  .features {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-      "feature-01-description feature-01-image"
-      "feature-02-image feature-02-description"
-      "feature-03-description feature-03-image";
+  #contentInsert {
+    #productOverview {
+      grid-template-areas:
+        "image header"
+        "image subheader"
+        "image description";
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto 6rem auto;
+      margin-bottom: 10rem;
+      h2 {
+        font-size: 2.5rem;
+      }
+      h4 {
+        font-size: 2.2rem;
+      }
+      p {
+        font-size: 1.9rem;
+      }
+    }
+    #features {
+      .featuresItem {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 6rem auto;
+      }
+      .featuresItem:nth-child(odd) {
+        grid-template-areas:
+          "header image"
+          "subheader image"
+          "description image";
+      }
+      .featuresItem:nth-child(even) {
+        grid-template-areas:
+          "image header"
+          "image subheader"
+          "image description";
+      }
+      h3 {
+        align-self: flex-end;
+        font-size: 2.2rem;
+      }
+      h5 {
+        font-size: 1.8rem;
+      }
+      p {
+        align-self: flex-start;
+        font-size: 1.5rem;
+      }
+    }
   }
 }
