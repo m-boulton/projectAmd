@@ -11,16 +11,23 @@ import {
 import contactForm from "./contactForm/contactMain.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
-  // Event handlers for document loading
+  // Sets the title tag and returns a query for the current product
   const query = await titleSetter();
+
+  // Loads the current products content in the body
   contentLoader(query);
+
+  // Loads the navigation HTML for both the header and sidebar
   navInitiator("header");
   await navInitiator("sideNav");
-  const loc = await specLoader(query);
-  specLoader(loc, "item");
 
+  // Loads the buttons for selecting product models and loads the first
+  const modelButton = await specLoader(query);
+  specLoader(modelButton, "item");
+
+  // -----------------------------------------------------------------
   // Event handlers for click events
-  if (loc) {
+  if (modelButton) {
     document
       .getElementById("modelSelect")
       .addEventListener("click", modelButtons, false);
